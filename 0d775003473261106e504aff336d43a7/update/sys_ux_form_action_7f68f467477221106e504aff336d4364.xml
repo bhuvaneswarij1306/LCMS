@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>ReSubmit</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-20 06:03:20</sys_created_on>
+        <sys_id>7f68f467477221106e504aff336d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ReSubmit</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_ux_form_action_7f68f467477221106e504aff336d4364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-20 06:03:20</sys_updated_on>
+        <table>x_1025229_lcms_req_detail</table>
+        <ui_action display_value="ReSubmit">15c638ef473221106e504aff336d432a</ui_action>
+    </sys_ux_form_action>
+</record_update>

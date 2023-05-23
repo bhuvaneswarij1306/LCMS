@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This client script is for displaying the fields in read oly for status send back</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>ReadOnly</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var getStatus = g_form.getValue("status");
+    var userId = g_user.userID;
+    var reviewer = g_form.getValue('reviewer');
+    var requestOwner = g_form.getValue('request_owner');
+    var isApproveRequired = g_form.getValue('is_approval_required');
+    var isRecurrence = g_form.getValue('is_recurring');
+	alert(getStatus);
+    g_form.setReadOnly('due_date', 'status' == 'Submitted');
+    g_form.setReadOnly('is_approval_required', 'status' == 'Submitted');
+    g_form.setReadOnly('is_recurring', 'status' == 'Submitted');
+    g_form.setReadOnly('description', 'status' == 'Submitted');
+    if (isApproveRequired) {
+        g_form.setReadOnly('reviewer', 'status' == 'Submitted');
+    }
+    if (isRecurrence) {
+        g_form.setReadOnly('recurrence_pattern', 'status' == 'Submitted');
+        g_form.setReadOnly('days', 'status' == 'Submitted');
+        g_form.setReadOnly('recurrence_date', 'status' == 'Submitted');
+        g_form.setReadOnly('start_date', 'status' == 'Submitted');
+        g_form.setReadOnly('end_date', 'status' == 'Submitted');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-22 14:49:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d3328198478361106e504aff336d43ef</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>ReadOnly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_script_client_d3328198478361106e504aff336d43ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-23 05:58:57</sys_updated_on>
+        <table>x_1025229_lcms_req_detail</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

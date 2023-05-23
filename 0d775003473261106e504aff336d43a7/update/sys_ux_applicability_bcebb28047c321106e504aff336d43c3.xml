@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1025229_lcms.Audience for app lcms</api_name>
+        <description/>
+        <name>Audience for app lcms</name>
+        <roles>45775003473261106e504aff336d43d1,89775003473261106e504aff336d43bb,01775003473261106e504aff336d43c0,c5775003473261106e504aff336d43c2</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-22 04:54:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bcebb28047c321106e504aff336d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app lcms</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_ux_applicability_bcebb28047c321106e504aff336d43c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-22 04:54:37</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="functional_team" table="x_1025229_lcms_functioan_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>functional_team</element>
+            <name>x_1025229_lcms_functioan_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 15:31:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>functional_team</sys_name>
+            <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+            <sys_update_name>sys_choice_x_1025229_lcms_functioan_details_functional_team</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 15:31:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>functional_team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Investor Administration</label>
+            <language>en</language>
+            <name>x_1025229_lcms_functioan_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 15:31:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b57accb477261106e504aff336d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 15:31:48</sys_updated_on>
+            <value>investor_administration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>functional_team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Marketing Reporting</label>
+            <language>en</language>
+            <name>x_1025229_lcms_functioan_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 15:31:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0757accb477261106e504aff336d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 15:31:48</sys_updated_on>
+            <value>marketing_reporting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>functional_team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tax</label>
+            <language>en</language>
+            <name>x_1025229_lcms_functioan_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 15:31:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8357accb477261106e504aff336d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 15:31:48</sys_updated_on>
+            <value>tax</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>functional_team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Treasury</label>
+            <language>en</language>
+            <name>x_1025229_lcms_functioan_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 15:31:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0357accb477261106e504aff336d43ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 15:31:48</sys_updated_on>
+            <value>treasury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>functional_team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Real Assets</label>
+            <language>en</language>
+            <name>x_1025229_lcms_functioan_details</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 15:31:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f57accb477261106e504aff336d43ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 15:31:48</sys_updated_on>
+            <value>real_assets</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>functional_team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Capital Markets</label>
+            <language>en</language>
+            <name>x_1025229_lcms_functioan_details</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 15:31:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f57accb477261106e504aff336d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 15:31:48</sys_updated_on>
+            <value>capital_markets</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>functional_team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Communications</label>
+            <language>en</language>
+            <name>x_1025229_lcms_functioan_details</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 15:31:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b57accb477261106e504aff336d43af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 15:31:48</sys_updated_on>
+            <value>communications</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>functional_team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Client Service</label>
+            <language>en</language>
+            <name>x_1025229_lcms_functioan_details</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 15:31:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b57accb477261106e504aff336d43b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 15:31:48</sys_updated_on>
+            <value>client_service</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

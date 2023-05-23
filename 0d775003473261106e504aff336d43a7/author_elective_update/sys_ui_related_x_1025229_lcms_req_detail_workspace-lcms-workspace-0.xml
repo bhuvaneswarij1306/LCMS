@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_1025229_lcms_req_detail" version="2" view="Workspace-LCMS-Workspace-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Req Detail - Workspace LCMS Workspace 0" name="x_1025229_lcms_req_detail" related_list="NULL" sys_domain="global" view="56fa6883cfb26110d8ffca390fa0a353">5cae7407473661106e504aff336d43b9</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1025229_lcms_functioan_details.req_details</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 17:13:28</sys_created_on>
+            <sys_id>98ae7407473661106e504aff336d43ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 17:13:28</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Req Detail - Workspace LCMS Workspace 0</calculated_name>
+            <filter/>
+            <name>x_1025229_lcms_req_detail</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-18 17:13:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cae7407473661106e504aff336d43b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Req Detail - Workspace LCMS Workspace 0</sys_name>
+            <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+            <sys_update_name>sys_ui_related_x_1025229_lcms_req_detail_Workspace-LCMS-Workspace-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-18 17:13:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace LCMS Workspace 0" name="Workspace-LCMS-Workspace-0">56fa6883cfb26110d8ffca390fa0a353</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_ui_related_x_1025229_lcms_req_detail_Workspace-LCMS-Workspace-0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_1025229_lcms_req_detail" version="2" view="Workspace-LCMS-Workspace-0"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Req Detail - Workspace LCMS Workspace 0" name="x_1025229_lcms_req_detail" related_list="NULL" sys_domain="global" view="56fa6883cfb26110d8ffca390fa0a353">5cae7407473661106e504aff336d43b9</list_id><order_by/><position>0</position><related_list>x_1025229_lcms_functioan_details.req_details</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-18 17:13:28</sys_created_on><sys_id>98ae7407473661106e504aff336d43ba</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-18 17:13:28</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Req Detail - Workspace LCMS Workspace 0</calculated_name><filter/><name>x_1025229_lcms_req_detail</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-18 17:13:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5cae7407473661106e504aff336d43b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Req Detail - Workspace LCMS Workspace 0</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sys_ui_related_x_1025229_lcms_req_detail_Workspace-LCMS-Workspace-0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-18 17:13:28</sys_updated_on><sys_user/><view display_value="Workspace LCMS Workspace 0" name="Workspace-LCMS-Workspace-0">56fa6883cfb26110d8ffca390fa0a353</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>1473109450</payload_hash>
+        <record_name>Req Detail</record_name>
+        <reverted_from/>
+        <source>c1775003473261106e504aff336d43aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-18 17:13:28</sys_created_on>
+        <sys_id>d4ae7407473661106e504aff336d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882fda2f060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-18 17:13:28</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>9cae7407b336611074a0e6258b9121bb</update_guid>
+        <update_guid_history>9cae7407b336611074a0e6258b9121bb:1473109450,539ef007543661109205678e29163b81:-414165692</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-22 11:01:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>35760fc6e66f4e889737e856a53ad784</sys_id>
+        <sys_metadata>5cae7407473661106e504aff336d43b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Req Detail - Workspace LCMS Workspace 0</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent display_value="Req Detail">b43a1c07473261106e504aff336d43de</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_1025229_lcms_req_detail_Workspace-LCMS-Workspace-0</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_1025229_lcms_req_detail_Workspace-LCMS-Workspace-0">d4ae7407473661106e504aff336d43bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-22 11:01:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

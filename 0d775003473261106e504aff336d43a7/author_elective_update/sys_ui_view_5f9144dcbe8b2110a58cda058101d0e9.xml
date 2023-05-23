@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Workspace-x_1025229_lcms-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-22 09:59:17</sys_created_on>
+        <sys_id>5f9144dcbe8b2110a58cda058101d0e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace-x 1025229 lcms-0</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_ui_view_5f9144dcbe8b2110a58cda058101d0e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-22 09:59:17</sys_updated_on>
+        <title>Workspace-x 1025229 lcms-0</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_ui_view_5f9144dcbe8b2110a58cda058101d0e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Workspace-x_1025229_lcms-0</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-22 09:59:17</sys_created_on><sys_id>5f9144dcbe8b2110a58cda058101d0e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace-x 1025229 lcms-0</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sys_ui_view_5f9144dcbe8b2110a58cda058101d0e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-22 09:59:17</sys_updated_on><title>Workspace-x 1025229 lcms-0</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>510877023</payload_hash>
+        <record_name>Workspace-x 1025229 lcms-0</record_name>
+        <reverted_from/>
+        <source>49e46fb01b3121109e6db992cc4bcbda</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-03-23 12:30:45</sys_created_on>
+        <sys_id>f6a10cdc478b21106e504aff336d43fb</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1870e7339080000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UI View</type>
+        <update_guid>b6a10cdc2f8b2110ff5286516659eafb</update_guid>
+        <update_guid_history>b6a10cdc2f8b2110ff5286516659eafb:510877023</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-22 11:01:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>8366a433b3304d469fd1778577068719</sys_id>
+        <sys_metadata>5f9144dcbe8b2110a58cda058101d0e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace-x 1025229 lcms-0</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_ui_view_5f9144dcbe8b2110a58cda058101d0e9</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_5f9144dcbe8b2110a58cda058101d0e9">f6a10cdc478b21106e504aff336d43fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-22 11:01:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
