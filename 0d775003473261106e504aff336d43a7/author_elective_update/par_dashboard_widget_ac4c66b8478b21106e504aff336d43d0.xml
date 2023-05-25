@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">c522c09010cb2110232740cbd7de1278</canvas>
+        <component display_value="">6083add31d71827a26ceadfcc4e31550</component>
+        <component_props>{"alt":"","src":"x_1025229_lcms.BillBoard.jpg","fit":"contain","position":"center center"}</component_props>
+        <h>10</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 11:41:48</sys_created_on>
+        <sys_id>ac4c66b8478b21106e504aff336d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>par_dashboard_widget_ac4c66b8478b21106e504aff336d43d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 11:41:48</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>par_dashboard_widget_ac4c66b8478b21106e504aff336d43d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">c522c09010cb2110232740cbd7de1278</canvas><component display_value="">6083add31d71827a26ceadfcc4e31550</component><component_props>{"alt":"","src":"x_1025229_lcms.BillBoard.jpg","fit":"contain","position":"center center"}</component_props><h>10</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-24 11:41:48</sys_created_on><sys_id>ac4c66b8478b21106e504aff336d43d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>par_dashboard_widget_ac4c66b8478b21106e504aff336d43d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-24 11:41:48</sys_updated_on><visualization/><w>12</w><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>296131507</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 11:41:48</sys_created_on>
+        <sys_id>a44c66b8478b21106e504aff336d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1884d90b0cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 11:41:48</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>ac4c66b8c18b2110ec14d3ef7cbe2ad2</update_guid>
+        <update_guid_history>ac4c66b8c18b2110ec14d3ef7cbe2ad2:296131507</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0c3d263c478b21106e504aff336d43f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 11:45:52</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>100b2c5e7a4b46c08faf763866908a40</sys_id>
+        <sys_metadata>ac4c66b8478b21106e504aff336d43d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_ac4c66b8478b21106e504aff336d43d0</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_ac4c66b8478b21106e504aff336d43d0">a44c66b8478b21106e504aff336d43d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 11:45:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

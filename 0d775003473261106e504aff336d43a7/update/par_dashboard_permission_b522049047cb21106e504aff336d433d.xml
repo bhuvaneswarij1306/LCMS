@@ -3,7 +3,7 @@
         <can_read>true</can_read>
         <can_share>false</can_share>
         <can_write>false</can_write>
-        <dashboard display_value="LCMS">c122c09077cb211009ba3f94ac1a1e77</dashboard>
+        <dashboard display_value="Case Management">c122c09077cb211009ba3f94ac1a1e77</dashboard>
         <group/>
         <role display_value="x_1025229_lcms.reviewer" name="x_1025229_lcms.reviewer">01775003473261106e504aff336d43c0</role>
         <sys_class_name>par_dashboard_permission</sys_class_name>

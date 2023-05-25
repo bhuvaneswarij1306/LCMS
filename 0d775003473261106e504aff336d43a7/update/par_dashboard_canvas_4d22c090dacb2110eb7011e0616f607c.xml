@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_canvas">
     <par_dashboard_canvas action="INSERT_OR_UPDATE">
-        <dashboard display_value="LCMS">c122c09077cb211009ba3f94ac1a1e77</dashboard>
+        <dashboard display_value="Case Management">c122c09077cb211009ba3f94ac1a1e77</dashboard>
         <dashboard_tab/>
         <layout>[]</layout>
         <sys_class_name>par_dashboard_canvas</sys_class_name>

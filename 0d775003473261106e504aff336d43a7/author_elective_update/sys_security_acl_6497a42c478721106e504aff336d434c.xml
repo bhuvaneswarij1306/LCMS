@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_1025229_lcms_my_task</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-23 07:23:35</sys_created_on>
+        <sys_id>6497a42c478721106e504aff336d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1025229_lcms_my_task</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_security_acl_6497a42c478721106e504aff336d434c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-23 07:23:35</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_security_acl_6497a42c478721106e504aff336d434c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_1025229_lcms_my_task</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-23 07:23:35</sys_created_on><sys_id>6497a42c478721106e504aff336d434c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1025229_lcms_my_task</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sys_security_acl_6497a42c478721106e504aff336d434c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-23 07:23:35</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>362248140</payload_hash>
+        <record_name>x_1025229_lcms_my_task</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-23 07:23:35</sys_created_on>
+        <sys_id>a897e46c478721106e504aff336d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188477df0bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-23 07:23:35</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a097e46c81872110737f594cb402b421</update_guid>
+        <update_guid_history>a097e46c81872110737f594cb402b421:362248140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-25 04:37:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>093a011105744978aa8cc1b9e5e1e224</sys_id>
+        <sys_metadata>6497a42c478721106e504aff336d434c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1025229_lcms_my_task</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent display_value="x_1025229_lcms_my_task">d7c7e80f477261106e504aff336d43d7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6497a42c478721106e504aff336d434c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6497a42c478721106e504aff336d434c">a897e46c478721106e504aff336d4321</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-25 04:37:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

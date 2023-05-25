@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_1025229_lcms.hideButtonForSubmitter</name>
+        <script><![CDATA[// var x_1025229_lcms = x_1025229_lcms || {};
+
+// x_1025229_lcms.hideButtonForSubmitter = (function() {
+// 	"use strict";
+
+// /* set your private variables and functions here. For example: 
+// 	var privateVar = 0; 
+// 	function private_function() {
+// 		return ++privateVar;
+// 	}
+// */
+
+// /* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+// 	x_1025229_lcms.sharedVar = 0; 
+
+//  Then access them in your scripts the same way. For example: 
+// 	function get_shared() {
+// 		return x_1025229_lcms.sharedVar;
+// 	}
+// */
+
+// 	return {
+
+// /* set your public API here. For example:
+// 		incrementAndReturnPrivateVar: function() {
+// 			return private_function();
+// 		},
+// */
+// 		type:  "hideButtonForSubmitter"
+// 	};
+// })();
+
+function hideButtonForSubmitter() {
+    var userRoles = g_user.hasRole('submitter');
+    var buttonElement = document.querySelector("button[data-id='myButton']");
+
+    if (userRoles) {
+        buttonElement.style.display = 'none';
+    }
+}
+
+hideButtonForSubmitter();
+
+]]></script>
+        <script_name>hideButtonForSubmitter</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 07:46:25</sys_created_on>
+        <sys_id>d98535fc47c321106e504aff336d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1025229_lcms.hideButtonForSubmitter</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_ui_script_d98535fc47c321106e504aff336d4393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 07:46:25</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_ui_script_d98535fc47c321106e504aff336d4393</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;x_1025229_lcms.hideButtonForSubmitter&lt;/name&gt;&lt;script&gt;&lt;![CDATA[// var x_1025229_lcms = x_1025229_lcms || {};
+
+// x_1025229_lcms.hideButtonForSubmitter = (function() {
+// 	"use strict";
+
+// /* set your private variables and functions here. For example: 
+// 	var privateVar = 0; 
+// 	function private_function() {
+// 		return ++privateVar;
+// 	}
+// */
+
+// /* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+// 	x_1025229_lcms.sharedVar = 0; 
+
+//  Then access them in your scripts the same way. For example: 
+// 	function get_shared() {
+// 		return x_1025229_lcms.sharedVar;
+// 	}
+// */
+
+// 	return {
+
+// /* set your public API here. For example:
+// 		incrementAndReturnPrivateVar: function() {
+// 			return private_function();
+// 		},
+// */
+// 		type:  "hideButtonForSubmitter"
+// 	};
+// })();
+
+function hideButtonForSubmitter() {
+    var userRoles = g_user.hasRole('submitter');
+    var buttonElement = document.querySelector("button[data-id='myButton']");
+
+    if (userRoles) {
+        buttonElement.style.display = 'none';
+    }
+}
+
+hideButtonForSubmitter();
+
+]]&gt;&lt;/script&gt;&lt;script_name&gt;hideButtonForSubmitter&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-24 07:46:25&lt;/sys_created_on&gt;&lt;sys_id&gt;d98535fc47c321106e504aff336d4393&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1025229_lcms.hideButtonForSubmitter&lt;/sys_name&gt;&lt;sys_package display_value="LCMS" source="x_1025229_lcms"&gt;0d775003473261106e504aff336d43a7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="LCMS"&gt;0d775003473261106e504aff336d43a7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_d98535fc47c321106e504aff336d4393&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-24 07:46:25&lt;/sys_updated_on&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-858041075</payload_hash>
+        <record_name>x_1025229_lcms.hideButtonForSubmitter</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 07:46:25</sys_created_on>
+        <sys_id>e06635f8470721106e504aff336d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1884cb932af0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 07:46:25</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>a86635f83007211077d8ec92b5ed042a</update_guid>
+        <update_guid_history>a86635f83007211077d8ec92b5ed042a:-858041075</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 08:45:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>4b4ba192dd5d4c3c87e4ec8913f4c890</sys_id>
+        <sys_metadata>d98535fc47c321106e504aff336d4393</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1025229_lcms.hideButtonForSubmitter</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_ui_script_d98535fc47c321106e504aff336d4393</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_d98535fc47c321106e504aff336d4393">e06635f8470721106e504aff336d432b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 08:45:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

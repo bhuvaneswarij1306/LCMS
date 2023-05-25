@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
-        <dashboard display_value="LCMS">c122c09077cb211009ba3f94ac1a1e77</dashboard>
+        <dashboard display_value="Case Management">c122c09077cb211009ba3f94ac1a1e77</dashboard>
         <experience display_value="LCMS">0122c0905bcb211057c65fde2133e778</experience>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>

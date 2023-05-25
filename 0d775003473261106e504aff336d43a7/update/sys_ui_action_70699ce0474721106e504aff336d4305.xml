@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>true</condition>
+        <condition>(current.functional_group=='')||(current.req_details.status=='Rejected')||(current.req_details.status=='Send Back')</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>true</form_button_v2>
@@ -30,7 +30,11 @@
         <name>Submit</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.update();]]></script>
+        <script><![CDATA[var referenceRecord = new GlideRecord('x_1025229_lcms_req_detail');
+referenceRecord.get('sys_id',current.req_details.sys_id);
+referenceRecord.status = 'Submitted';
+referenceRecord.update();
+current.update();]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -41,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>70699ce0474721106e504aff336d4305</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
@@ -49,7 +53,7 @@
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sys_ui_action_70699ce0474721106e504aff336d4305</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-23 06:23:25</sys_updated_on>
+        <sys_updated_on>2023-05-23 15:39:57</sys_updated_on>
         <table>x_1025229_lcms_functioan_details</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
