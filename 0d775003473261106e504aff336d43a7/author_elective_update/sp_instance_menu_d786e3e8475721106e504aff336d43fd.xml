@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_widget/>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-05 07:34:05</sys_created_on>
+        <sys_id>d786e3e8475721106e504aff336d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMS Menu</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_instance_menu_d786e3e8475721106e504aff336d43fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-05 07:34:05</sys_updated_on>
+        <title>CMS Menu</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=d786e3e8475721106e504aff336d43fd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sp_instance_menu_d786e3e8475721106e504aff336d43fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column/><sp_widget/><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-05 07:34:05</sys_created_on><sys_id>d786e3e8475721106e504aff336d43fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CMS Menu</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sp_instance_menu_d786e3e8475721106e504aff336d43fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-05 07:34:05</sys_updated_on><title>CMS Menu</title><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=d786e3e8475721106e504aff336d43fd"/></record_update>]]></payload>
+        <payload_hash>-688140454</payload_hash>
+        <record_name>CMS Menu</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-05 07:34:05</sys_created_on>
+        <sys_id>c1a6abe4475721106e504aff336d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888a7a374a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-05 07:34:05</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>c9a6abe46b5721105fac5d07d6f52f37</update_guid>
+        <update_guid_history>c9a6abe46b5721105fac5d07d6f52f37:-688140454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CMS Menu">2cd6ebe8475721106e504aff336d43c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-05 07:34:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>22a08d4b2fb546e695cfaf081beaad41</sys_id>
+        <sys_metadata>d786e3e8475721106e504aff336d43fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMS Menu</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_d786e3e8475721106e504aff336d43fd</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_d786e3e8475721106e504aff336d43fd">c1a6abe4475721106e504aff336d4338</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-05 07:34:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

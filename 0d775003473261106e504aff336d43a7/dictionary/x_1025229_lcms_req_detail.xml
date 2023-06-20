@@ -11,7 +11,7 @@
                 <element inactive_on_update="false" label="Saturday" sequence="6" value="saturday"/>
             </choice>
         </element>
-        <element label="Description" max_length="40" name="description" type="journal_input"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
         <element label="Due Date" mandatory="true" max_length="40" name="due_date" type="glide_date"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element default="javascript: gs.getUser().getEmail();" label="From Email" max_length="40" name="from_email" read_only="true" type="string"/>

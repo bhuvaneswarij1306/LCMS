@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	c.useraction = function(id,action){
+		if(action == 'open'){
+		var url = "?id=form&table=x_1025229_lcms_req_detail&sys_id="+id;
+		window.open(url,'_blank');
+	}
+	else{
+		c.date.currentRequest = id;
+		c.server.update().then(function(){
+		c.date.currentRequest = "";	
+		});
+	}	
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>incident_details</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Incident Details</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	if(input && input.currentRequest){
+		gs.addInfoMessage('Line 18');
+		var grupdate = new GlideRecord('x_1025229_lcms_req_detail');
+	if(grupdate.get(input.currentRequest)){
+		grupdate.status = 'Completed';
+		grupdate.update();
+	}
+	}
+	
+	gs.addInfoMessage('Line 4');
+	data.Req = [];
+	var grReq = new GlideRecord('x_1025229_lcms_req_detail');
+	grReq.addEncodedQuery('request_owner='+gs.getUserID());
+	grReq.query();
+	while(grReq.next()){
+		var json = {};
+		json.number = grReq.getValue('number');
+		json.request_owner = grReq.getDisplayValue('request_owner');
+		json.reviewer = grReq.getDisplayValue('reviewer');
+		json.sys_id = grReq.getValue('sys_id');
+		json.status = grReq.getValue('status');
+		data.Req.push(json);
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-31 12:07:02</sys_created_on>
+        <sys_id>60e33e03478b21106e504aff336d439d</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>Incident Details</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_widget_60e33e03478b21106e504aff336d439d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-31 14:19:30</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <h1>
+    Request Details
+  </h1>
+  <p>
+    You will get incident details
+  </p>
+  <table>
+    <tr>
+    <th>Number</th>
+    <th>Request Owner</th>
+    <th>Reviewer</th>
+    <th>Status</th>  
+    <th> </th>
+    </tr>
+    <tr ng-repeat="key in data.Req">
+   <td>{{key.number}}</td>
+   <td>{{key.request_owner}}</td> 
+   <td>{{key.reviewer}}</td>
+   <td>{{key.status}}</td>   
+   <td><button ng-click="c.useraction(key.sys_id, 'open')">
+     Open Request
+     </button>
+      <button ng-click="c.useraction(key.sys_id, 'close')">
+     Close Request
+     </button>      
+      </td>  
+    </tr>
+  </table>
+</div>]]></template>
+    </sp_widget>
+</record_update>

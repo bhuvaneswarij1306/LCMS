@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>standard</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure>%table %t form</dynamic_title_structure>
+        <id>cms_record_form</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description>Record Form</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-07 06:27:05</sys_created_on>
+        <sys_id>8f7a2d19479321106e504aff336d431c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cms_record_form</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_page_8f7a2d19479321106e504aff336d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-07 06:27:47</sys_updated_on>
+        <title>CMS Form</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=8f7a2d19479321106e504aff336d431c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sp_page_8f7a2d19479321106e504aff336d431c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>standard</category><css/><draft>false</draft><dynamic_title_structure>%table %t form</dynamic_title_structure><id>cms_record_form</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description>Record Form</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-07 06:27:05</sys_created_on><sys_id>8f7a2d19479321106e504aff336d431c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>cms_record_form</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sp_page_8f7a2d19479321106e504aff336d431c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-07 06:27:47</sys_updated_on><title>CMS Form</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=8f7a2d19479321106e504aff336d431c"/></record_update>]]></payload>
+        <payload_hash>1731946608</payload_hash>
+        <record_name>cms_record_form</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-07 06:27:48</sys_created_on>
+        <sys_id>e5aaa159479321106e504aff336d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188948a3edf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-07 06:27:48</sys_updated_on>
+        <type>Page</type>
+        <update_guid>6daaa1597e9321108df406c24de4cc75</update_guid>
+        <update_guid_history>6daaa1597e9321108df406c24de4cc75:1731946608,c37a2d19d6932110b56f8abf4cf8f91f:-1826695579</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="cms_record_form">84fae959479321106e504aff336d430d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-07 06:29:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>71d768b207ba4f948e3a8f8ab0397a90</sys_id>
+        <sys_metadata>8f7a2d19479321106e504aff336d431c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cms_record_form</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sp_page_8f7a2d19479321106e504aff336d431c</sys_update_name>
+        <sys_update_version display_value="sp_page_8f7a2d19479321106e504aff336d431c">e5aaa159479321106e504aff336d4376</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-07 06:29:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

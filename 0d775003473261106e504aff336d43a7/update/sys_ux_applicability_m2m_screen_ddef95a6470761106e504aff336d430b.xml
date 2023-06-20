@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="LCMS Func Approver">b3ed99a2470761106e504aff336d43c5</applicability>
+        <order>100</order>
+        <screen display_value="Functional Home">557f9da6470761106e504aff336d432d</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-29 16:37:31</sys_created_on>
+        <sys_id>ddef95a6470761106e504aff336d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_ddef95a6470761106e504aff336d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-29 16:37:31</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

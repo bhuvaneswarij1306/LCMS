@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <display_field/>
+        <field_list>number,status,sys_created_on,reviewer,func_details</field_list>
+        <filter table="x_1025229_lcms_req_detail">request_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="request_owner" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>list-alt</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>number</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">874f23e4479721106e504aff336d4399</sp_column>
+        <sp_page display_value="cms_create_request">1f1927e8475721106e504aff336d43d0</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 07:00:27</sys_created_on>
+        <sys_id>c2886809471721106e504aff336d43e9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Request Details</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_instance_table_c2886809471721106e504aff336d43e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 07:06:09</sys_updated_on>
+        <table>x_1025229_lcms_req_detail</table>
+        <title>Request Details</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=c2886809471721106e504aff336d43e9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sp_instance_table_c2886809471721106e504aff336d43e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>info</color><css/><display_field/><field_list>number,status,sys_created_on,reviewer,func_details</field_list><filter table="x_1025229_lcms_req_detail">request_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="request_owner" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/></filter><glyph>list-alt</glyph><id/><maximum_entries>10</maximum_entries><order>1</order><order_by>number</order_by><order_direction>desc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">874f23e4479721106e504aff336d4399</sp_column><sp_page display_value="cms_create_request">1f1927e8475721106e504aff336d43d0</sp_page><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 07:00:27</sys_created_on><sys_id>c2886809471721106e504aff336d43e9</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Request Details</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sp_instance_table_c2886809471721106e504aff336d43e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 07:06:09</sys_updated_on><table>x_1025229_lcms_req_detail</table><title>Request Details</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=c2886809471721106e504aff336d43e9"/></record_update>]]></payload>
+        <payload_hash>-910590238</payload_hash>
+        <record_name>Request Details</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 07:06:10</sys_created_on>
+        <sys_id>75d928cd471721106e504aff336d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888f87040e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 07:06:10</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>f9d928cd161721105297ad66d240a8ab</update_guid>
+        <update_guid_history>f9d928cd161721105297ad66d240a8ab:-910590238,1db9a88d761721107efe85175a246d37:154298441,b499ec8d4e172110834e91b5dbe62c6f:818163964,0959288d2c1721104780e91dc3b88c40:433988315,168868095d172110f250973934f4cbeb:1922481290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request Details">1f6a68cd471721106e504aff336d4393</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 07:08:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>5f0826e96321455d9421eb4dfd1dd6f9</sys_id>
+        <sys_metadata>c2886809471721106e504aff336d43e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Details</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sp_instance_table_c2886809471721106e504aff336d43e9</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_c2886809471721106e504aff336d43e9">75d928cd471721106e504aff336d43ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 07:08:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

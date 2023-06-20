@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field/>
+        <field_list>number,status,reviewer,func_details,sys_created_on</field_list>
+        <filter table="x_1025229_lcms_req_detail">request_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="request_owner" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph>list-alt</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>2</order>
+        <order_by>number</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">9cca20cd471721106e504aff336d43b8</sp_column>
+        <sp_page display_value="lcms_form">a1fc7d19471721106e504aff336d4321</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 07:10:15</sys_created_on>
+        <sys_id>31ca2c01475721106e504aff336d436c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Request Details</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_instance_table_31ca2c01475721106e504aff336d436c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-09 10:35:25</sys_updated_on>
+        <table>x_1025229_lcms_req_detail</table>
+        <title>Request Details</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+  enable_filter: true
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=31ca2c01475721106e504aff336d436c"/>
+</record_update>

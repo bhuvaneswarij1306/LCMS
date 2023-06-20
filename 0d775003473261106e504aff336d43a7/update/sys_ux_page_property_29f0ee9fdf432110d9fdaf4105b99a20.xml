@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="LCMS Portal">25f0ee9f0c432110e04b49195756581e</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">a9f0ee9f2d4321105fd7b87b9cf7e029</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-01 05:17:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>29f0ee9fdf432110d9fdaf4105b99a20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_ux_page_property_29f0ee9fdf432110d9fdaf4105b99a20</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-01 05:17:18</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1025229_lcms.25f0ee9f0c432110e04b49195756581e.route.chrome_header.a9f0ee9f2d4321105fd7b87b9cf7e029</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=29f0ee9fdf432110d9fdaf4105b99a20"/>
+</record_update>

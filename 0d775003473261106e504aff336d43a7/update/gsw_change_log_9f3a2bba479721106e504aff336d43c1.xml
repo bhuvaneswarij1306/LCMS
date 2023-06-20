@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2023-06-12 07:36:08</change_date>
+        <changed_by/>
+        <content display_value="Channel user profiles">2f9fb7f1dbfbd81048cdd3fa5e9619a1</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 07:36:08</sys_created_on>
+        <sys_id>9f3a2bba479721106e504aff336d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2023-06-12 07:36:08</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>gsw_change_log_9f3a2bba479721106e504aff336d43c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 07:36:08</sys_updated_on>
+        <type>5</type>
+    </gsw_change_log>
+</record_update>

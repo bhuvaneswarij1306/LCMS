@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">2df0ee9f07432110a4c5a3f99891b830</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-01 05:17:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>25f0ee9f3c432110ddf4700a6f4ee331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>m2m_app_config_theme_25f0ee9f3c432110ddf4700a6f4ee331</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-01 05:17:16</sys_updated_on>
+        <theme display_value="Light Theme">adf0ee9f894321109c34e81a6b558130</theme>
+        <ux_app_configuration display_value="LCMS Portal Config">d1f0ae9f474321106e504aff336d43dd</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

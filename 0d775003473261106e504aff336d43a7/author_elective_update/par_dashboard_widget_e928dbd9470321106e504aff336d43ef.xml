@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">c522c09010cb2110232740cbd7de1278</canvas>
+        <component display_value="">3a64f550256090d9578ede76158e899c</component>
+        <component_props>{"variant":"header-secondary","label":"My Active Tasks","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 04:10:31</sys_created_on>
+        <sys_id>e928dbd9470321106e504aff336d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>par_dashboard_widget_e928dbd9470321106e504aff336d43ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 04:10:31</sys_updated_on>
+        <visualization/>
+        <w>6</w>
+        <x>6</x>
+        <y>21</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>par_dashboard_widget_e928dbd9470321106e504aff336d43ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">c522c09010cb2110232740cbd7de1278</canvas><component display_value="">3a64f550256090d9578ede76158e899c</component><component_props>{"variant":"header-secondary","label":"My Active Tasks","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props><h>3</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-26 04:10:31</sys_created_on><sys_id>e928dbd9470321106e504aff336d43ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>par_dashboard_widget_e928dbd9470321106e504aff336d43ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-26 04:10:31</sys_updated_on><visualization/><w>6</w><x>6</x><y>21</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1022876127</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 04:10:31</sys_created_on>
+        <sys_id>e928dbd9470321106e504aff336d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18856403f0e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 04:10:31</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>e128dbd984032110c53e862464ce22f1</update_guid>
+        <update_guid_history>e128dbd984032110c53e862464ce22f1:-1022876127</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">cc1adf9d470321106e504aff336d43e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-26 04:18:53</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>c86eba2df02148a0b5796c3b7fe10400</sys_id>
+        <sys_metadata>e928dbd9470321106e504aff336d43ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e928dbd9470321106e504aff336d43ef</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e928dbd9470321106e504aff336d43ef">e928dbd9470321106e504aff336d43f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-26 04:18:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent/>
+        <macroponent_config>{ }</macroponent_config>
+        <name>Test Dashboard default</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Test Dashboard">38c62de2474761106e504aff336d43e0</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-29 17:07:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38c62de2474761106e504aff336d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Dashboard default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_ux_screen_38c62de2474761106e504aff336d43e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-29 17:07:31</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=38c62de2474761106e504aff336d43e5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_ux_screen_38c62de2474761106e504aff336d43e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config><description/><event_mappings/><macroponent/><macroponent_config>{ }</macroponent_config><name>Test Dashboard default</name><order>0</order><parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Test Dashboard">38c62de2474761106e504aff336d43e0</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-29 17:07:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>38c62de2474761106e504aff336d43e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Dashboard default</sys_name><sys_overrides/><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sys_ux_screen_38c62de2474761106e504aff336d43e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-29 17:07:31</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=38c62de2474761106e504aff336d43e5"/></record_update>]]></payload>
+        <payload_hash>-621705923</payload_hash>
+        <record_name>Test Dashboard default</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-29 17:09:11</sys_created_on>
+        <sys_id>c5272926474761106e504aff336d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188687c38600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-29 17:09:11</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>b4c62de2c5476110cb013b004eee21e7</update_guid>
+        <update_guid_history>b4c62de2c5476110cb013b004eee21e7:-46952377,b4c62de2c5476110cb013b004eee21e7:-46952377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-29 17:09:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>05d32beaf5ec454080df9a8f36e43240</sys_id>
+        <sys_metadata>38c62de2474761106e504aff336d43e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Dashboard default</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_38c62de2474761106e504aff336d43e5</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_38c62de2474761106e504aff336d43e5">c5272926474761106e504aff336d433f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-29 17:09:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
