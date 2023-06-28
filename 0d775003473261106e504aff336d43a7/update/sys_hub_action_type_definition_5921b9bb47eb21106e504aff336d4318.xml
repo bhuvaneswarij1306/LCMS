@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>appian_action</internal_name>
+        <label_cache>[{"name":"{{action.sys_id}}","label":"action➛sys_id","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.request_id}}","label":"action➛Request Id","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiUniqueId":"316f677e-fd9a-4d7f-82c5-aa6c2c04a25f"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Appian Action</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-27 11:36:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5921b9bb47eb21106e504aff336d4318</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Appian Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_5921b9bb47eb21106e504aff336d4318</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-27 11:37:47</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=5921b9bb47eb21106e504aff336d4318"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5921b9bb47eb21106e504aff336d4318"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=5921b9bb47eb21106e504aff336d4318"/>
+    <sys_hub_action_input action="delete_multiple" query="model=5921b9bb47eb21106e504aff336d4318^sys_idNOT INdd61b1b747eb21106e504aff336d4367"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=316f677e-fd9a-4d7f-82c5-aa6c2c04a25f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Request Id</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Appian Action">5921b9bb47eb21106e504aff336d4318</model>
+        <model_id>5921b9bb47eb21106e504aff336d4318</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_5921b9bb47eb21106e504aff336d4318</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-27 11:37:47</sys_created_on>
+        <sys_id>dd61b1b747eb21106e504aff336d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-27 11:37:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dd61b1b747eb21106e504aff336d4367"/>
+    <sys_hub_action_output action="delete_multiple" query="model=5921b9bb47eb21106e504aff336d4318"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5921b9bb47eb21106e504aff336d4318"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=5921b9bb47eb21106e504aff336d4318^sys_idNOT IN9561b1bf47eb21106e504aff336d4375"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Appian Action">5921b9bb47eb21106e504aff336d4318</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-27 11:37:47</sys_created_on>
+        <sys_id>9561b1bf47eb21106e504aff336d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-27 11:37:47</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9561b1bf47eb21106e504aff336d4375"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_5921b9bb47eb21106e504aff336d4318^sys_idNOT IN5561b1bf47eb21106e504aff336d4371"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_id</element>
+        <help/>
+        <hint/>
+        <label>Request Id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_5921b9bb47eb21106e504aff336d4318</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-27 11:37:47</sys_created_on>
+        <sys_id>5561b1bf47eb21106e504aff336d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-27 11:37:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_5921b9bb47eb21106e504aff336d4318"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_5921b9bb47eb21106e504aff336d4318"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_5921b9bb47eb21106e504aff336d4318"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=5921b9bb47eb21106e504aff336d4318"/>
+</record_update>

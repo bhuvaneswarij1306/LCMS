@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_cors_rule">
+    <sys_cors_rule action="INSERT_OR_UPDATE">
+        <delete>true</delete>
+        <domain>https://appiandev.vuram.com</domain>
+        <exposed_headers/>
+        <get>true</get>
+        <max_age>0</max_age>
+        <name>Appian Access</name>
+        <patch>false</patch>
+        <post>true</post>
+        <put>false</put>
+        <rest_api>now/table</rest_api>
+        <sys_class_name>sys_cors_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 11:07:05</sys_created_on>
+        <sys_id>7260606f47ab21106e504aff336d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Appian Access</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_cors_rule_7260606f47ab21106e504aff336d43c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 11:07:05</sys_updated_on>
+    </sys_cors_rule>
+</record_update>

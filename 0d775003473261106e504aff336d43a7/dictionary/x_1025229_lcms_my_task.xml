@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="93c7e80f477261106e504aff336d43d4" extends="task" label="My Task" max_length="40" name="x_1025229_lcms_my_task" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" default="Please Click the ⓘ to see the request Details" dependent="req_detail" dependent_on_field="req_detail" label="Please Click the ⓘ to see the request Details" max_length="100" name="readonlyinfo" read_only="true" type="string" use_dependent_field="true"/>
-        <element label="Req Detail" max_length="32" name="req_detail" read_only="true" reference="x_1025229_lcms_req_detail" type="reference"/>
+        <element attributes="encode_utf8=false" label="Req Detail" max_length="32" name="req_detail" read_only="true" reference="x_1025229_lcms_req_detail" type="reference"/>
     </element>
 </database>

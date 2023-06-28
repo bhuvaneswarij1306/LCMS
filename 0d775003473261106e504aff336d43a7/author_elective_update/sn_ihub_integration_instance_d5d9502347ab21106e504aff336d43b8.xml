@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance">
+    <sn_ihub_integration_instance action="DELETE">
+        <description>ServiceNow to appian</description>
+        <integration_table>sys_data_source</integration_table>
+        <integration_type/>
+        <internal_name/>
+        <name>Testing</name>
+        <record_id>ddd9502347ab21106e504aff336d43b9</record_id>
+        <sys_class_name>sn_ihub_integration_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 10:36:43</sys_created_on>
+        <sys_id>d5d9502347ab21106e504aff336d43b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Testing</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sn_ihub_integration_instance_d5d9502347ab21106e504aff336d43b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 10:36:43</sys_updated_on>
+    </sn_ihub_integration_instance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sn_ihub_integration_instance_d5d9502347ab21106e504aff336d43b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance"><sn_ihub_integration_instance action="INSERT_OR_UPDATE"><description>ServiceNow to appian</description><integration_table>sys_data_source</integration_table><integration_type/><internal_name/><name>Testing</name><record_id>ddd9502347ab21106e504aff336d43b9</record_id><sys_class_name>sn_ihub_integration_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-26 10:36:43</sys_created_on><sys_id>d5d9502347ab21106e504aff336d43b8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Testing</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sn_ihub_integration_instance_d5d9502347ab21106e504aff336d43b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-26 10:36:43</sys_updated_on></sn_ihub_integration_instance></record_update>]]></payload>
+        <payload_hash>712881581</payload_hash>
+        <record_name>Testing</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 10:36:43</sys_created_on>
+        <sys_id>19d9d46347ab21106e504aff336d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188f746f9a40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 10:36:43</sys_updated_on>
+        <type>Data import</type>
+        <update_guid>11d9d46332ab2110a0d781afd4a21aaf</update_guid>
+        <update_guid_history>11d9d46332ab2110a0d781afd4a21aaf:712881581</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Testing">5a0a5c6347ab21106e504aff336d433d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 10:37:36</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_integration_instance">sn_ihub_integration_instance</sys_db_object>
+        <sys_id>b0663a5b4dad470881ef5e8c0de86210</sys_id>
+        <sys_metadata>d5d9502347ab21106e504aff336d43b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Testing</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sn_ihub_integration_instance_d5d9502347ab21106e504aff336d43b8</sys_update_name>
+        <sys_update_version display_value="sn_ihub_integration_instance_d5d9502347ab21106e504aff336d43b8">19d9d46347ab21106e504aff336d43af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 10:37:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

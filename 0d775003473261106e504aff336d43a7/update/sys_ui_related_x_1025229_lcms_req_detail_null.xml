@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_1025229_lcms_req_detail" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Req Detail - Default view" name="x_1025229_lcms_req_detail" related_list="NULL" sys_domain="global" view="Default view">3793dc54474f21106e504aff336d4357</list_id>
+            <list_id display_value="Request Details - Default view" name="x_1025229_lcms_req_detail" related_list="NULL" sys_domain="global" view="Default view">3793dc54474f21106e504aff336d4357</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_1025229_lcms_functioan_details.req_details</related_list>
@@ -16,7 +16,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Req Detail - Default view" name="x_1025229_lcms_req_detail" related_list="NULL" sys_domain="global" view="Default view">3793dc54474f21106e504aff336d4357</list_id>
+            <list_id display_value="Request Details - Default view" name="x_1025229_lcms_req_detail" related_list="NULL" sys_domain="global" view="Default view">3793dc54474f21106e504aff336d4357</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_1025229_lcms_my_task.req_detail</related_list>
@@ -29,7 +29,7 @@
             <sys_updated_on>2023-05-22 11:17:57</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Req Detail - Default view</calculated_name>
+            <calculated_name>Request Details - Default view</calculated_name>
             <filter/>
             <name>x_1025229_lcms_req_detail</name>
             <order_by/>

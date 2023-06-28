@@ -7,7 +7,7 @@
         <display_2/>
         <display_date/>
         <filter/>
-        <glyph/>
+        <glyph>plus-circle</glyph>
         <hint/>
         <kb_article/>
         <kb_category/>
@@ -25,14 +25,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-05 08:34:55</sys_created_on>
         <sys_id>4473bb6047d721106e504aff336d437d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>New Request</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_4473bb6047d721106e504aff336d437d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-07 09:45:41</sys_updated_on>
+        <sys_updated_on>2023-06-27 16:40:46</sys_updated_on>
         <table/>
         <type>url</type>
         <url>https://dev167757.service-now.com/cms?id=lcms_form&amp;table=x_1025229_lcms_req_detail</url>
