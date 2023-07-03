@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Approval Engine" source="com.snc.approvals">743cc88324b021108c8bc6863d3fad13</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-03 06:27:34</sys_created_on>
+        <sys_id>bbe36729477fa1106e504aff336d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-03 06:27:34</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

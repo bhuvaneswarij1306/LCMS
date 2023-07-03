@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description/>
+        <display>Total Submitted Requests (Request Details)</display>
+        <filter table="x_1025229_lcms_req_detail">status=Submitted<item display_value="Submitted" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Submitted"/>
+        </filter>
+        <name>Total Submitted Requests</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-28 08:33:36</sys_created_on>
+        <sys_id>c9b01ec0473b21106e504aff336d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total Submitted Requests (Request Details)</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_report_source_c9b01ec0473b21106e504aff336d438f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-28 08:33:36</sys_updated_on>
+        <table>x_1025229_lcms_req_detail</table>
+    </sys_report_source>
+</record_update>

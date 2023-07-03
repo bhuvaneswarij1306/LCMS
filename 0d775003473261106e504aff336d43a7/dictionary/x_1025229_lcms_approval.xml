@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e7e36729477fa1106e504aff336d4350" extends="sysapproval_approver" label="Approval " max_length="40" name="x_1025229_lcms_approval" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Request info" max_length="32" name="request_info" reference="x_1025229_lcms_req_detail" type="reference"/>
+        <index name="index">
+            <element name="request_info"/>
+        </index>
+    </element>
+</database>

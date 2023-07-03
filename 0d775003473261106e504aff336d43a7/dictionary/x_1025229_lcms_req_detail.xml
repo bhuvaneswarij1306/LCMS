@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="b43a1c07473261106e504aff336d43de" label="Req Detail" max_length="40" name="x_1025229_lcms_req_detail" text_index="true" type="collection">
+    <element audit="true" db_object_id="b43a1c07473261106e504aff336d43de" label="Request Details" max_length="40" name="x_1025229_lcms_req_detail" text_index="true" type="collection">
+        <element label="Comments" max_length="40" name="additional_comments" type="journal_input"/>
         <element choice="3" label="Days" max_length="40" name="days" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Sunday" sequence="0" value="sunday"/>
@@ -32,6 +33,7 @@
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="string">
             <choice>
+                <element inactive_on_update="false" label="Awaiting Functional Team Details" sequence="-1" value="Awaiting Functional Team Details"/>
                 <element inactive_on_update="false" label="Submitted" sequence="0" value="Submitted"/>
                 <element inactive_on_update="false" label="Approved By Reviewer" sequence="1" value="Approved By Reviewer"/>
                 <element inactive_on_update="false" label="Approved By Functional Team" sequence="2" value="Approved By Functional Team"/>
@@ -40,6 +42,7 @@
                 <element inactive_on_update="false" label="Completed" sequence="5" value="Completed"/>
             </choice>
         </element>
+        <element label="Functional Team Details filled" max_length="40" name="u_func_details_filled" type="boolean"/>
         <index name="index">
             <element name="func_details"/>
         </index>

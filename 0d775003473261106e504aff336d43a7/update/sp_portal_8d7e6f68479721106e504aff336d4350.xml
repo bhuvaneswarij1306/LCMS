@@ -5,7 +5,7 @@
         <enable_ais>false</enable_ais>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage display_value="cms_home_page">23df9328471721106e504aff336d43f9</homepage>
+        <homepage display_value="cms_homepage">1108c63347af21106e504aff336d4391</homepage>
         <icon/>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
@@ -24,14 +24,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-05 08:09:20</sys_created_on>
         <sys_id>8d7e6f68479721106e504aff336d4350</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Case Management</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sp_portal_8d7e6f68479721106e504aff336d4350</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-05 08:28:24</sys_updated_on>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-06-27 13:18:11</sys_updated_on>
         <theme display_value="Stock - High Contrast">f84873986711320023c82e08f585ef6a</theme>
         <title>Case Management</title>
         <ts_index_group/>
