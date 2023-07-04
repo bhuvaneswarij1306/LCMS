@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_1025229_lcms_approval</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-03 06:27:41</sys_created_on>
+        <sys_id>9df32b29477fa1106e504aff336d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1025229_lcms_approval</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_security_acl_9df32b29477fa1106e504aff336d436f</sys_update_name>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-03 06:27:41</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_security_acl_9df32b29477fa1106e504aff336d436f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_1025229_lcms_approval</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>keerthanast@vuram.com</sys_created_by><sys_created_on>2023-07-03 06:27:41</sys_created_on><sys_id>9df32b29477fa1106e504aff336d436f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1025229_lcms_approval</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sys_security_acl_9df32b29477fa1106e504aff336d436f</sys_update_name><sys_updated_by>keerthanast@vuram.com</sys_updated_by><sys_updated_on>2023-07-03 06:27:41</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>357563662</payload_hash>
+        <record_name>x_1025229_lcms_approval</record_name>
+        <reverted_from/>
+        <source>e8da902347ab21106e504aff336d4336</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-03 06:27:41</sys_created_on>
+        <sys_id>d9f32b29477fa1106e504aff336d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1891a6f7dcc0000001</sys_recorded_at>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-03 06:27:41</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>d1f32b29ee7fa1101ec88ef1c3c19b72</update_guid>
+        <update_guid_history>d1f32b29ee7fa1101ec88ef1c3c19b72:357563662</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-03 11:12:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1dce23869e734d44872e0e67b8828004</sys_id>
+        <sys_metadata>9df32b29477fa1106e504aff336d436f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1025229_lcms_approval</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent display_value="">73e36729477fa1106e504aff336d4353</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9df32b29477fa1106e504aff336d436f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9df32b29477fa1106e504aff336d436f">d9f32b29477fa1106e504aff336d4372</sys_update_version>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-03 11:12:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
