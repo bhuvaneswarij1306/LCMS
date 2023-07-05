@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
+    <sys_sg_form_segment action="INSERT_OR_UPDATE">
+        <embedded_screen display_value="Details">e1137ece47b361106e504aff336d438f</embedded_screen>
+        <form display_value="My Task Form Screen">e9137ece47b361106e504aff336d438e</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
+        <order>10</order>
+        <sys_class_name>sys_sg_form_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 16:11:08</sys_created_on>
+        <sys_id>bd137ece47b361106e504aff336d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_sg_form_segment_bd137ece47b361106e504aff336d4392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 16:11:08</sys_updated_on>
+    </sys_sg_form_segment>
+</record_update>

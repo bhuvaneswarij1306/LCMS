@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Request Inventory)">a1133ece47b361106e504aff336d436b</button>
+        <item_parameter display_value="Request Inventory is_recurrence">69133ece47b361106e504aff336d4367</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 16:11:07</sys_created_on>
+        <sys_id>e1133ece47b361106e504aff336d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>69133ece47b361106e504aff336d4367</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_e1133ece47b361106e504aff336d4382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 16:11:07</sys_updated_on>
+        <ui_parameter display_value="Is Recurrence">e9133ece47b361106e504aff336d436f</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

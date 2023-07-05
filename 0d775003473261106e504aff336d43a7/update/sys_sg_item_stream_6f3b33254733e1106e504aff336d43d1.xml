@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
     <sys_sg_item_stream action="INSERT_OR_UPDATE">
-        <data_item display_value="Open Requests Data Item">d73bffe14733e1106e504aff336d43c3</data_item>
+        <data_item/>
         <interleaved_field/>
         <name>673b33254733e1106e504aff336d4377 Item Stream</name>
         <sys_class_name>sys_sg_item_stream</sys_class_name>

@@ -5,7 +5,7 @@
         <max_offline_rows>1000</max_offline_rows>
         <name>Open Requests Item Stream Segment</name>
         <order>0</order>
-        <screen display_value="Open Requests">673b33254733e1106e504aff336d4377</screen>
+        <screen/>
         <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-03 08:09:25</sys_created_on>

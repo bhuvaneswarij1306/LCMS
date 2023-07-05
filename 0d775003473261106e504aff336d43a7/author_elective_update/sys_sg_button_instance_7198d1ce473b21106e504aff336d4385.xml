@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Edit Button (Open Requests)">2b3b73254733e1106e504aff336d4354</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>leading_swipe</location>
+        <name>Edit</name>
+        <order>10</order>
+        <parent>a33b33254733e1106e504aff336d43d3</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 09:35:45</sys_created_on>
+        <sys_id>7198d1ce473b21106e504aff336d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_sg_button_instance_7198d1ce473b21106e504aff336d4385</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 09:35:45</sys_updated_on>
+        <table>x_1025229_lcms_req_detail</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=7198d1ce473b21106e504aff336d4385"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_sg_button_instance_7198d1ce473b21106e504aff336d4385</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Edit Button (Open Requests)">2b3b73254733e1106e504aff336d4354</button><color_theme/><description/><disable_offline>false</disable_offline><field_name/><icon/><label>Edit</label><location>leading_swipe</location><name>Edit</name><order>10</order><parent>a33b33254733e1106e504aff336d43d3</parent><parent_table>sys_sg_master_item</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-04 09:35:45</sys_created_on><sys_id>7198d1ce473b21106e504aff336d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Edit</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sys_sg_button_instance_7198d1ce473b21106e504aff336d4385</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-04 09:35:45</sys_updated_on><table>x_1025229_lcms_req_detail</table></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=7198d1ce473b21106e504aff336d4385"/></record_update>]]></payload>
+        <payload_hash>-787375563</payload_hash>
+        <record_name>Edit</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 09:35:45</sys_created_on>
+        <sys_id>7998d1ce473b21106e504aff336d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1892042079b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 09:35:45</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>7198d1ce773b2110dcc1bd687c560e88</update_guid>
+        <update_guid_history>7198d1ce773b2110dcc1bd687c560e88:-787375563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 16:00:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>9622ed63a9d64bc29d17eae861c09cf9</sys_id>
+        <sys_metadata>7198d1ce473b21106e504aff336d4385</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_7198d1ce473b21106e504aff336d4385</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_7198d1ce473b21106e504aff336d4385">7998d1ce473b21106e504aff336d4388</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 16:00:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_category_m2m_filter_condition">
+    <sys_sg_filter_category_m2m_filter_condition action="DELETE">
+        <filter_category display_value="Open Requests Filter Category">e4a89dce473b21106e504aff336d43a5</filter_category>
+        <filter_condition display_value="Open Requests Keyword filter condition">50a891ce473b21106e504aff336d43aa</filter_condition>
+        <order>0</order>
+        <sys_class_name>sys_sg_filter_category_m2m_filter_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 09:35:56</sys_created_on>
+        <sys_id>a4a89dce473b21106e504aff336d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_sg_filter_category_m2m_filter_condition_a4a89dce473b21106e504aff336d43be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 09:35:56</sys_updated_on>
+    </sys_sg_filter_category_m2m_filter_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_sg_filter_category_m2m_filter_condition_a4a89dce473b21106e504aff336d43be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_category_m2m_filter_condition"><sys_sg_filter_category_m2m_filter_condition action="INSERT_OR_UPDATE"><filter_category display_value="Open Requests Filter Category">e4a89dce473b21106e504aff336d43a5</filter_category><filter_condition display_value="Open Requests Keyword filter condition">50a891ce473b21106e504aff336d43aa</filter_condition><order>0</order><sys_class_name>sys_sg_filter_category_m2m_filter_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-04 09:35:56</sys_created_on><sys_id>a4a89dce473b21106e504aff336d43be</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sys_sg_filter_category_m2m_filter_condition_a4a89dce473b21106e504aff336d43be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-04 09:35:56</sys_updated_on></sys_sg_filter_category_m2m_filter_condition></record_update>]]></payload>
+        <payload_hash>-482773467</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 09:35:56</sys_created_on>
+        <sys_id>68a89dce473b21106e504aff336d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189204231000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 09:35:56</sys_updated_on>
+        <type>Filter Category M2M Filter Condition</type>
+        <update_guid>60a89dce6c3b21102f054bbf22d216c0</update_guid>
+        <update_guid_history>60a89dce6c3b21102f054bbf22d216c0:-482773467</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 09:35:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_filter_category_m2m_filter_condition">sys_sg_filter_category_m2m_filter_condition</sys_db_object>
+        <sys_id>1107ce7ab14348fcbcee0910f02fa949</sys_id>
+        <sys_metadata>a4a89dce473b21106e504aff336d43be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_sg_filter_category_m2m_filter_condition_a4a89dce473b21106e504aff336d43be</sys_update_name>
+        <sys_update_version display_value="sys_sg_filter_category_m2m_filter_condition_a4a89dce473b21106e504aff336d43be">68a89dce473b21106e504aff336d43c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 09:35:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

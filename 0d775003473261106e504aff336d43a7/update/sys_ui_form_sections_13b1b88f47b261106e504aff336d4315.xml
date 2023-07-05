@@ -42,6 +42,20 @@
             <sys_updated_by>suprajhav@vuram.com</sys_updated_by>
             <sys_updated_on>2023-06-28 06:50:51</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-04 07:13:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce183cc2477721106e504aff336d435a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1025229_lcms_req_detail" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">13b1b88f47b261106e504aff336d4315</sys_ui_form>
+            <sys_ui_section caption="Comments" display_value="Comments" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">c2183cc2477721106e504aff336d4358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-04 07:13:46</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1025229_lcms_req_detail</name>
             <roles/>

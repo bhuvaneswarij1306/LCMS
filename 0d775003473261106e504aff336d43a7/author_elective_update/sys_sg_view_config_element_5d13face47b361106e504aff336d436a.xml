@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>description-FieldLabel</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 16:11:06</sys_created_on>
+        <sys_id>5d13face47b361106e504aff336d436a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>description-FieldLabel</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_5d13face47b361106e504aff336d436a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 10:24:34</sys_updated_on>
+        <view_config display_value="Request Inventory List Screen View Config">9d13face47b361106e504aff336d4336</view_config>
+        <view_template_slot display_value="text_03">ef5ef07841e35010f877183fc9b8be34</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_sg_view_config_element_5d13face47b361106e504aff336d436a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>description-FieldLabel</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-04 16:11:06</sys_created_on><sys_id>5d13face47b361106e504aff336d436a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>description-FieldLabel</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sys_sg_view_config_element_5d13face47b361106e504aff336d436a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-05 10:24:34</sys_updated_on><view_config display_value="Request Inventory List Screen View Config">9d13face47b361106e504aff336d4336</view_config><view_template_slot display_value="text_03">ef5ef07841e35010f877183fc9b8be34</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>1684731754</payload_hash>
+        <record_name>description-FieldLabel</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 10:24:35</sys_created_on>
+        <sys_id>765daa1a477b21106e504aff336d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189259516b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 10:24:35</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>fa5daa1a887b2110cdff9dc2f2523134</update_guid>
+        <update_guid_history>fa5daa1a887b2110cdff9dc2f2523134:1684731754,9d13facecdb36110172fbf053776426b:-1153012308</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 10:30:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>0f38003828424c40999eaa9959ec0400</sys_id>
+        <sys_metadata>5d13face47b361106e504aff336d436a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description-FieldLabel</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_5d13face47b361106e504aff336d436a</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_5d13face47b361106e504aff336d436a">765daa1a477b21106e504aff336d4335</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 10:30:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

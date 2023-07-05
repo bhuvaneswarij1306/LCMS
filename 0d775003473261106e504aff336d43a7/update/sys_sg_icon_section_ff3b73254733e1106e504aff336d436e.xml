@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
     <sys_sg_icon_section action="INSERT_OR_UPDATE">
         <active>true</active>
-        <applets>673b33254733e1106e504aff336d4377</applets>
+        <applets/>
         <card_size/>
         <column_count/>
         <custom_height/>
@@ -19,14 +19,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-03 08:09:26</sys_created_on>
         <sys_id>ff3b73254733e1106e504aff336d436e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Request Details</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sys_sg_icon_section_ff3b73254733e1106e504aff336d436e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-03 08:09:26</sys_updated_on>
+        <sys_updated_on>2023-07-04 15:58:09</sys_updated_on>
         <table/>
         <title>Request Details</title>
         <visible_condition/>

@@ -20,119 +20,19 @@
             <element>days</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Sunday</label>
+            <label>friday</label>
             <language>en</language>
             <name>x_1025229_lcms_req_detail</name>
-            <sequence>0</sequence>
+            <sequence/>
             <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 14:38:21</sys_created_on>
+            <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-05 11:14:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>982bd887473261106e504aff336d434f</sys_id>
+            <sys_id>bed8b69e47bb21106e504aff336d43b9</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 14:38:21</sys_updated_on>
-            <value>sunday</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>days</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Monday</label>
-            <language>en</language>
-            <name>x_1025229_lcms_req_detail</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 14:38:21</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>182bd887473261106e504aff336d4351</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 14:38:21</sys_updated_on>
-            <value>monday</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>days</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Tuesday</label>
-            <language>en</language>
-            <name>x_1025229_lcms_req_detail</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 14:38:21</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>942bd887473261106e504aff336d4352</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 14:38:21</sys_updated_on>
-            <value>tuesday</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>days</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Wednesday</label>
-            <language>en</language>
-            <name>x_1025229_lcms_req_detail</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 14:38:21</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>142bd887473261106e504aff336d4353</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 14:38:21</sys_updated_on>
-            <value>wednesday</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>days</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Thursday</label>
-            <language>en</language>
-            <name>x_1025229_lcms_req_detail</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 14:38:21</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>902bd887473261106e504aff336d4354</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 14:38:21</sys_updated_on>
-            <value>thursday</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>days</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Friday</label>
-            <language>en</language>
-            <name>x_1025229_lcms_req_detail</name>
-            <sequence>5</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 14:38:21</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>102bd887473261106e504aff336d4355</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 14:38:21</sys_updated_on>
+            <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-05 11:14:49</sys_updated_on>
             <value>friday</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -140,20 +40,100 @@
             <element>days</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Saturday</label>
+            <label>monday</label>
             <language>en</language>
             <name>x_1025229_lcms_req_detail</name>
-            <sequence>6</sequence>
+            <sequence/>
             <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 14:38:21</sys_created_on>
+            <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-05 11:14:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9c2bd887473261106e504aff336d4355</sys_id>
+            <sys_id>f6d8b69e47bb21106e504aff336d43bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 14:38:21</sys_updated_on>
-            <value>saturday</value>
+            <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-05 11:14:49</sys_updated_on>
+            <value>monday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>sunday</label>
+            <language>en</language>
+            <name>x_1025229_lcms_req_detail</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-05 11:14:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ad8b69e47bb21106e504aff336d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-05 11:14:49</sys_updated_on>
+            <value>sunday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>thursday</label>
+            <language>en</language>
+            <name>x_1025229_lcms_req_detail</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-05 11:14:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ad8b69e47bb21106e504aff336d43bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-05 11:14:49</sys_updated_on>
+            <value>thursday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>tuesday</label>
+            <language>en</language>
+            <name>x_1025229_lcms_req_detail</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-05 11:14:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bad8b69e47bb21106e504aff336d43be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-05 11:14:49</sys_updated_on>
+            <value>tuesday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>wednesday</label>
+            <language>en</language>
+            <name>x_1025229_lcms_req_detail</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-05 11:14:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fad8b69e47bb21106e504aff336d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-05 11:14:49</sys_updated_on>
+            <value>wednesday</value>
         </sys_choice>
     </sys_choice>
 </record_update>

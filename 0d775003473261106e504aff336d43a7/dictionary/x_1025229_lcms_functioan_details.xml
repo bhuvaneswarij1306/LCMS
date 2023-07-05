@@ -2,7 +2,7 @@
     <element audit="true" db_object_id="b7c424c7477261106e504aff336d43db" label="Functional Details" max_length="40" name="x_1025229_lcms_functioan_details" text_index="true" type="collection">
         <element label="Action" max_length="40" name="action" type="boolean"/>
         <element label="Due date" max_length="40" name="due_date" type="glide_date"/>
-        <element label="Functional Group" max_length="32" name="functional_group" reference="sys_user" reference_qual="roles=x_1025229_main_c_0.func-approver" reference_qual_condition="roles=x_1025229_main_c_0.func-approver" type="reference"/>
+        <element label="Functional Group" max_length="32" name="functional_group" reference="sys_user" reference_qual="roles=x_1025229_lcms.functional^EQ" reference_qual_condition="roles=x_1025229_lcms.functional^EQ" type="reference"/>
         <element choice="1" label="Functional Team" max_length="40" name="functional_team" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Investor Administration" sequence="0" value="investor_administration"/>

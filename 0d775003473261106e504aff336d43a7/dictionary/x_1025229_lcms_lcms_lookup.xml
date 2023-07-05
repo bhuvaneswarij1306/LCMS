@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="af6252d647b721106e504aff336d43f9" label="LCMS_LookUp" max_length="40" name="x_1025229_lcms_lcms_lookup" type="collection">
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="LookupId" max_length="40" name="lookupid" type="integer"/>
+        <element label="Lookup Type" max_length="40" name="lookup_type" type="string"/>
+        <element label="Lookup Value" max_length="40" name="lookup_value" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

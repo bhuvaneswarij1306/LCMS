@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
     <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
-        <applet_launcher display_value="CMS Requests">173bffe14733e1106e504aff336d43c0</applet_launcher>
+        <applet_launcher/>
         <order>0</order>
         <section display_value="Request Details">ff3b73254733e1106e504aff336d436e</section>
         <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
