@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <check_acl>false</check_acl>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <external_browser>false</external_browser>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Create New Request Icon">c7f8bb1a477361106e504aff336d432c</icon>
+        <name>Create New Request</name>
+        <relative_url>false</relative_url>
+        <roles_override/>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 15:55:14</sys_created_on>
+        <sys_id>9bf8739247b361106e504aff336d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Request</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_9bf8739247b361106e504aff336d4302</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 15:55:14</sys_updated_on>
+        <url>https://dev167757.service-now.com/nav_to.do?uri=sys_sg_button.do?sys_id=9d13face47b361106e504aff336d43ff%26sysparm_view=default</url>
+    </sys_sg_browser_screen>
+    <sys_translated_text action="DELETE" query="documentkey=9bf8739247b361106e504aff336d4302"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_sg_browser_screen_9bf8739247b361106e504aff336d4302</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen"><sys_sg_browser_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><check_acl>false</check_acl><description/><dynamic_prefetch_count/><empty_state/><external_browser>false</external_browser><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="Create New Request Icon">c7f8bb1a477361106e504aff336d432c</icon><name>Create New Request</name><relative_url>false</relative_url><roles_override/><sys_class_name>sys_sg_browser_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-05 15:55:14</sys_created_on><sys_id>9bf8739247b361106e504aff336d4302</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New Request</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sys_sg_browser_screen_9bf8739247b361106e504aff336d4302</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-05 15:55:14</sys_updated_on><url>https://dev167757.service-now.com/nav_to.do?uri=sys_sg_button.do?sys_id=9d13face47b361106e504aff336d43ff%26sysparm_view=default</url></sys_sg_browser_screen><sys_translated_text action="delete_multiple" query="documentkey=9bf8739247b361106e504aff336d4302"/></record_update>]]></payload>
+        <payload_hash>1496024591</payload_hash>
+        <record_name>Create New Request</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 15:55:14</sys_created_on>
+        <sys_id>aa09b75647b361106e504aff336d43d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18926c3d0290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 15:55:14</sys_updated_on>
+        <type>Mobile web screen</type>
+        <update_guid>a209b75693b36110501263b214d23cd5</update_guid>
+        <update_guid_history>a209b75693b36110501263b214d23cd5:1496024591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 16:02:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_browser_screen">sys_sg_browser_screen</sys_db_object>
+        <sys_id>8bdee56becc9434baa61221c7c467181</sys_id>
+        <sys_metadata>9bf8739247b361106e504aff336d4302</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Request</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_sg_browser_screen_9bf8739247b361106e504aff336d4302</sys_update_name>
+        <sys_update_version display_value="sys_sg_browser_screen_9bf8739247b361106e504aff336d4302">aa09b75647b361106e504aff336d43d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 16:02:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

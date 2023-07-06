@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>is_recurrence-FieldValue</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 16:11:07</sys_created_on>
+        <sys_id>9513face47b361106e504aff336d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>is_recurrence-FieldValue</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_9513face47b361106e504aff336d43ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 16:11:07</sys_updated_on>
+        <view_config display_value="Request Inventory Detail Screen View Config">1513face47b361106e504aff336d439f</view_config>
+        <view_template_slot display_value="text_05">b4f4c13041275010f877183fc9b8be56</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_sg_view_config_element_9513face47b361106e504aff336d43ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>is_recurrence-FieldValue</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-04 16:11:07</sys_created_on><sys_id>9513face47b361106e504aff336d43ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>is_recurrence-FieldValue</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sys_sg_view_config_element_9513face47b361106e504aff336d43ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-04 16:11:07</sys_updated_on><view_config display_value="Request Inventory Detail Screen View Config">1513face47b361106e504aff336d439f</view_config><view_template_slot display_value="text_05">b4f4c13041275010f877183fc9b8be56</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>138691738</payload_hash>
+        <record_name>is_recurrence-FieldValue</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 16:11:07</sys_created_on>
+        <sys_id>5d13face47b361106e504aff336d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18921abfe660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 16:11:07</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>5513faceaeb3611018ad55b53c8e69af</update_guid>
+        <update_guid_history>5513faceaeb3611018ad55b53c8e69af:138691738</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 11:25:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>319c2a46c3ed4717912ad9cb77ada401</sys_id>
+        <sys_metadata>9513face47b361106e504aff336d43ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>is_recurrence-FieldValue</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_9513face47b361106e504aff336d43ae</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_9513face47b361106e504aff336d43ae">5d13face47b361106e504aff336d43af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 11:25:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

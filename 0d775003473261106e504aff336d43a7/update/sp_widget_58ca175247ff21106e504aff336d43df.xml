@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {	
+	var c = this;		
+  c.display = function() {		
+		c.data.message = (c.data.sometext) ? 'Enter data is : ' + c.data.sometext + '!' : '';
+	}
+	
+	c.display();
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>h1 {
+color: #428bca;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"data": {
+		"sometext": "Enter the value"
+	}
+}</demo_data>
+        <description/>
+        <docs display_value="Widgets">948bab53d721120023c84f80de61034e</docs>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Admin page Wid</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	var usr = gs.getUserID();
+	var grusr = new GlideRecord('sys_user');
+	if(grusr.get(usr))
+		{
+			data.fname = grusr.getValue('first_name');
+			var grtask = new GlideRecord('x_1025229_lcms_my_task');
+			//grtask.addEncodedQuery('opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe');
+			//or we can use the following query
+			grtask.addEncodedQuery('opened_by='+grusr.getValue('sys_id'));
+			grtask.orderByDesc('sys_created_on');
+			grtask.query();
+			if(grtask.next()){
+				data.task = grtask.getValue('number');
+			}
+		}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 13:42:55</sys_created_on>
+        <sys_id>58ca175247ff21106e504aff336d43df</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Admin page Wid</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_widget_58ca175247ff21106e504aff336d43df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:55:30</sys_updated_on>
+        <template><![CDATA[<div>
+  <!-- your widget template -->
+  Hello {{data.fname}},
+  <br/>
+ Enter your name:
+ <input type="text" ng-model="c.data.sometext" ng-change="c.display()"/>
+</div>]]></template>
+    </sp_widget>
+</record_update>
