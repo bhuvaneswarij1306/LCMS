@@ -35,7 +35,7 @@
                 <element inactive_on_update="false" label="Yearly" sequence="2" value="yearly"/>
             </choice>
         </element>
-        <element label="Request Owner" max_length="32" name="request_owner" read_only="true" reference="sys_user" type="reference"/>
+        <element default="javascript: gs.getUserID()" label="Request Owner" max_length="32" name="request_owner" read_only="true" reference="sys_user" type="reference"/>
         <element label="Reviewer" max_length="32" name="reviewer" reference="sys_user" reference_qual="roles=x_1025229_lcms.reviewer" reference_qual_condition="roles=x_1025229_lcms.reviewer" type="reference"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="string">
