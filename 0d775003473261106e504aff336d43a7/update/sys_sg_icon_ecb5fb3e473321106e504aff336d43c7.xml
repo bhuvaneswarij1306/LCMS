@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"Name":"Check Circle","Value":"f058","FontName":"now-mobile-icons","FontColor":"#293E40","BackgroundColor":"#293E40"}</icon>
+        <name>Check Circle</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 04:57:36</sys_created_on>
+        <sys_id>ecb5fb3e473321106e504aff336d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Circle</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_sg_icon_ecb5fb3e473321106e504aff336d43c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 04:57:36</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+</record_update>

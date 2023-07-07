@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>34ba4ed6477721106e504aff336d4371</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>Appian Post Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_34ba4ed6477721106e504aff336d4371</sys_update_name>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-06 13:03:48</sys_updated_on>
+        <sys_updated_on>2023-07-07 05:24:14</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -413,13 +413,13 @@
         <input_name>body</input_name>
         <instance>c58d425e477721106e504aff336d43ca</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n/*var j \u003d \u0027{\"Name\":\"Krishna\",\"Email\": \"XYZ\", \"CN\": \"12345\"}\u0027;  \nvar data \u003d JSON.parse(j);*/\n var requestDetails \u003d fd_data.action_inputs.request_details;\n var jsonData \u003d { \"description\" :  requestDetails.description.toString(),\n \"dueDate\" : requestDetails.due_date.toString(),\n \"reviewer\" :requestDetails.reviewer.toString(),\n \"days\" : requestDetails.days.toString(),\n \"sysId\" : requestDetails.sys_id.toString(),\n \"approval\" : requestDetails.approval_state.toString(),\n \"createdOn\" : requestDetails.sys_created_on.toString(),\n \"endDate\": requestDetails.end_date.toString(),\n \"fromEmail\": requestDetails.from_email.toString(),\n \"isApprovalRequired\":requestDetails.is_reviewer_needed.toString(),\n \"isRecurring\": requestDetails.is_recurrence.toString(),\n \"recurrencePattern\": requestDetails.recurrence_pattern.toString(),\n \"requestNumber\": requestDetails.number.toString(),\n /*\"requestOwner\": requestDetails.request_owner.toString(),\n \"startDate\" : requestDetails.start_date.toString(),\n \"status\": requestDetails.status.toString(),\n \"updatedOn\": requestDetails.sys_updated_on.toString(),\n \"updatedBy\" : requestDetails.sys_updated_by.toString(),\n \"recurrenceDate\": requestDetails.recurrence_date.toString()*/\n};\n return JSON.stringify(jsonData);"}}</script>
+        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n/*var j \u003d \u0027{\"Name\":\"Krishna\",\"Email\": \"XYZ\", \"CN\": \"12345\"}\u0027;  \nvar data \u003d JSON.parse(j);*/\n var requestDetails \u003d fd_data.action_inputs.request_details;\n var jsonData \u003d { \"description\" :  requestDetails.description.toString(),\n \"dueDate\" : requestDetails.due_date.toString(),\n \"reviewer\" :requestDetails.reviewer.toString(),\n \"days\" : requestDetails.days.toString(),\n \"sysId\" : requestDetails.sys_id.toString(),\n \"approval\" : requestDetails.approval_state.toString(),\n \"createdOn\" : Date(requestDetails.sys_created_on),\n \"endDate\": requestDetails.end_date.toString(),\n \"fromEmail\": requestDetails.from_email.toString(),\n \"isApprovalRequired\":requestDetails.is_reviewer_needed.toString(),\n \"isRecurring\": requestDetails.is_recurrence.toString(),\n \"recurrencePattern\": requestDetails.recurrence_pattern.toString(),\n \"requestNumber\": requestDetails.number.toString(),\n \"requestOwner\": requestDetails.request_owner.toString(),\n /*\"startDate\" : requestDetails.start_date.toString(),\n \"status\": requestDetails.status.toString(),\n \"updatedOn\": requestDetails.sys_updated_on.toString(),\n \"updatedBy\" : requestDetails.sys_updated_by.toString(),\n \"recurrenceDate\": requestDetails.recurrence_date.toString()*/\n};\n return JSON.stringify(jsonData);"}}</script>
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-06 12:04:49</sys_created_on>
         <sys_id>f0edc8ba4733e1106e504aff336d4337</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-06 13:03:48</sys_updated_on>
+        <sys_updated_on>2023-07-07 05:24:14</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c58d425e477721106e504aff336d43ca^sys_idNOT IN8d8d425e477721106e504aff336d43f1"/>
     <sys_documentation action="INSERT_OR_UPDATE">

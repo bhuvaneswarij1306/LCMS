@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>sysapproval_approver</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="My Approvals Record Screen">70b5737e473321106e504aff336d4300</embedded_screen>
+        <item_view/>
+        <name>My Approvals List Item Config</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 04:57:36</sys_created_on>
+        <sys_id>f4b5737e473321106e504aff336d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Approvals List Item Config</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_sg_master_item_f4b5737e473321106e504aff336d4318</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 04:57:36</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="My Approvals Card">f0b5337e473321106e504aff336d43f8</view_config>
+    </sys_sg_master_item>
+</record_update>

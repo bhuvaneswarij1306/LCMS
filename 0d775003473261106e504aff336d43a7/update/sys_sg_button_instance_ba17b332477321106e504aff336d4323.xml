@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Launcher Button">7a17b332477321106e504aff336d4320</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon display_value="User Icon">2e177bfe473321106e504aff336d43ce</icon>
+        <label>CMS Launcher Button Instance</label>
+        <location>top</location>
+        <name>CMS Launcher Button Instance</name>
+        <order/>
+        <parent>1d13face47b361106e504aff336d4331</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 05:03:45</sys_created_on>
+        <sys_id>ba17b332477321106e504aff336d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMS Launcher Button Instance</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_sg_button_instance_ba17b332477321106e504aff336d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 05:03:45</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba17b332477321106e504aff336d4323"/>
+</record_update>
