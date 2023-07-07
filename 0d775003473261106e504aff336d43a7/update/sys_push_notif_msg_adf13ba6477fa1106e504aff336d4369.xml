@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>New request create Request Number : ${number}</message_string>
+        <name>Request Creation</name>
+        <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
+        <push_message_content display_value="ApplicationServiceContentPayload">17c91266b7f87300c929facbde11a9c1</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-06 10:05:06</sys_created_on>
+        <sys_id>adf13ba6477fa1106e504aff336d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Creation</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_push_notif_msg_adf13ba6477fa1106e504aff336d4369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-06 10:05:06</sys_updated_on>
+        <table>x_1025229_lcms_req_detail</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

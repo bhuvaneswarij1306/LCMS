@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="Nauman COE">0789c656477721106e504aff336d43bb</basic_auth_profile>
+        <basic_auth_user/>
+        <description/>
+        <name>Appian Rest Message</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://appiancoe.vuram.com/suite/webapi/j4DL4g</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-06 10:18:09</sys_created_on>
+        <sys_id>5f3573ea477fa1106e504aff336d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Appian Rest Message</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_rest_message_5f3573ea477fa1106e504aff336d43e5</sys_update_name>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-06 10:18:09</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

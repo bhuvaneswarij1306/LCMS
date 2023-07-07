@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+"description": "$description)",&#13;
+"due_date":"$(due_date)"&#13;
+&#13;
+}</content>
+        <function_name>Request Post</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Appian Rest Message [ Request Post ]</qualified_name>
+        <rest_endpoint>https://appiancoe.vuram.com/suite/webapi/p29WgQ</rest_endpoint>
+        <rest_message display_value="Appian Rest Message">5f3573ea477fa1106e504aff336d43e5</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-06 10:18:44</sys_created_on>
+        <sys_id>0985b36e477fa1106e504aff336d43b7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Request Post</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_rest_message_fn_0985b36e477fa1106e504aff336d43b7</sys_update_name>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-06 11:41:01</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
