@@ -14,7 +14,9 @@
             <choice>
                 <element inactive_on_update="false" label="Friday" value="Friday"/>
                 <element inactive_on_update="false" label="monday" value="monday"/>
+                <element inactive_on_update="false" label="Saturday" value="Saturday"/>
                 <element inactive_on_update="false" label="sunday" value="sunday"/>
+                <element inactive_on_update="false" label="Test" value="Test"/>
                 <element inactive_on_update="false" label="thursday" value="thursday"/>
                 <element inactive_on_update="false" label="tuesday" value="tuesday"/>
                 <element inactive_on_update="false" label="wednesday" value="wednesday"/>
