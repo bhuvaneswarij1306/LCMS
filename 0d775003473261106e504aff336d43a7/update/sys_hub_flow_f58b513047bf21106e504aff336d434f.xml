@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description>Flow for default approval</description>
         <internal_name>approval_flow</internal_name>
-        <label_cache>[{"name":"4145bdd9-9e22-437d-b7c7-b85d1af84686.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.is_reviewer_needed","label":"1 - Look Up Record➛Request Details Record➛Is Reviewer Needed","reference":"","reference_display":"Is Reviewer Needed","type":"boolean","base_type":"boolean","parent_table_name":"x_1025229_lcms_req_detail","column_name":"is_reviewer_needed"},{"name":"subflow.requestid","label":"Input➛requestId","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"307ab026-c16a-4764-9672-62e83a1089f2"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record","label":"1 - Look Up Record➛Request Details Record","reference":"x_1025229_lcms_req_detail","reference_display":"Request Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.reviewer","label":"1 - Look Up Record➛Request Details Record➛Reviewer","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1025229_lcms_req_detail","column_name":"reviewer"},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.status","label":"1 - Look Up Record➛Request Details Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1025229_lcms_req_detail","column_name":"status","choices":[{"label":"-- None --","image":"","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"image":"","label":"Awaiting Functional Team Details","used":false,"rawLabel":"Awaiting Functional Team Details","selected":false,"missing":false,"reference":false,"value":"Awaiting Functional Team Details","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Submitted","used":false,"rawLabel":"Submitted","selected":false,"missing":false,"reference":false,"value":"Submitted","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Approved By Reviewer","used":false,"rawLabel":"Approved By Reviewer","selected":false,"missing":false,"reference":false,"value":"Approved By Reviewer","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Approved By Functional Team","used":false,"rawLabel":"Approved By Functional Team","selected":false,"missing":false,"reference":false,"value":"Approved By Functional Team","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Send Back","used":false,"rawLabel":"Send Back","selected":false,"missing":false,"reference":false,"value":"Send Back","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Rejected","used":false,"rawLabel":"Rejected","selected":false,"missing":false,"reference":false,"value":"Rejected","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Completed","used":false,"rawLabel":"Completed","selected":false,"missing":false,"reference":false,"value":"Completed","parameters":{"name":"x_1025229_lcms_req_detail"}}]}]</label_cache>
+        <label_cache>[{"name":"4145bdd9-9e22-437d-b7c7-b85d1af84686.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.is_reviewer_needed","label":"1 - Look Up Record➛Request Details Record➛Is Reviewer Needed","reference":"","reference_display":"Is Reviewer Needed","type":"boolean","base_type":"boolean","parent_table_name":"x_1025229_lcms_req_detail","column_name":"is_reviewer_needed"},{"name":"subflow.requestid","label":"Input➛requestId","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"307ab026-c16a-4764-9672-62e83a1089f2"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record","label":"1 - Look Up Record➛Request Details Record","reference":"x_1025229_lcms_req_detail","reference_display":"Request Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.reviewer","label":"1 - Look Up Record➛Request Details Record➛Reviewer","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1025229_lcms_req_detail","column_name":"reviewer"},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.status","label":"1 - Look Up Record➛Request Details Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1025229_lcms_req_detail","column_name":"status","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"Awaiting Functional Team Details","image":"","reference":false,"rawLabel":"Awaiting Functional Team Details","selected":false,"missing":false,"value":"Awaiting Functional Team Details","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Submitted","image":"","reference":false,"rawLabel":"Submitted","selected":false,"missing":false,"value":"Submitted","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Approved By Reviewer","image":"","reference":false,"rawLabel":"Approved By Reviewer","selected":false,"missing":false,"value":"Approved By Reviewer","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Approved By Functional Team","image":"","reference":false,"rawLabel":"Approved By Functional Team","selected":false,"missing":false,"value":"Approved By Functional Team","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Send Back","image":"","reference":false,"rawLabel":"Send Back","selected":false,"missing":false,"value":"Send Back","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Rejected","image":"","reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"Rejected","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Completed","image":"","reference":false,"rawLabel":"Completed","selected":false,"missing":false,"value":"Completed","parameters":{"name":"x_1025229_lcms_req_detail"}}]}]</label_cache>
         <master_snapshot>8f778fe147bba1106e504aff336d435c</master_snapshot>
         <name>Approval Flow</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f58b513047bf21106e504aff336d434f</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Approval Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sys_hub_flow_f58b513047bf21106e504aff336d434f</sys_update_name>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:13</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:13</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f58b513047bf21106e504aff336d434f"/>
@@ -158,10 +158,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:25</sys_created_on>
         <sys_id>0cc6fc3147f7e1106e504aff336d4342</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:43:35</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 05:20:07</sys_updated_on>
         <ui_id>5e7118d1-7120-416a-9c4b-a5446fff3c5c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0cc6fc3147f7e1106e504aff336d4342"/>
@@ -246,10 +246,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:25</sys_created_on>
         <sys_id>44c6fc3147f7e1106e504aff336d434d</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:43:35</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 05:20:07</sys_updated_on>
         <ui_id>70318650-cbe6-4b58-bbbf-2e95d7a74b81</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=44c6fc3147f7e1106e504aff336d434d"/>
@@ -334,10 +334,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 04:11:51</sys_created_on>
         <sys_id>6bd4cfad477ba1106e504aff336d439f</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:43:35</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 05:20:07</sys_updated_on>
         <ui_id>a2ae27be-4a43-4799-89f5-ea169119fc34</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6bd4cfad477ba1106e504aff336d439f"/>
@@ -396,10 +396,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:25</sys_created_on>
         <sys_id>8cc6fc3147f7e1106e504aff336d4337</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:43:35</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 05:20:07</sys_updated_on>
         <ui_id>4145bdd9-9e22-437d-b7c7-b85d1af84686</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8cc6fc3147f7e1106e504aff336d4337"/>
@@ -411,11 +411,25 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 11:39:43</sys_created_on>
         <sys_id>07b119cb47fb21106e504aff336d433e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 04:47:13</sys_updated_on>
+        <value/>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8cc6fc3147f7e1106e504aff336d4337</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 05:15:54</sys_created_on>
+        <sys_id>0ea6177347f321106e504aff336d4362</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:39:43</sys_updated_on>
-        <value>number</value>
-        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+        <sys_updated_on>2023-07-10 05:15:54</sys_updated_on>
+        <value>comments</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -497,6 +511,18 @@
         <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>8cc6fc3147f7e1106e504aff336d4337</id>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 05:15:54</sys_created_on>
+        <sys_id>86a6177347f321106e504aff336d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 05:15:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
         <id>8cc6fc3147f7e1106e504aff336d4337</id>
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
@@ -546,10 +572,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:25</sys_created_on>
         <sys_id>88c6fc3147f7e1106e504aff336d433b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:13</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:13</sys_updated_on>
         <ui_id>1e578d76-1897-4689-ade9-8374bbce8b00</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -618,10 +644,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:25</sys_created_on>
         <sys_id>c8c6fc3147f7e1106e504aff336d4345</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:13</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:13</sys_updated_on>
         <ui_id>3a700dcb-0c47-4323-8894-05cdbed35052</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -690,10 +716,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:25</sys_created_on>
         <sys_id>ccc6fc3147f7e1106e504aff336d432d</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:13</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:13</sys_updated_on>
         <ui_id>956aa9bd-a41a-46d1-aece-99d015413589</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -774,17 +800,17 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"1777cfe147bba1106e504aff336d4321","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Approval Flow">f58b513047bf21106e504aff336d434f</plan_id>
-        <snapshot>2392194f47fb21106e504aff336d4390</snapshot>
+        <snapshot>bf971bf347f321106e504aff336d43f3</snapshot>
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 04:23:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1777cfe147bba1106e504aff336d4321</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:13</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:13</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -797,7 +823,7 @@
         <copied_from_name/>
         <description>Flow for default approval</description>
         <internal_name>approval_flow</internal_name>
-        <label_cache>[{"name":"4145bdd9-9e22-437d-b7c7-b85d1af84686.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.is_reviewer_needed","label":"1 - Look Up Record➛Request Details Record➛Is Reviewer Needed","reference":"","reference_display":"Is Reviewer Needed","type":"boolean","base_type":"boolean","parent_table_name":"x_1025229_lcms_req_detail","column_name":"is_reviewer_needed"},{"name":"subflow.requestid","label":"Input➛requestId","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"307ab026-c16a-4764-9672-62e83a1089f2"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record","label":"1 - Look Up Record➛Request Details Record","reference":"x_1025229_lcms_req_detail","reference_display":"Request Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.reviewer","label":"1 - Look Up Record➛Request Details Record➛Reviewer","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1025229_lcms_req_detail","column_name":"reviewer"},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.status","label":"1 - Look Up Record➛Request Details Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1025229_lcms_req_detail","column_name":"status","choices":[{"label":"-- None --","image":"","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"image":"","label":"Awaiting Functional Team Details","used":false,"rawLabel":"Awaiting Functional Team Details","selected":false,"missing":false,"reference":false,"value":"Awaiting Functional Team Details","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Submitted","used":false,"rawLabel":"Submitted","selected":false,"missing":false,"reference":false,"value":"Submitted","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Approved By Reviewer","used":false,"rawLabel":"Approved By Reviewer","selected":false,"missing":false,"reference":false,"value":"Approved By Reviewer","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Approved By Functional Team","used":false,"rawLabel":"Approved By Functional Team","selected":false,"missing":false,"reference":false,"value":"Approved By Functional Team","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Send Back","used":false,"rawLabel":"Send Back","selected":false,"missing":false,"reference":false,"value":"Send Back","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Rejected","used":false,"rawLabel":"Rejected","selected":false,"missing":false,"reference":false,"value":"Rejected","parameters":{"name":"x_1025229_lcms_req_detail"}},{"image":"","label":"Completed","used":false,"rawLabel":"Completed","selected":false,"missing":false,"reference":false,"value":"Completed","parameters":{"name":"x_1025229_lcms_req_detail"}}]}]</label_cache>
+        <label_cache>[{"name":"4145bdd9-9e22-437d-b7c7-b85d1af84686.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.is_reviewer_needed","label":"1 - Look Up Record➛Request Details Record➛Is Reviewer Needed","reference":"","reference_display":"Is Reviewer Needed","type":"boolean","base_type":"boolean","parent_table_name":"x_1025229_lcms_req_detail","column_name":"is_reviewer_needed"},{"name":"subflow.requestid","label":"Input➛requestId","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"307ab026-c16a-4764-9672-62e83a1089f2"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record","label":"1 - Look Up Record➛Request Details Record","reference":"x_1025229_lcms_req_detail","reference_display":"Request Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.reviewer","label":"1 - Look Up Record➛Request Details Record➛Reviewer","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1025229_lcms_req_detail","column_name":"reviewer"},{"name":"a2ae27be-4a43-4799-89f5-ea169119fc34.Record.status","label":"1 - Look Up Record➛Request Details Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1025229_lcms_req_detail","column_name":"status","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"Awaiting Functional Team Details","image":"","reference":false,"rawLabel":"Awaiting Functional Team Details","selected":false,"missing":false,"value":"Awaiting Functional Team Details","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Submitted","image":"","reference":false,"rawLabel":"Submitted","selected":false,"missing":false,"value":"Submitted","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Approved By Reviewer","image":"","reference":false,"rawLabel":"Approved By Reviewer","selected":false,"missing":false,"value":"Approved By Reviewer","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Approved By Functional Team","image":"","reference":false,"rawLabel":"Approved By Functional Team","selected":false,"missing":false,"value":"Approved By Functional Team","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Send Back","image":"","reference":false,"rawLabel":"Send Back","selected":false,"missing":false,"value":"Send Back","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Rejected","image":"","reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"Rejected","parameters":{"name":"x_1025229_lcms_req_detail"}},{"used":false,"label":"Completed","image":"","reference":false,"rawLabel":"Completed","selected":false,"missing":false,"value":"Completed","parameters":{"name":"x_1025229_lcms_req_detail"}}]}]</label_cache>
         <master>true</master>
         <name>Approval Flow</name>
         <natlang/>
@@ -814,7 +840,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8f778fe147bba1106e504aff336d435c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -822,7 +848,7 @@
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:12</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:12</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=8f778fe147bba1106e504aff336d435c"/>
@@ -943,10 +969,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:45</sys_created_on>
         <sys_id>41d6f07147f7e1106e504aff336d436f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:12</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:12</sys_updated_on>
         <ui_id>70318650-cbe6-4b58-bbbf-2e95d7a74b81</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=41d6f07147f7e1106e504aff336d436f"/>
@@ -1031,10 +1057,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:45</sys_created_on>
         <sys_id>c1d6f07147f7e1106e504aff336d4361</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:12</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:12</sys_updated_on>
         <ui_id>4145bdd9-9e22-437d-b7c7-b85d1af84686</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c1d6f07147f7e1106e504aff336d4361"/>
@@ -1083,15 +1109,29 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>c1d6f07147f7e1106e504aff336d4361</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 05:16:11</sys_created_on>
+        <sys_id>5ab65b7347f321106e504aff336d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 05:16:11</sys_updated_on>
+        <value>comments</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c1d6f07147f7e1106e504aff336d4361</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 11:42:11</sys_created_on>
         <sys_id>d7421d0f47fb21106e504aff336d43cb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:11</sys_updated_on>
-        <value>number</value>
+        <sys_updated_on>2023-07-10 04:47:26</sys_updated_on>
+        <value/>
         <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c1d6f07147f7e1106e504aff336d4361"/>
@@ -1130,6 +1170,18 @@
         <sys_updated_on>2023-07-03 12:29:45</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>c1d6f07147f7e1106e504aff336d4361</id>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 05:16:11</sys_created_on>
+        <sys_id>d6b65b7347f321106e504aff336d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 05:16:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
@@ -1171,10 +1223,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:45</sys_created_on>
         <sys_id>c1d6f07147f7e1106e504aff336d4369</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:12</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:12</sys_updated_on>
         <ui_id>5e7118d1-7120-416a-9c4b-a5446fff3c5c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c1d6f07147f7e1106e504aff336d4369"/>
@@ -1259,10 +1311,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 04:23:17</sys_created_on>
         <sys_id>cb778fe147bba1106e504aff336d43e9</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:11</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:11</sys_updated_on>
         <ui_id>a2ae27be-4a43-4799-89f5-ea169119fc34</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cb778fe147bba1106e504aff336d43e9"/>
@@ -1331,10 +1383,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:46</sys_created_on>
         <sys_id>49d6f07147f7e1106e504aff336d4371</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:12</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:12</sys_updated_on>
         <ui_id>956aa9bd-a41a-46d1-aece-99d015413589</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1403,10 +1455,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:46</sys_created_on>
         <sys_id>51d6f07147f7e1106e504aff336d4376</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:12</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:12</sys_updated_on>
         <ui_id>1e578d76-1897-4689-ade9-8374bbce8b00</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1475,10 +1527,10 @@
         <sys_created_by>keerthanast@vuram.com</sys_created_by>
         <sys_created_on>2023-07-03 12:29:46</sys_created_on>
         <sys_id>ddd6f07147f7e1106e504aff336d4379</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 11:42:12</sys_updated_on>
+        <sys_updated_on>2023-07-10 05:16:12</sys_updated_on>
         <ui_id>3a700dcb-0c47-4323-8894-05cdbed35052</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>copy_of_cms_create_request_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-07 12:05:43</sys_created_on>
+        <sys_id>00b79dc3473f21106e504aff336d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_cms_create_request_1</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_page_00b79dc3473f21106e504aff336d43e4</sys_update_name>
+        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-07 12:05:43</sys_updated_on>
+        <title>Copy of cms_create_request (1)</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=00b79dc3473f21106e504aff336d43e4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sp_page_00b79dc3473f21106e504aff336d43e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>copy_of_cms_create_request_1</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>shanmugapriyat@vuram.com</sys_created_by><sys_created_on>2023-07-07 12:05:43</sys_created_on><sys_id>00b79dc3473f21106e504aff336d43e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copy_of_cms_create_request_1</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sp_page_00b79dc3473f21106e504aff336d43e4</sys_update_name><sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by><sys_updated_on>2023-07-07 12:05:43</sys_updated_on><title>Copy of cms_create_request (1)</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=00b79dc3473f21106e504aff336d43e4"/></record_update>]]></payload>
+        <payload_hash>1280969893</payload_hash>
+        <record_name>copy_of_cms_create_request_1</record_name>
+        <reverted_from/>
+        <source>2fc8200f47b721106e504aff336d4321</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-07 12:05:44</sys_created_on>
+        <sys_id>80b79dc3473f21106e504aff336d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189303e6a8d0000001</sys_recorded_at>
+        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-07 12:05:44</sys_updated_on>
+        <type>Page</type>
+        <update_guid>88b79dc3853f21101fa62cc6479759e6</update_guid>
+        <update_guid_history>88b79dc3853f21101fa62cc6479759e6:1280969893</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="copy_of_cms_create_request_1">2fce1507477f21106e504aff336d4358</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-07 12:36:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>4415e4c1fc084156a73c6770f73693e4</sys_id>
+        <sys_metadata>00b79dc3473f21106e504aff336d43e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_cms_create_request_1</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sp_page_00b79dc3473f21106e504aff336d43e4</sys_update_name>
+        <sys_update_version display_value="sp_page_00b79dc3473f21106e504aff336d43e4">80b79dc3473f21106e504aff336d43e7</sys_update_version>
+        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-07 12:36:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

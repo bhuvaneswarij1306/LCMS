@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="b43a1c07473261106e504aff336d43de" label="Request Details" max_length="40" name="x_1025229_lcms_req_detail" text_index="true" type="collection">
         <element active="false" label="Comments" max_length="40" name="additional_comments" type="journal_input"/>
+        <element label="Appian Id" max_length="40" name="appian_id" type="integer"/>
         <element choice="3" label="Approval State" max_length="40" name="approval_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
