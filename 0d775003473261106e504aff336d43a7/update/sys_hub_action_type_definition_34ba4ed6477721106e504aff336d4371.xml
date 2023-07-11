@@ -13,7 +13,7 @@
         <description/>
         <ih_action>false</ih_action>
         <internal_name>appian_integrate</internal_name>
-        <label_cache>[{"name":"{{action.request_details}}","label":"action➛Request Details","type":"action","ref":"","reference_display":"Request Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.function_team_details}}","label":"action➛Function Team Details","type":"action","ref":"","reference_display":"Functional Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.action}}","label":"action➛Action","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"Get","value":"Get","order":0},{"label":"Post","value":"Post","order":1},{"label":"Put","value":"Put","order":2},{"label":"Patch","value":"Patch","order":3}],"attributes":{"sourceId":"","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"choice","uiUniqueId":"0d298f6d-78aa-4e26-964a-529b45b84255"}},{"name":"{{action.request_details.description}}","label":"action➛Request Details➛Description","type":"action","ref":"","reference_display":"Description","base_type":"string","parent_table_name":"x_1025229_lcms_req_detail","column_name":"description","choices":null,"attributes":{}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ad4cf8d-c0e7-4aa0-9de9-2880d3c99f7c].record}}","label":"step➛Update Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.request_details}}","label":"action➛Request Details","type":"action","ref":"","reference_display":"Request Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"1f340e18-b4e7-4919-8811-5f6009f348ac","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{action.function_team_details}}","label":"action➛Function Team Details","type":"action","ref":"","reference_display":"Functional Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.action}}","label":"action➛Action","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"Get","value":"Get","order":0},{"label":"Post","value":"Post","order":1},{"label":"Put","value":"Put","order":2},{"label":"Patch","value":"Patch","order":3}],"attributes":{"sourceId":"","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"choice","uiUniqueId":"0d298f6d-78aa-4e26-964a-529b45b84255"}},{"name":"{{action.request_details.description}}","label":"action➛Request Details➛Description","type":"action","ref":"","reference_display":"Description","base_type":"string","parent_table_name":"x_1025229_lcms_req_detail","column_name":"description","choices":null,"attributes":{}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ad4cf8d-c0e7-4aa0-9de9-2880d3c99f7c].record}}","label":"step➛Update Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[20691386-5ddc-4013-ae97-44c8b9ed260d].appian_id}}","label":"step➛Script step➛appian Id","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master_snapshot>48c00c4747b321106e504aff336d4302</master_snapshot>
         <name>Appian Create/Update Request</name>
         <natlang/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>34ba4ed6477721106e504aff336d4371</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name>Appian Create/Update Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_34ba4ed6477721106e504aff336d4371</sys_update_name>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:54:07</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:56:46</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -69,7 +69,33 @@
         <value>0</value>
         <variable display_value="Don't Treat as Error">5c6c8e9a477721106e504aff336d436e</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>34ba4ed6477721106e504aff336d4371</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 16:46:41</sys_created_on>
+        <sys_id>f0c4b148474471106e504aff336d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:46:41</sys_updated_on>
+        <value/>
+        <variable display_value="Appian Id">70c4b148474471106e504aff336d43ca</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=34ba4ed6477721106e504aff336d4371"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>appian_id</field>
+        <id>34ba4ed6477721106e504aff336d4371</id>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 16:46:41</sys_created_on>
+        <sys_id>70c4b148474471106e504aff336d43e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:09:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_34ba4ed6477721106e504aff336d4371</table>
+        <value>{{step[20691386-5ddc-4013-ae97-44c8b9ed260d].appian_id}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>variable</field>
         <id>34ba4ed6477721106e504aff336d4371</id>
@@ -88,11 +114,11 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-10 04:26:37</sys_created_on>
         <sys_id>806b87fb477321106e504aff336d43ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:26:37</sys_updated_on>
+        <sys_updated_on>2023-07-10 16:46:41</sys_updated_on>
         <table>var__m_sys_hub_action_output_34ba4ed6477721106e504aff336d4371</table>
-        <value>{{step[5ad4cf8d-c0e7-4aa0-9de9-2880d3c99f7c].record}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
@@ -118,60 +144,294 @@
         <table>var__m_sys_hub_action_output_34ba4ed6477721106e504aff336d4371</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=34ba4ed6477721106e504aff336d4371^sys_idNOT IN806b87fb477321106e504aff336d43d4,c58d425e477721106e504aff336d43ca"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=34ba4ed6477721106e504aff336d4371^sys_idNOT IN60c4b148474471106e504aff336d43a4,c58d425e477721106e504aff336d43ca"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Appian Create/Update Request">34ba4ed6477721106e504aff336d4371</action>
-        <cid>5ad4cf8d-c0e7-4aa0-9de9-2880d3c99f7c</cid>
+        <cid>20691386-5ddc-4013-ae97-44c8b9ed260d</cid>
         <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
-        <label>Update Record step</label>
+        <label>Script step</label>
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-10 04:26:37</sys_created_on>
-        <sys_id>806b87fb477321106e504aff336d43d4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>60c4b148474471106e504aff336d43a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:54:06</sys_updated_on>
+        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=806b87fb477321106e504aff336d43d4"/>
-    <sys_element_mapping action="delete_multiple" query="id=806b87fb477321106e504aff336d43d4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=60c4b148474471106e504aff336d43a4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60c4b148474471106e504aff336d43a4</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>7cc4b148474471106e504aff336d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60c4b148474471106e504aff336d43a4</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>b4c4b148474471106e504aff336d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  outputs.appian_id = inputs.appian_id;
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=60c4b148474471106e504aff336d43a4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>806b87fb477321106e504aff336d43d4</id>
+        <field>application</field>
+        <id>60c4b148474471106e504aff336d43a4</id>
         <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-10 04:26:37</sys_created_on>
-        <sys_id>806b87fb477321106e504aff336d43da</sys_id>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>f0c4b148474471106e504aff336d43b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:26:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
-        <value>{{action.request_details}}</value>
+        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=806b87fb477321106e504aff336d43d4"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=806b87fb477321106e504aff336d43d4"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=806b87fb477321106e504aff336d43d4^sys_idNOT IN4c6b87fb477321106e504aff336d43d8"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <input_name>update_record_field_values</input_name>
-        <instance>806b87fb477321106e504aff336d43d4</instance>
-        <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"appian_id":{"scriptActive":true,"savedValue":""}}</script>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>httpResponse</field>
+        <id>60c4b148474471106e504aff336d43a4</id>
         <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-10 04:26:37</sys_created_on>
-        <sys_id>4c6b87fb477321106e504aff336d43d8</sys_id>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>70c4b148474471106e504aff336d43ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:26:37</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_806b87fb477321106e504aff336d43d4"/>
+        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_60c4b148474471106e504aff336d43a4</table>
+        <value>{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>60c4b148474471106e504aff336d43a4</id>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>f8c4b148474471106e504aff336d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_60c4b148474471106e504aff336d43a4^id=60c4b148474471106e504aff336d43a4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=60c4b148474471106e504aff336d43a4"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=60c4b148474471106e504aff336d43a4^sys_idNOT INecc4b148474471106e504aff336d43ab"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>httpResponse</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">60c4b148474471106e504aff336d43a4</model>
+        <model_id>60c4b148474471106e504aff336d43a4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_60c4b148474471106e504aff336d43a4</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>ecc4b148474471106e504aff336d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=60c4b148474471106e504aff336d43a4^sys_idNOT IN60c4b148474471106e504aff336d43b0"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=8fbbbc38-974c-421a-a0bb-95a2276899b6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>appian_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>appian Id</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">60c4b148474471106e504aff336d43a4</model>
+        <model_id>60c4b148474471106e504aff336d43a4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_60c4b148474471106e504aff336d43a4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>60c4b148474471106e504aff336d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=60c4b148474471106e504aff336d43a4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_60c4b148474471106e504aff336d43a4^sys_idNOT INf8c4b148474471106e504aff336d43b3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>appian_id</element>
+        <help/>
+        <hint/>
+        <label>appian Id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_60c4b148474471106e504aff336d43a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>f8c4b148474471106e504aff336d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Appian Create/Update Request">34ba4ed6477721106e504aff336d4371</action>
         <cid>3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7</cid>
@@ -188,12 +448,26 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-05 08:05:28</sys_created_on>
         <sys_id>c58d425e477721106e504aff336d43ca</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-06 12:04:49</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:40:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c58d425e477721106e504aff336d43ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c58d425e477721106e504aff336d43ca</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:21:14</sys_created_on>
+        <sys_id>0271ac98478031106e504aff336d436c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:40:09</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>c58d425e477721106e504aff336d43ca</document_key>
@@ -428,7 +702,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=41704dfd-0bab-4194-bdfa-2077e711b0f5</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -469,7 +743,7 @@
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_c58d425e477721106e504aff336d43ca</name>
         <next_element/>
-        <order>1</order>
+        <order>8</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -487,14 +761,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-05 08:05:28</sys_created_on>
         <sys_id>418d425e477721106e504aff336d43ee</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-06 11:48:46</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:56:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -513,13 +787,13 @@
         <input_name>body</input_name>
         <instance>c58d425e477721106e504aff336d43ca</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n/*var j \u003d \u0027{\"Name\":\"Krishna\",\"Email\": \"XYZ\", \"CN\": \"12345\"}\u0027;  \nvar data \u003d JSON.parse(j);*/\n var requestDetails \u003d fd_data.action_inputs.request_details;\n var jsonData \u003d { \"description\" :  requestDetails.description.toString(),\n \"dueDate\" : requestDetails.due_date.toString(),\n \"reviewer\" :requestDetails.reviewer.toString(),\n \"days\" : requestDetails.days.toString(),\n \"sysId\" : requestDetails.sys_id.toString(),\n \"approval\" : requestDetails.approval_state.toString(),\n \"createdOn\" : new Date(requestDetails.sys_created_on.toString()),\n \"endDate\": requestDetails.end_date.toString(),\n \"fromEmail\": requestDetails.from_email.toString(),\n \"isApprovalRequired\":requestDetails.is_reviewer_needed.toString(),\n \"isRecurring\": requestDetails.is_recurrence.toString(),\n \"recurrencePattern\": requestDetails.recurrence_pattern.toString(),\n \"requestNumber\": requestDetails.number.toString(),\n \"requestOwner\": requestDetails.request_owner.toString(),\n \"startDate\" : requestDetails.start_date.toString(),\n \"status\": requestDetails.status.toString(),\n \"updatedOn\": requestDetails.sys_updated_on,\n \"updatedBy\" : requestDetails.sys_updated_by.toString(),\n \"recurrenceDate\": requestDetails.recurrence_date.toString()\n};\n return JSON.stringify(jsonData);"}}</script>
+        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n/*var j \u003d \u0027{\"Name\":\"Krishna\",\"Email\": \"XYZ\", \"CN\": \"12345\"}\u0027;  \nvar data \u003d JSON.parse(j);*/\n var requestDetails \u003d fd_data.action_inputs.request_details;\n var jsonData \u003d { \"description\" :  requestDetails.description.toString(),\n \"dueDate\" : requestDetails.due_date.toString(),\n \"reviewer\" :requestDetails.reviewer.toString(),\n \"days\" : requestDetails.days.toString(),\n \"sysId\" : requestDetails.sys_id.toString(),\n \"approval\" : requestDetails.approval_state.toString(),\n \"createdOn\" : requestDetails.sys_created_on.toString(),\n \"endDate\": requestDetails.end_date.toString(),\n \"fromEmail\": requestDetails.from_email.toString(),\n \"isApprovalRequired\":requestDetails.is_reviewer_needed.toString(),\n \"isRecurring\": requestDetails.is_recurrence.toString(),\n \"recurrencePattern\": requestDetails.recurrence_pattern.toString(),\n \"requestNumber\": requestDetails.number.toString(),\n \"requestOwner\": requestDetails.request_owner.toString(),\n \"startDate\" : requestDetails.start_date.toString(),\n \"status\": requestDetails.status.toString(),\n \"updatedOn\": requestDetails.sys_updated_on,\n \"updatedBy\" : requestDetails.sys_updated_by.toString(),\n \"recurrenceDate\": requestDetails.recurrence_date.toString()\n};\n return JSON.stringify(jsonData);"}}</script>
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-06 12:04:49</sys_created_on>
         <sys_id>f0edc8ba4733e1106e504aff336d4337</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 09:27:19</sys_updated_on>
+        <sys_updated_on>2023-07-10 16:40:37</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c58d425e477721106e504aff336d43ca^sys_idNOT IN8d8d425e477721106e504aff336d43f1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -545,7 +819,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=34ba4ed6477721106e504aff336d4371^sys_idNOT IN3a4b8a96477721106e504aff336d43c6,4c6c8e9a477721106e504aff336d435e"/>
+    <sys_hub_action_input action="delete_multiple" query="model=34ba4ed6477721106e504aff336d4371^sys_idNOT IN3a4b8a96477721106e504aff336d43c6"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -584,7 +858,7 @@
         <hint/>
         <internal_type display_value="Reference">reference</internal_type>
         <label>Request Details</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Appian Create/Update Request">34ba4ed6477721106e504aff336d4371</model>
         <model_id>34ba4ed6477721106e504aff336d4371</model_id>
@@ -609,14 +883,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-05 07:55:45</sys_created_on>
         <sys_id>3a4b8a96477721106e504aff336d43c6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-05 07:55:45</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:18:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -630,91 +904,7 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3a4b8a96477721106e504aff336d43c6"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=0d298f6d-78aa-4e26-964a-529b45b84255</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice>1</choice>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value>Get</default_value>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>action</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="Choice">choice</internal_type>
-        <label>Action</label>
-        <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <model display_value="Appian Create/Update Request">34ba4ed6477721106e504aff336d4371</model>
-        <model_id>34ba4ed6477721106e504aff336d4371</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_34ba4ed6477721106e504aff336d4371</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-05 08:00:29</sys_created_on>
-        <sys_id>4c6c8e9a477721106e504aff336d435e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:26:35</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4c6c8e9a477721106e504aff336d435e"/>
-    <sys_hub_action_output action="delete_multiple" query="model=34ba4ed6477721106e504aff336d4371^sys_idNOT IN186c8e9a477721106e504aff336d4369,486b87fb477321106e504aff336d43df,5c6c8e9a477721106e504aff336d436e,f7b0c84747b321106e504aff336d4390"/>
+    <sys_hub_action_output action="delete_multiple" query="model=34ba4ed6477721106e504aff336d4371^sys_idNOT IN186c8e9a477721106e504aff336d4369,5c6c8e9a477721106e504aff336d436e,70c4b148474471106e504aff336d43ca,f7b0c84747b321106e504aff336d4390"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -780,14 +970,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-05 08:00:29</sys_created_on>
         <sys_id>186c8e9a477721106e504aff336d4369</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:26:37</sys_updated_on>
+        <sys_updated_on>2023-07-10 16:47:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -802,93 +992,6 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=186c8e9a477721106e504aff336d4369"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=186c8e9a477721106e504aff336d4369"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=bb2c3dda-13ba-4eb5-89a6-8ec6b9ca45ae</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table>x_1025229_lcms_req_detail</choice_table>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>variable1</element>
-        <element_prototype display_value="Record" element="record" name="var__m_sys_flow_step_definition_output_b51f683667003200553fafb49585ef3f">ffd3197267003200553fafb49585ef5a</element_prototype>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="Reference">reference</internal_type>
-        <label>Request Details</label>
-        <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <model display_value="Appian Create/Update Request">34ba4ed6477721106e504aff336d4371</model>
-        <model_id>34ba4ed6477721106e504aff336d4371</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_34ba4ed6477721106e504aff336d4371</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference display_value="" name="x_1025229_lcms_req_detail">x_1025229_lcms_req_detail</reference>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-10 04:26:37</sys_created_on>
-        <sys_id>486b87fb477321106e504aff336d43df</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:54:07</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=486b87fb477321106e504aff336d43df"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=486b87fb477321106e504aff336d43df"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -954,14 +1057,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-05 08:00:29</sys_created_on>
         <sys_id>5c6c8e9a477721106e504aff336d436e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:26:37</sys_updated_on>
+        <sys_updated_on>2023-07-10 16:47:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -976,6 +1079,93 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5c6c8e9a477721106e504aff336d436e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5c6c8e9a477721106e504aff336d436e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=57706fa5-c7a6-4b95-b26d-dcf9787764af</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>appian_id</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Appian Id</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Appian Create/Update Request">34ba4ed6477721106e504aff336d4371</model>
+        <model_id>34ba4ed6477721106e504aff336d4371</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_34ba4ed6477721106e504aff336d4371</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>70c4b148474471106e504aff336d43ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:47:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=70c4b148474471106e504aff336d43ca"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=70c4b148474471106e504aff336d43ca"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1041,14 +1231,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:52</sys_created_on>
         <sys_id>f7b0c84747b321106e504aff336d4390</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:54:07</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:56:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1075,7 +1265,7 @@
         <sys_updated_on>2023-07-05 07:55:45</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=7a4bce1a477721106e504aff336d430b"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_34ba4ed6477721106e504aff336d4371^sys_idNOT IN364bce1a477721106e504aff336d4301,546c8e9a477721106e504aff336d4366"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_34ba4ed6477721106e504aff336d4371^sys_idNOT IN364bce1a477721106e504aff336d4301"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>request_details</element>
         <help/>
@@ -1096,29 +1286,6 @@
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
         <sys_updated_on>2023-07-05 07:55:45</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>action</element>
-        <help/>
-        <hint/>
-        <label>Action</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_34ba4ed6477721106e504aff336d4371</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-05 08:00:29</sys_created_on>
-        <sys_id>546c8e9a477721106e504aff336d4366</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-05 08:00:29</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1225,7 +1392,30 @@
             <value>Patch</value>
         </sys_choice>
     </sys_choice>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_34ba4ed6477721106e504aff336d4371^sys_idNOT IN3bb0c84747b321106e504aff336d4394,9c6c8e9a477721106e504aff336d436d,c86b87fb477321106e504aff336d43e4,d06c8e9a477721106e504aff336d4374"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_34ba4ed6477721106e504aff336d4371^sys_idNOT IN38c4b148474471106e504aff336d43cd,3bb0c84747b321106e504aff336d4394,9c6c8e9a477721106e504aff336d436d,d06c8e9a477721106e504aff336d4374"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>appian_id</element>
+        <help/>
+        <hint/>
+        <label>Appian Id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_34ba4ed6477721106e504aff336d4371</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
+        <sys_id>38c4b148474471106e504aff336d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>variable</element>
         <help/>
@@ -1273,29 +1463,6 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>variable1</element>
-        <help/>
-        <hint/>
-        <label>Request Details</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_output_34ba4ed6477721106e504aff336d4371</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-10 04:26:37</sys_created_on>
-        <sys_id>c86b87fb477321106e504aff336d43e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 04:26:37</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
         <hint/>
@@ -1323,17 +1490,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Appian Create/Update Request">34ba4ed6477721106e504aff336d4371</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2cc04c4747b321106e504aff336d43f2","name":"plan","plan_signature":null}}</plan>
-        <snapshot>18c00c4747b321106e504aff336d439a</snapshot>
+        <snapshot>b550a418478031106e504aff336d4375</snapshot>
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2cc04c4747b321106e504aff336d43f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 05:45:56</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:16:21</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1347,9 +1514,9 @@
         <copied_from_name/>
         <description/>
         <internal_name>appian_post_request</internal_name>
-        <label_cache>[{"name":"{{action.request_details}}","label":"action➛Request Details","type":"action","ref":"","reference_display":"Request Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.function_team_details}}","label":"action➛Function Team Details","type":"action","ref":"","reference_display":"Functional Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.action}}","label":"action➛Action","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"Get","value":"Get","order":0.0},{"label":"Post","value":"Post","order":1.0},{"label":"Put","value":"Put","order":2.0},{"label":"Patch","value":"Patch","order":3.0}],"attributes":{"sourceId":"","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"choice","uiUniqueId":"0d298f6d-78aa-4e26-964a-529b45b84255"}},{"name":"{{action.request_details.description}}","label":"action➛Request Details➛Description","type":"action","ref":"","reference_display":"Description","base_type":"string","parent_table_name":"x_1025229_lcms_req_detail","column_name":"description","choices":null,"attributes":{}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
+        <label_cache>[{"name":"{{action.request_details}}","label":"action➛Request Details","type":"action","ref":"","reference_display":"Request Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.function_team_details}}","label":"action➛Function Team Details","type":"action","ref":"","reference_display":"Functional Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.action}}","label":"action➛Action","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"Get","value":"Get","order":0.0},{"label":"Post","value":"Post","order":1.0},{"label":"Put","value":"Put","order":2.0},{"label":"Patch","value":"Patch","order":3.0}],"attributes":{"sourceId":"","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"choice","uiUniqueId":"0d298f6d-78aa-4e26-964a-529b45b84255"}},{"name":"{{action.request_details.description}}","label":"action➛Request Details➛Description","type":"action","ref":"","reference_display":"Description","base_type":"string","parent_table_name":"x_1025229_lcms_req_detail","column_name":"description","choices":null,"attributes":{}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ad4cf8d-c0e7-4aa0-9de9-2880d3c99f7c].record}}","label":"step➛Update Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[20691386-5ddc-4013-ae97-44c8b9ed260d].appian_id}}","label":"step➛Script step➛appian Id","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
-        <name>Appian Post Request</name>
+        <name>Appian Create/Update Request</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -1360,7 +1527,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>48c00c4747b321106e504aff336d4302</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1368,12 +1535,26 @@
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 05:45:53</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:16:17</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=48c00c4747b321106e504aff336d4302"/>
     <sys_variable_value action="delete_multiple" query="document_key=48c00c4747b321106e504aff336d4302"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>48c00c4747b321106e504aff336d4302</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>3950a418478031106e504aff336d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <value/>
+        <variable display_value="Appian Id">f150a418478031106e504aff336d434b</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
         <document_key>48c00c4747b321106e504aff336d4302</document_key>
@@ -1403,6 +1584,18 @@
         <variable display_value="Don't Treat as Error">ccc00c4747b321106e504aff336d4380</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=48c00c4747b321106e504aff336d4302"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>appian_id</field>
+        <id>48c00c4747b321106e504aff336d4302</id>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>b550a418478031106e504aff336d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <table>var__m_sys_hub_action_output_48c00c4747b321106e504aff336d4302</table>
+        <value>{{step[20691386-5ddc-4013-ae97-44c8b9ed260d].appian_id}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>variable</field>
         <id>48c00c4747b321106e504aff336d4302</id>
@@ -1439,9 +1632,9 @@
         <table>var__m_sys_hub_action_output_48c00c4747b321106e504aff336d4302</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=48c00c4747b321106e504aff336d4302^sys_idNOT IN4cc00c4747b321106e504aff336d4334"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=48c00c4747b321106e504aff336d4302^sys_idNOT IN4cc00c4747b321106e504aff336d4334,f950a418478031106e504aff336d430c"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Appian Post Request">48c00c4747b321106e504aff336d4302</action>
+        <action display_value="Appian Create/Update Request">48c00c4747b321106e504aff336d4302</action>
         <cid>3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1739,13 +1932,13 @@
         <input_name>body</input_name>
         <instance>4cc00c4747b321106e504aff336d4334</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n/*var j \u003d \u0027{\"Name\":\"Krishna\",\"Email\": \"XYZ\", \"CN\": \"12345\"}\u0027;  \nvar data \u003d JSON.parse(j);*/\n var requestDetails \u003d fd_data.action_inputs.request_details;\n var jsonData \u003d { \"description\" :  requestDetails.description.toString(),\n \"dueDate\" : requestDetails.due_date.toString(),\n \"reviewer\" :requestDetails.reviewer.toString(),\n \"days\" : requestDetails.days.toString(),\n \"sysId\" : requestDetails.sys_id.toString(),\n \"approval\" : requestDetails.approval_state.toString(),\n /*\"createdOn\" : requestDetails.sys_created_on*/,\n \"endDate\": requestDetails.end_date.toString(),\n \"fromEmail\": requestDetails.from_email.toString(),\n \"isApprovalRequired\":requestDetails.is_reviewer_needed.toString(),\n \"isRecurring\": requestDetails.is_recurrence.toString(),\n/* \"recurrencePattern\": requestDetails.recurrence_pattern.toString(),\n \"requestNumber\": requestDetails.number.toString(),\n \"requestOwner\": requestDetails.request_owner.toString(),\n \"startDate\" : requestDetails.start_date.toString(),\n \"status\": requestDetails.status.toString(),*/\n /*\"updatedOn\": requestDetails.sys_updated_on.toString()*/,\n /*\"updatedBy\" : requestDetails.sys_updated_by.toString(),\n \"recurrenceDate\": requestDetails.recurrence_date.toString()*/\n};\n return JSON.stringify(jsonData);"}}</script>
+        <script>{"body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n/*var j \u003d \u0027{\"Name\":\"Krishna\",\"Email\": \"XYZ\", \"CN\": \"12345\"}\u0027;  \nvar data \u003d JSON.parse(j);*/\n var requestDetails \u003d fd_data.action_inputs.request_details;\n var jsonData \u003d { \"description\" :  requestDetails.description.toString(),\n \"dueDate\" : requestDetails.due_date.toString(),\n \"reviewer\" :requestDetails.reviewer.toString(),\n \"days\" : requestDetails.days.toString(),\n \"sysId\" : requestDetails.sys_id.toString(),\n \"approval\" : requestDetails.approval_state.toString(),\n \"createdOn\" : requestDetails.sys_created_on.toString(),\n \"endDate\": requestDetails.end_date.toString(),\n \"fromEmail\": requestDetails.from_email.toString(),\n \"isApprovalRequired\":requestDetails.is_reviewer_needed.toString(),\n \"isRecurring\": requestDetails.is_recurrence.toString(),\n \"recurrencePattern\": requestDetails.recurrence_pattern.toString(),\n \"requestNumber\": requestDetails.number.toString(),\n \"requestOwner\": requestDetails.request_owner.toString(),\n \"startDate\" : requestDetails.start_date.toString(),\n \"status\": requestDetails.status.toString(),\n \"updatedOn\": requestDetails.sys_updated_on,\n \"updatedBy\" : requestDetails.sys_updated_by.toString(),\n \"recurrenceDate\": requestDetails.recurrence_date.toString()\n};\n return JSON.stringify(jsonData);"}}</script>
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:54</sys_created_on>
         <sys_id>ccc00c4747b321106e504aff336d435d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 05:45:54</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4cc00c4747b321106e504aff336d4334^sys_idNOT INccc00c4747b321106e504aff336d4358"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1771,12 +1964,106 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=48c00c4747b321106e504aff336d4302^sys_idNOT IN44c00c4747b321106e504aff336d4312,4cc00c4747b321106e504aff336d4305,8cc00c4747b321106e504aff336d430c"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Appian Create/Update Request">48c00c4747b321106e504aff336d4302</action>
+        <cid>20691386-5ddc-4013-ae97-44c8b9ed260d</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>f950a418478031106e504aff336d430c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f950a418478031106e504aff336d430c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f950a418478031106e504aff336d430c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>3550a418478031106e504aff336d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  outputs.appian_id = inputs.appian_id;
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f950a418478031106e504aff336d430c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>f950a418478031106e504aff336d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f950a418478031106e504aff336d430c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>f950a418478031106e504aff336d430c</id>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>3550a418478031106e504aff336d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>httpResponse</field>
+        <id>f950a418478031106e504aff336d430c</id>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>fd50a418478031106e504aff336d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f950a418478031106e504aff336d430c</table>
+        <value>{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>f950a418478031106e504aff336d430c</id>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>f950a418478031106e504aff336d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_f950a418478031106e504aff336d430c^id=f950a418478031106e504aff336d430c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f950a418478031106e504aff336d430c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=f950a418478031106e504aff336d430c^sys_idNOT IN7950a418478031106e504aff336d4310"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=0d298f6d-78aa-4e26-964a-529b45b84255</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1784,13 +2071,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>Get</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1800,7 +2087,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>action</element>
+        <element>httpResponse</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -1808,16 +2095,16 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Choice">choice</internal_type>
-        <label>Action</label>
-        <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <model display_value="Appian Post Request">48c00c4747b321106e504aff336d4302</model>
-        <model_id>48c00c4747b321106e504aff336d4302</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_48c00c4747b321106e504aff336d4302</name>
+        <internal_type display_value="String">string</internal_type>
+        <label>httpResponse</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">f950a418478031106e504aff336d430c</model>
+        <model_id>f950a418478031106e504aff336d430c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f950a418478031106e504aff336d430c</name>
         <next_element/>
-        <order>3</order>
+        <order>0</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1831,18 +2118,18 @@
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-07 05:45:53</sys_created_on>
-        <sys_id>44c00c4747b321106e504aff336d4312</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>7950a418478031106e504aff336d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 05:45:53</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1854,8 +2141,117 @@
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=44c00c4747b321106e504aff336d4312"/>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f950a418478031106e504aff336d430c^sys_idNOT IN3950a418478031106e504aff336d4322"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=8fbbbc38-974c-421a-a0bb-95a2276899b6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>appian_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>appian Id</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">f950a418478031106e504aff336d430c</model>
+        <model_id>f950a418478031106e504aff336d430c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_f950a418478031106e504aff336d430c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>3950a418478031106e504aff336d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f950a418478031106e504aff336d430c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f950a418478031106e504aff336d430c^sys_idNOT INb150a418478031106e504aff336d4326"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>appian_id</element>
+        <help/>
+        <hint/>
+        <label>appian Id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_f950a418478031106e504aff336d430c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>b150a418478031106e504aff336d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=48c00c4747b321106e504aff336d4302^sys_idNOT IN4cc00c4747b321106e504aff336d4305"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1896,7 +2292,7 @@
         <label>Request Details</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Appian Post Request">48c00c4747b321106e504aff336d4302</model>
+        <model display_value="Appian Create/Update Request">48c00c4747b321106e504aff336d4302</model>
         <model_id>48c00c4747b321106e504aff336d4302</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_48c00c4747b321106e504aff336d4302</name>
@@ -1940,91 +2336,7 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4cc00c4747b321106e504aff336d4305"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=b4ad92fe-3177-4c37-bf6e-bf3d00a3ed65</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table>x_1025229_lcms_functioan_details</choice_table>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>function_team_details</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="Reference">reference</internal_type>
-        <label>Function Team Details</label>
-        <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <model display_value="Appian Post Request">48c00c4747b321106e504aff336d4302</model>
-        <model_id>48c00c4747b321106e504aff336d4302</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_48c00c4747b321106e504aff336d4302</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference display_value="" name="x_1025229_lcms_functioan_details">x_1025229_lcms_functioan_details</reference>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-07 05:45:53</sys_created_on>
-        <sys_id>8cc00c4747b321106e504aff336d430c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 05:45:53</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8cc00c4747b321106e504aff336d430c"/>
-    <sys_hub_action_output action="delete_multiple" query="model=48c00c4747b321106e504aff336d4302^sys_idNOT INccc00c4747b321106e504aff336d4376,ccc00c4747b321106e504aff336d437c,ccc00c4747b321106e504aff336d4380"/>
+    <sys_hub_action_output action="delete_multiple" query="model=48c00c4747b321106e504aff336d4302^sys_idNOT INccc00c4747b321106e504aff336d4376,ccc00c4747b321106e504aff336d437c,ccc00c4747b321106e504aff336d4380,f150a418478031106e504aff336d434b"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2067,7 +2379,7 @@
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Appian Post Request">48c00c4747b321106e504aff336d4302</model>
+        <model display_value="Appian Create/Update Request">48c00c4747b321106e504aff336d4302</model>
         <model_id>48c00c4747b321106e504aff336d4302</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_48c00c4747b321106e504aff336d4302</name>
@@ -2090,14 +2402,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:54</sys_created_on>
         <sys_id>ccc00c4747b321106e504aff336d4376</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 05:45:54</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2154,12 +2466,12 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Appian Post Request">48c00c4747b321106e504aff336d4302</model>
+        <model display_value="Appian Create/Update Request">48c00c4747b321106e504aff336d4302</model>
         <model_id>48c00c4747b321106e504aff336d4302</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_48c00c4747b321106e504aff336d4302</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -2177,14 +2489,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:54</sys_created_on>
         <sys_id>ccc00c4747b321106e504aff336d437c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 05:45:54</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2241,12 +2553,12 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Appian Post Request">48c00c4747b321106e504aff336d4302</model>
+        <model display_value="Appian Create/Update Request">48c00c4747b321106e504aff336d4302</model>
         <model_id>48c00c4747b321106e504aff336d4302</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_48c00c4747b321106e504aff336d4302</name>
         <next_element/>
-        <order>3</order>
+        <order>4</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -2264,14 +2576,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:54</sys_created_on>
         <sys_id>ccc00c4747b321106e504aff336d4380</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 05:45:54</sys_updated_on>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2286,10 +2598,97 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ccc00c4747b321106e504aff336d4380"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ccc00c4747b321106e504aff336d4380"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=57706fa5-c7a6-4b95-b26d-dcf9787764af</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>appian_id</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Appian Id</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Appian Create/Update Request">48c00c4747b321106e504aff336d4302</model>
+        <model_id>48c00c4747b321106e504aff336d4302</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_48c00c4747b321106e504aff336d4302</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>f150a418478031106e504aff336d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f150a418478031106e504aff336d434b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f150a418478031106e504aff336d434b"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=48c00c4747b321106e504aff336d4302"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=48c00c4747b321106e504aff336d4302^sys_idNOT IN50c00c4747b321106e504aff336d439a"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Appian Post Request">48c00c4747b321106e504aff336d4302</action_type_id>
+        <action_type_id display_value="Appian Create/Update Request">48c00c4747b321106e504aff336d4302</action_type_id>
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:54</sys_created_on>
         <sys_id>50c00c4747b321106e504aff336d439a</sys_id>
@@ -2298,30 +2697,7 @@
         <sys_updated_on>2023-07-07 05:45:54</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=50c00c4747b321106e504aff336d439a"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_48c00c4747b321106e504aff336d4302^sys_idNOT IN84c00c4747b321106e504aff336d4311,ccc00c4747b321106e504aff336d430b,ccc00c4747b321106e504aff336d4331"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>function_team_details</element>
-        <help/>
-        <hint/>
-        <label>Function Team Details</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_48c00c4747b321106e504aff336d4302</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-07 05:45:53</sys_created_on>
-        <sys_id>84c00c4747b321106e504aff336d4311</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 05:45:53</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_48c00c4747b321106e504aff336d4302^sys_idNOT INccc00c4747b321106e504aff336d430b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>request_details</element>
         <help/>
@@ -2334,29 +2710,6 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:53</sys_created_on>
         <sys_id>ccc00c4747b321106e504aff336d430b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 05:45:53</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>action</element>
-        <help/>
-        <hint/>
-        <label>Action</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_48c00c4747b321106e504aff336d4302</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-07 05:45:53</sys_created_on>
-        <sys_id>ccc00c4747b321106e504aff336d4331</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
@@ -2471,7 +2824,7 @@
             <value>Patch</value>
         </sys_choice>
     </sys_choice>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_48c00c4747b321106e504aff336d4302^sys_idNOT IN00c00c4747b321106e504aff336d437c,00c00c4747b321106e504aff336d4380,98c00c4747b321106e504aff336d4385"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_48c00c4747b321106e504aff336d4302^sys_idNOT IN00c00c4747b321106e504aff336d437c,00c00c4747b321106e504aff336d4380,7950a418478031106e504aff336d434e,98c00c4747b321106e504aff336d4385"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>variable</element>
         <help/>
@@ -2515,6 +2868,29 @@
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
         <sys_updated_on>2023-07-07 05:45:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>appian_id</element>
+        <help/>
+        <hint/>
+        <label>Appian Id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_48c00c4747b321106e504aff336d4302</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 05:16:18</sys_created_on>
+        <sys_id>7950a418478031106e504aff336d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

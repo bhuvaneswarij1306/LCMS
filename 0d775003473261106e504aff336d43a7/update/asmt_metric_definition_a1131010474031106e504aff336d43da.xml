@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="INSERT_OR_UPDATE">
+        <display>Excellent</display>
+        <metric display_value="Overall satisfaction">69131010474031106e504aff336d43d2</metric>
+        <normalization_input>0</normalization_input>
+        <order>0</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 04:18:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a1131010474031106e504aff336d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Excellent</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>asmt_metric_definition_a1131010474031106e504aff336d43da</sys_update_name>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 04:18:23</sys_updated_on>
+        <unselected_image/>
+        <value>1</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1131010474031106e504aff336d43da"/>
+</record_update>

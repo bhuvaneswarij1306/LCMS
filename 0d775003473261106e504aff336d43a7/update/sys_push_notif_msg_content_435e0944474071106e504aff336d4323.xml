@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg_content">
+    <sys_push_notif_msg_content action="INSERT_OR_UPDATE">
+        <name>Request Created</name>
+        <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
+        <script><![CDATA[(function buildJSON( /*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) { 
+
+    var layoutGen = new global.NotificationLayoutFieldGenerator(); 
+    var text_01 = layoutGen.layoutField(current.getTableName(), current.sys_id, "number"); 
+    var text_02 = layoutGen.layoutField(current.getTableName(), current.sys_id, "status"); 
+    var text_03 = layoutGen.layoutField(current.getTableName(), current.sys_id, "description"); 
+
+    var deepLinkGenerator = new global.MobileDeepLinkGenerator("Request"); 
+    var link = deepLinkGenerator.getFormScreenLink("d913face47b361106e504aff336d43d2", current.getTableName(), current.getValue("sys_id")); 
+
+    var json = { 
+
+        "Link": link, 
+
+        "Layout": { 
+
+            "Status": text_02, 
+
+            "Number": text_01, 
+
+            "Description": text_03 
+
+        } 
+
+    }; 
+
+    return json;
+
+})(current, message, attributes);]]></script>
+        <sys_class_name>sys_push_notif_msg_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-10 14:15:51</sys_created_on>
+        <sys_id>435e0944474071106e504aff336d4323</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Request Created</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_push_notif_msg_content_435e0944474071106e504aff336d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 14:56:13</sys_updated_on>
+    </sys_push_notif_msg_content>
+</record_update>

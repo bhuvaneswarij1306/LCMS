@@ -20,7 +20,7 @@
             <element>days</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Friday</label>
+            <label>friday</label>
             <language>en</language>
             <name>x_1025229_lcms_req_detail</name>
             <sequence/>
@@ -30,10 +30,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>bed8b69e47bb21106e504aff336d43b9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
-            <sys_updated_on>2023-07-06 08:29:24</sys_updated_on>
-            <value>Friday</value>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-11 05:00:38</sys_updated_on>
+            <value>friday</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -60,60 +60,20 @@
             <element>days</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Saturday</label>
+            <label>days</label>
             <language>en</language>
             <name>x_1025229_lcms_req_detail</name>
             <sequence/>
             <synonyms/>
-            <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
-            <sys_created_on>2023-07-10 06:36:24</sys_created_on>
+            <sys_created_by>keerthanast@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-11 05:53:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>727823f3477721106e504aff336d4311</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
-            <sys_updated_on>2023-07-10 06:36:57</sys_updated_on>
+            <sys_id>c6a820d447c031106e504aff336d4344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-11 05:53:57</sys_updated_on>
             <value>Saturday</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>days</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>sunday</label>
-            <language>en</language>
-            <name>x_1025229_lcms_req_detail</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
-            <sys_created_on>2023-07-05 11:14:49</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3ad8b69e47bb21106e504aff336d43bc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
-            <sys_updated_on>2023-07-05 11:14:49</sys_updated_on>
-            <value>sunday</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>days</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Test</label>
-            <language>en</language>
-            <name>x_1025229_lcms_req_detail</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
-            <sys_created_on>2023-07-10 08:23:11</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5961c880470831106e504aff336d433f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
-            <sys_updated_on>2023-07-10 08:23:11</sys_updated_on>
-            <value>Test</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

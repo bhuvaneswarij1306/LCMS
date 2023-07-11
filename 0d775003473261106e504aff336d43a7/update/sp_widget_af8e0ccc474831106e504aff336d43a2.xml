@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>* {
+  padding: 0;
+  margin: 0;
+ 
+    justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  min-height: 100vh;
+
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #020887;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  animation: flip 5s infinite;
+  animation-iteration-count: 1;
+  animation-delay: calc(.2s * var(--i));
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>admin_action_name_widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Admin Action Name Widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-10 09:21:59</sys_created_on>
+        <sys_id>af8e0ccc474831106e504aff336d43a2</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>Admin Action Name Widget</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_widget_af8e0ccc474831106e504aff336d43a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 12:49:53</sys_updated_on>
+        <template><![CDATA[<div class="waviy">
+   <span style="--i:1">W</span>
+   <span style="--i:2">e</span>
+   <span style="--i:3">l</span>
+   <span style="--i:4">c</span>
+   <span style="--i:5">o</span>
+   <span style="--i:6">m</span>
+   <span style="--i:7">e</span>
+   <span style="--i:8"> </span>
+  <span style="--i:9">T</span>
+  <span style="--i:10">o</span>
+  <span style="--i:11"> </span>
+  <span style="--i:12">A</span>
+  <span style="--i:13">d</span>
+  <span style="--i:14">m</span>
+  <span style="--i:15">i</span>
+  <span style="--i:16">n</span>
+  <span style="--i:17"> </span>
+  <span style="--i:18">A</span>
+  <span style="--i:19">c</span>
+  <span style="--i:20">t</span>
+  <span style="--i:21">i</span>
+  <span style="--i:22">o</span>
+  <span style="--i:23">n</span>
+  <span style="--i:24">.</span>
+  <span style="--i:25">.</span>
+  <span style="--i:26">.</span>
+  </div>]]></template>
+    </sp_widget>
+</record_update>
