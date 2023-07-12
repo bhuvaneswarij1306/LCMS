@@ -2,7 +2,7 @@
     <sp_row action="INSERT_OR_UPDATE">
         <class_name/>
         <order>1</order>
-        <sp_column display_value="2">967accc4474831106e504aff336d432e</sp_column>
+        <sp_column display_value="1">967accc4474831106e504aff336d432e</sp_column>
         <sp_container/>
         <sys_class_name>sp_row</sys_class_name>
         <sys_created_by>admin</sys_created_by>

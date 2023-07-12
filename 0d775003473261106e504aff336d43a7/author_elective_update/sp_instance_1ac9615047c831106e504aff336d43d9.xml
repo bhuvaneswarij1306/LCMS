@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dc079d82479f21106e504aff336d4302</sp_column>
+        <sp_widget display_value="Cool Clock">3a36b30b6f3631005be8583e6b3ee490</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-11 10:37:11</sys_created_on>
+        <sys_id>1ac9615047c831106e504aff336d43d9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_instance_1ac9615047c831106e504aff336d43d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-11 10:38:50</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1ac9615047c831106e504aff336d43d9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sp_instance_1ac9615047c831106e504aff336d43d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">dc079d82479f21106e504aff336d4302</sp_column><sp_widget display_value="Cool Clock">3a36b30b6f3631005be8583e6b3ee490</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-11 10:37:11</sys_created_on><sys_id>1ac9615047c831106e504aff336d43d9</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sp_instance_1ac9615047c831106e504aff336d43d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-11 10:38:50</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=1ac9615047c831106e504aff336d43d9"/></record_update>]]></payload>
+        <payload_hash>1480066937</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-11 10:38:50</sys_created_on>
+        <sys_id>5a2a219047c831106e504aff336d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18944884bfa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-11 10:38:50</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>de2a2190e4c83110e5faabbb8d7225cb</update_guid>
+        <update_guid_history>de2a2190e4c83110e5faabbb8d7225cb:1480066937,2ad9a55039c8311091ee323dd83becd6:219258810,52c9255050c831106c927ba6107fda3d:1480066937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3a2a2d5047c831106e504aff336d435d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-11 10:38:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>bddbe8ca41be4b909fea5f678f42d840</sys_id>
+        <sys_metadata>1ac9615047c831106e504aff336d43d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sp_instance_1ac9615047c831106e504aff336d43d9</sys_update_name>
+        <sys_update_version display_value="sp_instance_1ac9615047c831106e504aff336d43d9">5a2a219047c831106e504aff336d43cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-11 10:38:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

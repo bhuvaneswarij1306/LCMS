@@ -3,7 +3,7 @@
         <class_name/>
         <order>1</order>
         <sp_column/>
-        <sp_container display_value="Admin page - Container 1">9b5bcc48474831106e504aff336d4304</sp_container>
+        <sp_container display_value="Admin action - Container 1">9b5bcc48474831106e504aff336d4304</sp_container>
         <sys_class_name>sp_row</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-10 09:06:13</sys_created_on>

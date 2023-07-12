@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color>#eeeeee</background_color>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Admin action - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="cms_admin_page">cdfe9507477f21106e504aff336d4347</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-10 09:23:28</sys_created_on>
+        <sys_id>605f4c00478831106e504aff336d439b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Admin action - Container 2</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_container_605f4c00478831106e504aff336d439b</sys_update_name>
+        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 08:23:34</sys_updated_on>
+        <title/>
+        <width>container-fluid</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sp_container_605f4c00478831106e504aff336d439b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color>#eeeeee</background_color><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Admin action - Container 2</name><order>2</order><sp_page display_value="cms_admin_page">cdfe9507477f21106e504aff336d4347</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-10 09:23:28</sys_created_on><sys_id>605f4c00478831106e504aff336d439b</sys_id><sys_mod_count>12</sys_mod_count><sys_name>Admin action - Container 2</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sp_container_605f4c00478831106e504aff336d439b</sys_update_name><sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by><sys_updated_on>2023-07-11 08:23:34</sys_updated_on><title/><width>container-fluid</width></sp_container></record_update>]]></payload>
+        <payload_hash>1593996886</payload_hash>
+        <record_name>Admin action - Container 2</record_name>
+        <reverted_from/>
+        <source>889d6090470431106e504aff336d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 08:23:34</sys_created_on>
+        <sys_id>c53b455847c431106e504aff336d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189440c74790000001</sys_recorded_at>
+        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 08:23:34</sys_updated_on>
+        <type>Container</type>
+        <update_guid>303b0918d4c431106486f2fdec520fee</update_guid>
+        <update_guid_history>303b0918d4c431106486f2fdec520fee:1593996886,1aba9404d5c831106612f758800bddfc:-775924380,cd1998802ac83110c9c877e01b6399e6:-1585861627,6209d0c071c83110c872b26a485f5487:-428463052,fbb89880e5c8311035a226f9c9368fe0:1995253119,b6881480ffc83110033a5ba9b2a4b61a:-512574989,89889080d6c8311039a009bb64978871:1850391664,cd68d84039c831106e5a41e24b3bbbc8:1033583654,2848d840a2c83110f1678bf472431b57:1934316518,13d7dc004dc83110b769e938933ff4c8:941278054,81d79c0037c83110adeda3b47776d614:-441116295,dcc794c8de883110d9c40669653f9b12:383433948,57b7d800d8c8311015a50ce077e84029:941278054,93b7504c1e88311039d36d4e1dccf045:-343563152,285f4c00cf8831101b364a40d296209c:570015138</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Admin action - Container 2">cc5b495847c431106e504aff336d4367</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-11 08:24:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>00401807a9e54420a09923d417979f31</sys_id>
+        <sys_metadata>605f4c00478831106e504aff336d439b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin action - Container 2</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sp_container_605f4c00478831106e504aff336d439b</sys_update_name>
+        <sys_update_version display_value="sp_container_605f4c00478831106e504aff336d439b">c53b455847c431106e504aff336d4307</sys_update_version>
+        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-11 08:24:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

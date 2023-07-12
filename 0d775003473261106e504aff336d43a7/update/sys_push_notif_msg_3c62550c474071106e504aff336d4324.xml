@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
     <sys_push_notif_msg action="INSERT_OR_UPDATE">
-        <message_string>Hi!!!  You have a new notification</message_string>
+        <message_string>Hi!!!  A new Request Has been Created Please Verify.</message_string>
         <name>My custom req app</name>
         <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
         <push_message_content display_value="Request Created">435e0944474071106e504aff336d4323</push_message_content>
@@ -9,14 +9,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-10 14:18:31</sys_created_on>
         <sys_id>3c62550c474071106e504aff336d4324</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>My custom req app</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sys_push_notif_msg_3c62550c474071106e504aff336d4324</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-10 14:56:25</sys_updated_on>
+        <sys_updated_on>2023-07-11 08:38:36</sys_updated_on>
         <table>x_1025229_lcms_req_detail</table>
         <type>push</type>
     </sys_push_notif_msg>
