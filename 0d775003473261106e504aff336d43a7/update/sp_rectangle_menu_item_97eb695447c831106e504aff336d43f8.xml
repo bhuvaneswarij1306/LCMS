@@ -20,7 +20,7 @@
         <short_description/>
         <sp_page/>
         <sp_rectangle_menu/>
-        <sp_rectangle_menu_item display_value="Admin Page">51cfd587477f21106e504aff336d4383</sp_rectangle_menu_item>
+        <sp_rectangle_menu_item display_value="Admin Action">51cfd587477f21106e504aff336d4383</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
         <sys_created_on>2023-07-11 10:47:15</sys_created_on>

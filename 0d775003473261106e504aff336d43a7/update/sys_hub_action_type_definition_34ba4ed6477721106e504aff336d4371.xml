@@ -11,23 +11,23 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>appian_integrate</internal_name>
-        <label_cache>[{"name":"{{action.request_details}}","label":"action➛Request Details","type":"action","ref":"","reference_display":"Request Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"1f340e18-b4e7-4919-8811-5f6009f348ac"}},{"name":"{{action.function_team_details}}","label":"action➛Function Team Details","type":"action","ref":"","reference_display":"Functional Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.action}}","label":"action➛Action","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"Get","value":"Get","order":0.0},{"label":"Post","value":"Post","order":1.0},{"label":"Put","value":"Put","order":2.0},{"label":"Patch","value":"Patch","order":3.0}],"attributes":{"sourceId":"","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"choice","uiUniqueId":"0d298f6d-78aa-4e26-964a-529b45b84255"}},{"name":"{{action.request_details.description}}","label":"action➛Request Details➛Description","type":"action","ref":"","reference_display":"Description","base_type":"string","parent_table_name":"x_1025229_lcms_req_detail","column_name":"description","choices":null,"attributes":{}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ad4cf8d-c0e7-4aa0-9de9-2880d3c99f7c].record}}","label":"step➛Update Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[20691386-5ddc-4013-ae97-44c8b9ed260d].appian_id}}","label":"step➛Script step➛appian Id","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.request_details}}","label":"action➛Request Details","type":"action","ref":"","reference_display":"Request Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"1f340e18-b4e7-4919-8811-5f6009f348ac"}},{"name":"{{action.function_team_details}}","label":"action➛Function Team Details","type":"action","ref":"","reference_display":"Functional Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.action}}","label":"action➛Action","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"Get","value":"Get","order":0},{"label":"Post","value":"Post","order":1},{"label":"Put","value":"Put","order":2},{"label":"Patch","value":"Patch","order":3}],"attributes":{"sourceId":"","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"choice","uiUniqueId":"0d298f6d-78aa-4e26-964a-529b45b84255"}},{"name":"{{action.request_details.description}}","label":"action➛Request Details➛Description","type":"action","ref":"","reference_display":"Description","base_type":"string","parent_table_name":"x_1025229_lcms_req_detail","column_name":"description","choices":null,"attributes":{}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[3ba0c5cc-c8f9-4e1a-862d-92db5fab43e7].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5ad4cf8d-c0e7-4aa0-9de9-2880d3c99f7c].record}}","label":"step➛Update Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[20691386-5ddc-4013-ae97-44c8b9ed260d].appian_id}}","label":"step➛Script step➛appian Id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"8fbbbc38-974c-421a-a0bb-95a2276899b6","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master_snapshot>48c00c4747b321106e504aff336d4302</master_snapshot>
         <name>Appian Create/Update Request</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-05 07:53:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>34ba4ed6477721106e504aff336d4371</sys_id>
-        <sys_mod_count>74</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_name>Appian Create/Update Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_34ba4ed6477721106e504aff336d4371</sys_update_name>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-12 05:44:48</sys_updated_on>
+        <sys_updated_on>2023-07-12 06:16:45</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -90,9 +90,9 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-10 16:46:41</sys_created_on>
         <sys_id>70c4b148474471106e504aff336d43e6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-11 05:09:30</sys_updated_on>
+        <sys_updated_on>2023-07-12 06:16:45</sys_updated_on>
         <table>var__m_sys_hub_action_output_34ba4ed6477721106e504aff336d4371</table>
         <value>{{step[20691386-5ddc-4013-ae97-44c8b9ed260d].appian_id}}</value>
     </sys_element_mapping>
@@ -162,10 +162,10 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-10 16:46:40</sys_created_on>
         <sys_id>60c4b148474471106e504aff336d43a4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <sys_updated_on>2023-07-12 06:15:48</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=60c4b148474471106e504aff336d43a4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -190,12 +190,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-10 16:46:40</sys_created_on>
         <sys_id>b4c4b148474471106e504aff336d43b9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <sys_updated_on>2023-07-12 06:15:48</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
-  outputs.appian_id = inputs.appian_id;
+  var data = JSON.parse(inputs.httpResponse);
+  outputs.object = inputs.httpResponse;
+  outputs.appian_id = data.description;
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -323,12 +325,12 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=60c4b148474471106e504aff336d43a4^sys_idNOT IN60c4b148474471106e504aff336d43b0"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=60c4b148474471106e504aff336d43a4^sys_idNOT INc9177d284708b1106e504aff336d4348,fbd47de04708b1106e504aff336d43b5"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=8fbbbc38-974c-421a-a0bb-95a2276899b6</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8fbbbc38-974c-421a-a0bb-95a2276899b6</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -360,10 +362,10 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <label>appian Id</label>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>8000</max_length>
         <model display_value="Script step">60c4b148474471106e504aff336d43a4</model>
         <model_id>60c4b148474471106e504aff336d43a4</model_id>
         <model_table>sys_hub_step_instance</model_table>
@@ -385,8 +387,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
-        <sys_id>60c4b148474471106e504aff336d43b0</sys_id>
+        <sys_created_on>2023-07-12 06:13:45</sys_created_on>
+        <sys_id>c9177d284708b1106e504aff336d4348</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -394,7 +396,90 @@
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <sys_updated_on>2023-07-12 06:13:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=object_child0,child_name=object_child0,child_type=object,child_type_label=Object,child_uiUniqueId=c69ec259-97a1-46bd-896f-a67056f77fad,co_type_name=FD2945bd242308b110b855d0367772770c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=13b12c2b-041c-4865-ba5e-e0b01b6be92e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>object</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>object</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">60c4b148474471106e504aff336d43a4</model>
+        <model_id>60c4b148474471106e504aff336d43a4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_60c4b148474471106e504aff336d43a4</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-12 06:04:07</sys_created_on>
+        <sys_id>fbd47de04708b1106e504aff336d43b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-12 06:05:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -408,7 +493,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=60c4b148474471106e504aff336d43a4"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_60c4b148474471106e504aff336d43a4^sys_idNOT INf8c4b148474471106e504aff336d43b3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_60c4b148474471106e504aff336d43a4^sys_idNOT IN0d177d284708b1106e504aff336d434b,bfd47de04708b1106e504aff336d43b8"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>appian_id</element>
         <help/>
@@ -419,8 +504,8 @@
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>naumana@vuram.com</sys_created_by>
-        <sys_created_on>2023-07-10 16:46:40</sys_created_on>
-        <sys_id>f8c4b148474471106e504aff336d43b3</sys_id>
+        <sys_created_on>2023-07-12 06:13:45</sys_created_on>
+        <sys_id>0d177d284708b1106e504aff336d434b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
@@ -428,7 +513,30 @@
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-10 16:46:40</sys_updated_on>
+        <sys_updated_on>2023-07-12 06:13:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>object</element>
+        <help/>
+        <hint/>
+        <label>object</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_60c4b148474471106e504aff336d43a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-12 06:04:07</sys_created_on>
+        <sys_id>bfd47de04708b1106e504aff336d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-12 06:04:07</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -791,9 +899,9 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-06 12:04:49</sys_created_on>
         <sys_id>f0edc8ba4733e1106e504aff336d4337</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-12 05:44:39</sys_updated_on>
+        <sys_updated_on>2023-07-12 05:59:59</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c58d425e477721106e504aff336d43ca^sys_idNOT IN8d8d425e477721106e504aff336d43f1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1231,14 +1339,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:52</sys_created_on>
         <sys_id>f7b0c84747b321106e504aff336d4390</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-12 05:44:45</sys_updated_on>
+        <sys_updated_on>2023-07-12 06:16:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1490,17 +1598,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Appian Create/Update Request">34ba4ed6477721106e504aff336d4371</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2cc04c4747b321106e504aff336d43f2","name":"plan","plan_signature":null}}</plan>
-        <snapshot>01707d6847c4b1106e504aff336d433f</snapshot>
+        <snapshot>e3d2f9ec47c4b1106e504aff336d4368</snapshot>
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2cc04c4747b321106e504aff336d43f2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-12 05:44:50</sys_updated_on>
+        <sys_updated_on>2023-07-12 05:55:23</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1981,10 +2089,10 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-11 05:16:18</sys_created_on>
         <sys_id>f950a418478031106e504aff336d430c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <sys_updated_on>2023-07-12 05:55:21</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f950a418478031106e504aff336d430c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1995,12 +2103,13 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-11 05:16:18</sys_created_on>
         <sys_id>3550a418478031106e504aff336d4344</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-11 05:16:18</sys_updated_on>
+        <sys_updated_on>2023-07-12 05:55:21</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
-  outputs.appian_id = inputs.appian_id;
+  var data = JSON.parse(inputs.httpResponse);
+  outputs.appian_id = data.appianId;
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -2402,14 +2511,14 @@
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 05:45:54</sys_created_on>
         <sys_id>ccc00c4747b321106e504aff336d4376</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-12 05:44:48</sys_updated_on>
+        <sys_updated_on>2023-07-12 05:55:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

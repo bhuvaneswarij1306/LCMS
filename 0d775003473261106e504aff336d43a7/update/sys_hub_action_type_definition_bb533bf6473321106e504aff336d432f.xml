@@ -17,7 +17,7 @@
         <label_cache>[{"name":"{{action.function_team_details}}","label":"action➛Function Team Details","type":"action","ref":"","reference_display":"Functional Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <name>Appian Post Function</name>
+        <name>Appian Post Function Team Details</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -28,15 +28,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bb533bf6473321106e504aff336d432f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Appian Post Function</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Appian Post Function Team Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_bb533bf6473321106e504aff336d432f</sys_update_name>
         <sys_updated_by>naumana@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:11:23</sys_updated_on>
+        <sys_updated_on>2023-07-12 05:56:12</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -73,7 +73,7 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_bb533bf6473321106e504aff336d432f^id=bb533bf6473321106e504aff336d432f"/>
     <sys_hub_step_instance action="delete_multiple" query="action=bb533bf6473321106e504aff336d432f^sys_idNOT IN26153ffa473321106e504aff336d4383"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Appian Post Function">bb533bf6473321106e504aff336d432f</action>
+        <action display_value="Appian Post Function Team Details">bb533bf6473321106e504aff336d432f</action>
         <cid>5489375b-cf09-4667-a4f2-44ba8ab822fe</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -414,7 +414,7 @@
         <label>Function Team Details</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Appian Post Function">bb533bf6473321106e504aff336d432f</model>
+        <model display_value="Appian Post Function Team Details">bb533bf6473321106e504aff336d432f</model>
         <model_id>bb533bf6473321106e504aff336d432f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_bb533bf6473321106e504aff336d432f</name>
@@ -501,7 +501,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Appian Post Function">bb533bf6473321106e504aff336d432f</model>
+        <model display_value="Appian Post Function Team Details">bb533bf6473321106e504aff336d432f</model>
         <model_id>bb533bf6473321106e504aff336d432f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_bb533bf6473321106e504aff336d432f</name>
@@ -588,7 +588,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Appian Post Function">bb533bf6473321106e504aff336d432f</model>
+        <model display_value="Appian Post Function Team Details">bb533bf6473321106e504aff336d432f</model>
         <model_id>bb533bf6473321106e504aff336d432f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_bb533bf6473321106e504aff336d432f</name>
@@ -636,7 +636,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=bb533bf6473321106e504aff336d432f"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=bb533bf6473321106e504aff336d432f^sys_idNOT IN76153ffa473321106e504aff336d43d5"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Appian Post Function">bb533bf6473321106e504aff336d432f</action_type_id>
+        <action_type_id display_value="Appian Post Function Team Details">bb533bf6473321106e504aff336d432f</action_type_id>
         <sys_created_by>naumana@vuram.com</sys_created_by>
         <sys_created_on>2023-07-07 04:55:00</sys_created_on>
         <sys_id>76153ffa473321106e504aff336d43d5</sys_id>

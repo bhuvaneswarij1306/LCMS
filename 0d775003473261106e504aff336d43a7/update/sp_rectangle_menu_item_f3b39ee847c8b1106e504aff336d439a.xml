@@ -7,36 +7,36 @@
         <display_2/>
         <display_date/>
         <filter/>
-        <glyph>bar-chart</glyph>
+        <glyph>align-justify</glyph>
         <hint/>
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>Dashboard</label>
-        <order>400</order>
+        <label>All</label>
+        <order>100</order>
         <record_script/>
         <sc_cat_item/>
         <sc_category/>
         <short_description/>
-        <sp_page display_value="cms_report_page">db88ebac475721106e504aff336d43f2</sp_page>
+        <sp_page display_value="cms_homepage">1108c63347af21106e504aff336d4391</sp_page>
         <sp_rectangle_menu display_value="CMS Menu">24c66be8475721106e504aff336d43ee</sp_rectangle_menu>
         <sp_rectangle_menu_item/>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-05 07:56:13</sys_created_on>
-        <sys_id>f99b2f24479721106e504aff336d4304</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Dashboard</sys_name>
+        <sys_created_on>2023-07-12 08:19:30</sys_created_on>
+        <sys_id>f3b39ee847c8b1106e504aff336d439a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>All</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
-        <sys_update_name>sp_rectangle_menu_item_f99b2f24479721106e504aff336d4304</sys_update_name>
+        <sys_update_name>sp_rectangle_menu_item_f3b39ee847c8b1106e504aff336d439a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-12 07:41:32</sys_updated_on>
+        <sys_updated_on>2023-07-12 08:19:46</sys_updated_on>
         <table/>
         <type>page</type>
         <url/>
         <url_target/>
     </sp_rectangle_menu_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=f99b2f24479721106e504aff336d4304"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f3b39ee847c8b1106e504aff336d439a"/>
 </record_update>
