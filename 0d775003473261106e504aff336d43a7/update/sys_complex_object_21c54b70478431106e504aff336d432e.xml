@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD6dc54b7099843110e6895fa7c1ef2e2d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0d775003473261106e504aff336d43a7</scope_name>
+        <serialized_content>{"FlowDesigner:FD6dc54b7099843110e6895fa7c1ef2e2d":{},"FlowDesigner:FD6dc54b7099843110e6895fa7c1ef2e2d.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"object\",\"mandatory\":\"false\",\"child_name\":\"object_child0\",\"uiUniqueId\":\"13b12c2b-041c-4865-ba5e-e0b01b6be92e\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD6dc54b7099843110e6895fa7c1ef2e2d\",\"child_label\":\"object_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"c69ec259-97a1-46bd-896f-a67056f77fad\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-13 06:36:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21c54b70478431106e504aff336d432e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD6dc54b7099843110e6895fa7c1ef2e2d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_complex_object_21c54b70478431106e504aff336d432e</sys_update_name>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-13 06:38:00</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

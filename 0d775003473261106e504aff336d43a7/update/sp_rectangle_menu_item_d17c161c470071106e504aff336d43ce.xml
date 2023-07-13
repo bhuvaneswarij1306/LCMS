@@ -12,29 +12,29 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>Add Choice</label>
-        <order>100</order>
+        <label>Add/View/Remove Choice</label>
+        <order>300</order>
         <record_script/>
         <sc_cat_item/>
         <sc_category/>
         <short_description/>
-        <sp_page/>
+        <sp_page display_value="cms_record_page_choice">53b61330470831106e504aff336d4309</sp_page>
         <sp_rectangle_menu/>
         <sp_rectangle_menu_item display_value="Admin Action">51cfd587477f21106e504aff336d4383</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
         <sys_created_on>2023-07-11 14:19:42</sys_created_on>
         <sys_id>d17c161c470071106e504aff336d43ce</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Add Choice</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Add/View/Remove Choice</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_d17c161c470071106e504aff336d43ce</sys_update_name>
         <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-11 14:21:46</sys_updated_on>
+        <sys_updated_on>2023-07-13 09:04:57</sys_updated_on>
         <table/>
-        <type>url</type>
+        <type>page</type>
         <url>/cms?id=admin_form&amp;table=sys_choice</url>
         <url_target/>
     </sp_rectangle_menu_item>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);&#13;
+}&#13;
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);&#13;
+.fa-2x {&#13;
+font-size: 2em;&#13;
+}&#13;
+.fa {&#13;
+position: relative;&#13;
+display: table-cell;&#13;
+width: 60px;&#13;
+height: 36px;&#13;
+text-align: center;&#13;
+vertical-align: middle;&#13;
+font-size:20px;&#13;
+}&#13;
+&#13;
+&#13;
+.main-menu:hover,nav.main-menu.expanded {&#13;
+width:250px;&#13;
+hei&#13;
+overflow:visible;&#13;
+}&#13;
+&#13;
+.main-menu {&#13;
+background:#333579;&#13;
+border-right:1px solid #e5e5e5;&#13;
+position:absolute;&#13;
+top:0;&#13;
+bottom:0;&#13;
+height:100%;&#13;
+left:0;&#13;
+width:60px;&#13;
+overflow:hidden;&#13;
+-webkit-transition:width .05s linear;&#13;
+transition:width .05s linear;&#13;
+-webkit-transform:translateZ(0) scale(1,1);&#13;
+z-index:1000;&#13;
+}&#13;
+&#13;
+.main-menu&gt;ul {&#13;
+margin:7px 0;&#13;
+}&#13;
+&#13;
+.main-menu li {&#13;
+position:relative;&#13;
+display:block;&#13;
+width:250px;&#13;
+}&#13;
+&#13;
+.main-menu li&gt;a {&#13;
+position:relative;&#13;
+display:table;&#13;
+border-collapse:collapse;&#13;
+border-spacing:0;&#13;
+color:#fff;&#13;
+ font-family: arial;&#13;
+font-size: 14px;&#13;
+text-decoration:none;&#13;
+-webkit-transform:translateZ(0) scale(1,1);&#13;
+-webkit-transition:all .1s linear;&#13;
+transition:all .1s linear;&#13;
+  &#13;
+}&#13;
+&#13;
+.main-menu .nav-icon {&#13;
+position:relative;&#13;
+display:table-cell;&#13;
+width:60px;&#13;
+height:36px;&#13;
+text-align:center;&#13;
+vertical-align:middle;&#13;
+font-size:18px;&#13;
+}&#13;
+&#13;
+.main-menu .nav-text {&#13;
+position:relative;&#13;
+display:table-cell;&#13;
+vertical-align:middle;&#13;
+width:190px;&#13;
+  font-family: 'Titillium Web', sans-serif;&#13;
+}&#13;
+&#13;
+.main-menu&gt;ul.logout {&#13;
+position:absolute;&#13;
+left:0;&#13;
+bottom:0;&#13;
+}&#13;
+&#13;
+.no-touch .scrollable.hover {&#13;
+overflow-y:hidden;&#13;
+}&#13;
+&#13;
+.no-touch .scrollable.hover:hover {&#13;
+overflow-y:auto;&#13;
+overflow:visible;&#13;
+}&#13;
+&#13;
+a:hover,a:focus {&#13;
+text-decoration:none;&#13;
+}&#13;
+&#13;
+nav {&#13;
+-webkit-user-select:none;&#13;
+-moz-user-select:none;&#13;
+-ms-user-select:none;&#13;
+-o-user-select:none;&#13;
+user-select:none;&#13;
+}&#13;
+&#13;
+nav ul,nav li {&#13;
+outline:0;&#13;
+margin:0;&#13;
+color: #fff;&#13;
+padding:0;&#13;
+}&#13;
+.main-menu li:hover&gt;a,nav.main-menu li.active&gt;a,.dropdown-menu&gt;li&gt;a:hover,.dropdown-menu&gt;li&gt;a:focus,.dropdown-menu&gt;.active&gt;a,.dropdown-menu&gt;.active&gt;a:hover,.dropdown-menu&gt;.active&gt;a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {&#13;
+color:#F0EDEE;&#13;
+background-color:#3C3E7F;&#13;
+}&#13;
+.area {&#13;
+float: left;&#13;
+background: #e2e2e2;&#13;
+width: 100%;&#13;
+height: 100%;&#13;
+}&#13;
+@font-face {&#13;
+  font-family: 'Titillium Web';&#13;
+  font-style: normal;&#13;
+  font-weight: 300;&#13;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>cms_sidenav</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>CMS SideNav</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-13 06:31:25</sys_created_on>
+        <sys_id>e2448bbc474431106e504aff336d43ed</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>CMS SideNav</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_widget_e2448bbc474431106e504aff336d43ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-13 08:49:35</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <div class="area"></div><nav class="main-menu" style="position:relative;height: 100%;overflow: auto;">
+            <ul>
+                <li>
+                    <a href="https://jbfarrow.com">
+                        <i class="fa fa-plus fa-2x"></i>
+                        <span class="nav-text">
+                           Create New Request
+                        </span>
+                    </a>
+                  
+                </li>
+                <li class="has-subnav">
+                    <a href="https://coolors.co/palettes/popular/violet">
+                        <i class="fa fa-ticket fa-2x"></i>
+                        <span class="nav-text">
+                            Request Inventory
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="https://coolors.co/palettes/popular/violet">
+                       <i class="fa fa-check-circle fa-2x"></i>
+                        <span class="nav-text">
+                            My Task
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="https://coolors.co/palettes/popular/violet">
+                       <i class="fa fa-check-square fa-2x"></i>
+                        <span class="nav-text">
+                            My Approval
+                        </span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href="https://coolors.co/palettes/popular/violet">
+                        <i class="fa fa-pie-chart fa-2x"></i>
+                        <span class="nav-text">
+                            Dashboard
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://coolors.co/palettes/popular/violet">
+                        <i class="fa fa-file fa-2x"></i>
+                        <span class="nav-text">
+                           Catalog
+                        </span>
+                    </a>
+                </li>
+                <li>
+                   <a href="https://coolors.co/palettes/popular/violet">
+                       <i class="fa fa-comments fa-2x"></i>
+                        <span class="nav-text">
+                            Survey
+                        </span>
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+</div>]]></template>
+    </sp_widget>
+</record_update>

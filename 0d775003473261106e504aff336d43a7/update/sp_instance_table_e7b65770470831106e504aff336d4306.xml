@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>name,element,label,sys_created_by</field_list>
+        <filter table="sys_choice">GOTOname&gt;=x_1025229_lcms_req_detail<item endquery="false" field="name" goto="true" newquery="false" operator="&gt;=" or="false" value="x_1025229_lcms_req_detail"/>
+        </filter>
+        <glyph>list-alt</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>3</order>
+        <order_by>sys_updated_on</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a7b65770470831106e504aff336d4301</sp_column>
+        <sp_page display_value="admin_form">38fb777b47f721106e504aff336d43db</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-13 07:50:11</sys_created_on>
+        <sys_id>e7b65770470831106e504aff336d4306</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Look up Details</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_instance_table_e7b65770470831106e504aff336d4306</sys_update_name>
+        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-13 13:09:06</sys_updated_on>
+        <table>sys_choice</table>
+        <title>Look up Details</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+  enable_filter: true
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=e7b65770470831106e504aff336d4306"/>
+</record_update>

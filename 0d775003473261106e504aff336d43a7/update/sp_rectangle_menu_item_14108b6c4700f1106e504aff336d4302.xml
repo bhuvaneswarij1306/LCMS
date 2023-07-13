@@ -20,7 +20,7 @@
         <short_description/>
         <sp_page display_value="cms_report_page">db88ebac475721106e504aff336d43f2</sp_page>
         <sp_rectangle_menu/>
-        <sp_rectangle_menu_item display_value="All">f3b39ee847c8b1106e504aff336d439a</sp_rectangle_menu_item>
+        <sp_rectangle_menu_item display_value="Menu">f3b39ee847c8b1106e504aff336d439a</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-12 11:33:03</sys_created_on>
