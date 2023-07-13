@@ -7,13 +7,13 @@
         <display_2/>
         <display_date/>
         <filter/>
-        <glyph>align-justify</glyph>
+        <glyph>info-circle</glyph>
         <hint/>
         <kb_article/>
         <kb_category/>
         <kb_topic/>
         <label>All</label>
-        <order>100</order>
+        <order>10</order>
         <record_script/>
         <sc_cat_item/>
         <sc_category/>
@@ -25,17 +25,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-12 08:19:30</sys_created_on>
         <sys_id>f3b39ee847c8b1106e504aff336d439a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_f3b39ee847c8b1106e504aff336d439a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-12 08:19:46</sys_updated_on>
+        <sys_updated_on>2023-07-12 11:55:15</sys_updated_on>
         <table/>
         <type>page</type>
-        <url/>
+        <url>https://dev167757.service-now.com/cms?id=lcms_form&amp;table=x_1025229_lcms_req_detail</url>
         <url_target/>
     </sp_rectangle_menu_item>
     <sys_translated_text action="delete_multiple" query="documentkey=f3b39ee847c8b1106e504aff336d439a"/>

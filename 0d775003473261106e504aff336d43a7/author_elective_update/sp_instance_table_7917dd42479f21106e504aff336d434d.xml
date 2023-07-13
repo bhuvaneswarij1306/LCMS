@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field/>
+        <field_list>number,req_detail.number,req_detail.status,sys_created_on,state</field_list>
+        <filter table="x_1025229_lcms_my_task">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>calendar-check-o</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>2</order>
+        <order_by>number</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dc079d82479f21106e504aff336d4302</sp_column>
+        <sp_page display_value="my_task_form">a3c26044470c31106e504aff336d4381</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-09 12:57:48</sys_created_on>
+        <sys_id>7917dd42479f21106e504aff336d434d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>My Task</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_instance_table_7917dd42479f21106e504aff336d434d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:23:19</sys_updated_on>
+        <table>x_1025229_lcms_my_task</table>
+        <title>My Task</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+  enable_filter: true
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=7917dd42479f21106e504aff336d434d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sp_instance_table_7917dd42479f21106e504aff336d434d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_table"&gt;&lt;sp_instance_table action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;display_field/&gt;&lt;field_list&gt;number,req_detail.number,req_detail.status,sys_created_on,state&lt;/field_list&gt;&lt;filter table="x_1025229_lcms_my_task"&gt;assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;/filter&gt;&lt;glyph&gt;calendar-check-o&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;10&lt;/maximum_entries&gt;&lt;order&gt;2&lt;/order&gt;&lt;order_by&gt;number&lt;/order_by&gt;&lt;order_direction&gt;desc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;dc079d82479f21106e504aff336d4302&lt;/sp_column&gt;&lt;sp_page display_value="my_task_form"&gt;a3c26044470c31106e504aff336d4381&lt;/sp_page&gt;&lt;sp_widget display_value="Data Table from Instance Definition"&gt;38058ff1cb11020000f8d856634c9c8c&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_table&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-09 12:57:48&lt;/sys_created_on&gt;&lt;sys_id&gt;7917dd42479f21106e504aff336d434d&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Task&lt;/sys_name&gt;&lt;sys_package display_value="LCMS" source="x_1025229_lcms"&gt;0d775003473261106e504aff336d43a7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="LCMS"&gt;0d775003473261106e504aff336d43a7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_table_7917dd42479f21106e504aff336d434d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-12 10:23:19&lt;/sys_updated_on&gt;&lt;table&gt;x_1025229_lcms_my_task&lt;/table&gt;&lt;title&gt;My Task&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+  enable_filter: true
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_table&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7917dd42479f21106e504aff336d434d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-269117822</payload_hash>
+        <record_name>My Task</record_name>
+        <reverted_from/>
+        <source>a6e66ce8478721106e504aff336d4382</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-12 10:23:20</sys_created_on>
+        <sys_id>01307e2047ccb1106e504aff336d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18949a0767e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:23:20</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>09307e20deccb110bbb2939681093f7a</update_guid>
+        <update_guid_history>09307e20deccb110bbb2939681093f7a:-269117822,762a2d509cc831103d81b9550ee3b965:768971755,9e2a219032c831102ccc98afba41d2cf:872566282,aad9a550f6c83110448ea9c4e110b4da:976160809,12c9255031c83110f3ebfd316d8d5342:872566282,5a852088560c3110b857ee136e4e45f9:768971755,ade77f72367321109f0e07ca40e8f8f3:-585439743,c4da9546329f2110eeb4659a22f28806:-2081205893,9ae99546329f211084a622a2404e48f1:1915143919,f517dd42a89f211001c8303b1755834f:-1894924689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Task">4b217aa047ccb1106e504aff336d4356</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-12 10:27:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>1dd107ba76a0491886deaefd8acd9040</sys_id>
+        <sys_metadata>7917dd42479f21106e504aff336d434d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Task</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sp_instance_table_7917dd42479f21106e504aff336d434d</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_7917dd42479f21106e504aff336d434d">01307e2047ccb1106e504aff336d437b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:27:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

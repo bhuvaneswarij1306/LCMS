@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field/>
+        <field_list>state,approver,document_id,sys_created_on</field_list>
+        <filter table="sysapproval_approver">sys_id=javascript:new ApprovalDelegationUtil().getMyAndDelegatedApprovals()^ORapprover=javascript:new ApprovalDelegationUtil().getApprovers()^state=requested<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="javascript:new ApprovalDelegationUtil().getMyAndDelegatedApprovals()"/>
+            <item endquery="false" field="approver" goto="false" newquery="false" operator="=" or="true" value="javascript:new ApprovalDelegationUtil().getApprovers()"/>
+            <item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>3</order>
+        <order_by>sys_created_on</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dc079d82479f21106e504aff336d4302</sp_column>
+        <sp_page display_value="my_approval_form">57767884478c31106e504aff336d43d3</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-12 10:13:57</sys_created_on>
+        <sys_id>3b0e6ee8478cb1106e504aff336d433f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_instance_table_3b0e6ee8478cb1106e504aff336d433f</sys_update_name>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:15:44</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <title>My Approvals</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=3b0e6ee8478cb1106e504aff336d433f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sp_instance_table_3b0e6ee8478cb1106e504aff336d433f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>primary</color><css/><display_field/><field_list>state,approver,document_id,sys_created_on</field_list><filter table="sysapproval_approver">sys_id=javascript:new ApprovalDelegationUtil().getMyAndDelegatedApprovals()^ORapprover=javascript:new ApprovalDelegationUtil().getApprovers()^state=requested<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="javascript:new ApprovalDelegationUtil().getMyAndDelegatedApprovals()"/><item endquery="false" field="approver" goto="false" newquery="false" operator="=" or="true" value="javascript:new ApprovalDelegationUtil().getApprovers()"/><item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/></filter><glyph/><id/><maximum_entries>10</maximum_entries><order>3</order><order_by>sys_created_on</order_by><order_direction>desc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">dc079d82479f21106e504aff336d4302</sp_column><sp_page display_value="my_approval_form">57767884478c31106e504aff336d43d3</sp_page><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>keerthanast@vuram.com</sys_created_by><sys_created_on>2023-07-12 10:13:57</sys_created_on><sys_id>3b0e6ee8478cb1106e504aff336d433f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>My Approvals</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sp_instance_table_3b0e6ee8478cb1106e504aff336d433f</sys_update_name><sys_updated_by>keerthanast@vuram.com</sys_updated_by><sys_updated_on>2023-07-12 10:15:44</sys_updated_on><table>sysapproval_approver</table><title>My Approvals</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=3b0e6ee8478cb1106e504aff336d433f"/></record_update>]]></payload>
+        <payload_hash>-520995076</payload_hash>
+        <record_name>My Approvals</record_name>
+        <reverted_from/>
+        <source>ad37eeec470cb1106e504aff336d4364</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-12 10:15:44</sys_created_on>
+        <sys_id>397e266c478cb1106e504aff336d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189499980c90000001</sys_recorded_at>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:15:44</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>bd7e266c548cb110fa04bead3f24ad74</update_guid>
+        <update_guid_history>bd7e266c548cb110fa04bead3f24ad74:-520995076,aa5eae2c568cb110f98692f1b488c050:97419933,330e6ee8588cb1100b4072303e7a7c41:-585123408</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Approvals">1a3faeac478cb1106e504aff336d43bc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>keerthanast@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-12 10:19:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>68853a3f4659462095bab769ec2cc100</sys_id>
+        <sys_metadata>3b0e6ee8478cb1106e504aff336d433f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sp_instance_table_3b0e6ee8478cb1106e504aff336d433f</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_3b0e6ee8478cb1106e504aff336d433f">397e266c478cb1106e504aff336d4375</sys_update_version>
+        <sys_updated_by>keerthanast@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:19:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
