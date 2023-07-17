@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>5</order>
+        <size>2</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="2">9c3ac456470831106e504aff336d4370</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-17 08:47:23</sys_created_on>
+        <sys_id>543ac856470831106e504aff336d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sp_column_543ac856470831106e504aff336d431f</sys_update_name>
+        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-17 08:47:23</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="LCMS">0d775003473261106e504aff336d43a7</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sp_column_543ac856470831106e504aff336d431f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>5</order><size>2</size><size_lg/><size_sm/><size_xs/><sp_row display_value="2">9c3ac456470831106e504aff336d4370</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>shanmugapriyat@vuram.com</sys_created_by><sys_created_on>2023-07-17 08:47:23</sys_created_on><sys_id>543ac856470831106e504aff336d431f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>5</sys_name><sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package><sys_policy/><sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope><sys_update_name>sp_column_543ac856470831106e504aff336d431f</sys_update_name><sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by><sys_updated_on>2023-07-17 08:47:23</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1165657485</payload_hash>
+        <record_name>5</record_name>
+        <reverted_from/>
+        <source>1ba893c6478031106e504aff336d4329</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-17 08:47:23</sys_created_on>
+        <sys_id>9c3ac856470831106e504aff336d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189630869f50000001</sys_recorded_at>
+        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-17 08:47:23</sys_updated_on>
+        <type>Column</type>
+        <update_guid>943ac85619083110d60b18ef5a1d8120</update_guid>
+        <update_guid_history>943ac85619083110d60b18ef5a1d8120:1165657485</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="5">4c5a0096470831106e504aff336d438e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
+        <sys_created_on>2023-07-17 08:47:54</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>3fd9fc39b66e42c4a5b6f6acab2de804</sys_id>
+        <sys_metadata>543ac856470831106e504aff336d431f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5</sys_name>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_scope_delete display_value="">0019f46a57bd4d24a3bc5dcd12034310</sys_scope_delete>
+        <sys_update_name>sp_column_543ac856470831106e504aff336d431f</sys_update_name>
+        <sys_update_version display_value="sp_column_543ac856470831106e504aff336d431f">9c3ac856470831106e504aff336d4320</sys_update_version>
+        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-07-17 08:47:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

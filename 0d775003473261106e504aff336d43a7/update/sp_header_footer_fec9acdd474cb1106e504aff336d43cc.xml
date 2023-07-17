@@ -23,6 +23,10 @@ font-size:20px;&#13;
 }&#13;
 &#13;
 &#13;
+.main-menu::-webkit-scrollbar {&#13;
+  display: none;&#13;
+}&#13;
+&#13;
 .main-menu:hover,nav.main-menu.expanded {&#13;
 width:250px;&#13;
 overflow:visible;&#13;
@@ -154,8 +158,21 @@ height: 100%;&#13;
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
-  /* populate the 'data' object */
-  /* e.g., data.table = $sp.getValue('table'); */
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    data.result = false;
+    if (gs.hasRole("admin") || gs.hasRole('x_1025229_lcms.admin')) {
+        data.result = true;
+    }
+    data.rev_result = false;
+    if (gs.hasRole('x_1025229_lcms.reviewer')) {
+        data.rev_result = true;
+    }
+
+    data.func_result = false;
+    if (gs.hasRole('x_1025229_lcms.functional')) {
+        data.func_result = true;
+    }
 
 })();]]></script>
         <servicenow>false</servicenow>
@@ -164,133 +181,129 @@ height: 100%;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 08:32:29</sys_created_on>
         <sys_id>fec9acdd474cb1106e504aff336d43cc</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name>CMS Custom Header</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sp_header_footer_fec9acdd474cb1106e504aff336d43cc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 13:08:59</sys_updated_on>
+        <sys_updated_on>2023-07-17 12:29:36</sys_updated_on>
         <template><![CDATA[<div>
-<!-- your widget template -->
-  <div class="area"></div><nav class="main-menu" style="position:fixed;height: 1000px;overflow: auto;">
-            <ul>
-              <li>
+    <!-- your widget template -->
+    <div class="area"></div>
+    <nav class="main-menu" style="position:fixed;height: calc(100%);overflow: auto;">
+        <ul>
+            <li>
                 <a href="https://dev167757.service-now.com/pt/?id=test_homepage">
-                  <i class="fa fa-home fa-2x"></i>
-                  <h3>Case Management</h3>
-                 </a>
-                  </li>
-                
-              <li>
-                    <a href="https://dev167757.service-now.com/pt?id=lcms_form&table=x_1025229_lcms_req_detail">
-                        <i class="fa fa-plus fa-2x"></i>
-                        <span class="nav-text">
-                           Create New Request
-                          </span>
-                    </a>
-                  
-                </li>
-                <li class="has-subnav">
-                    <a href="https://dev167757.service-now.com/pt?id=cms_record_page">
-                        <i class="fa fa-ticket fa-2x"></i>
-                        <span class="nav-text">
-                            Request Inventory
-                        </span>
-                    </a>
-                    
-                </li>
-                <li class="has-subnav">
-                    <a href="https://dev167757.service-now.com/pt?id=cms_mytask_page">
-                       <i class="fa fa-check-circle fa-2x"></i>
-                        <span class="nav-text">
-                            My Task
-                        </span>
-                    </a>
-                    
-                </li>
-                <li class="has-subnav">
-                    <a href="https://dev167757.service-now.com/pt?id=cms_approvals">
-                       <i class="fa fa-check-square fa-2x"></i>
-                        <span class="nav-text">
-                            My Approval
-                        </span>
-                    </a>
-                   
-                </li>
-                <li class="has-subnav">
-                    <a href="https://dev167757.service-now.com/pt?id=cms_report_page">
-                        <i class="fa fa-pie-chart fa-2x"></i>
-                        <span class="nav-text">
-                            Dashboard
-                        </span>
-                    </a>
-                </li>
-                <li class="has-subnav">
-                    <a href="https://dev167757.service-now.com/pt?id=lcms_sc_category">
-                        <i class="fa fa-file fa-2x"></i>
-                        <span class="nav-text">
-                           Catalog
-                        </span>
-                    </a>
-                </li>
-                <li class="has-subnav">
-                   <a href="https://dev167757.service-now.com/pt?id=take_survey&instance_id=07add0d0478031106e504aff336d43f4">
-                       <i class="fa fa-comments fa-2x"></i>
-                        <span class="nav-text">
-                            Survey
-                        </span>
-                    </a>
-                </li>
-                 <li class="has-subnav">
+                    <i class="fa fa-home fa-2x"></i>
+                    <h3>Case Management</h3>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="https://dev167757.service-now.com/pt?id=lcms_form&table=x_1025229_lcms_req_detail">
+                <i class="fa fa-plus fa-2x"></i>
+                <span class="nav-text">
+                Create New Request
+                </span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="https://dev167757.service-now.com/pt?id=cms_record_page">
+                <i class="fa fa-ticket fa-2x"></i>
+                <span class="nav-text">
+                Request Inventory
+                </span>
+                </a>
+            </li>
+            <li class="has-subnav" ng-if= (data.func_result)>
+                <a href="https://dev167757.service-now.com/pt?id=cms_mytask_page">
+                <i class="fa fa-check-circle fa-2x"></i>
+                <span class="nav-text">
+                My Task
+                </span>
+                </a>
+            </li>
+            <li class="has-subnav" ng-if= (data.rev_result)>
+                <a href="https://dev167757.service-now.com/pt?id=cms_approvals">
+                <i class="fa fa-check-square fa-2x"></i>
+                <span class="nav-text">
+                My Approval
+                </span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="https://dev167757.service-now.com/pt?id=cms_report_page">
+                <i class="fa fa-pie-chart fa-2x"></i>
+                <span class="nav-text">
+                Dashboard
+                </span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="https://dev167757.service-now.com/pt?id=lcms_sc_category">
+                <i class="fa fa-file fa-2x"></i>
+                <span class="nav-text">
+                Catalog
+                </span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="https://dev167757.service-now.com/pt?id=take_survey&instance_id=07add0d0478031106e504aff336d43f4">
+                <i class="fa fa-comments fa-2x"></i>
+                <span class="nav-text">
+                Survey
+                </span>
+                </a>
+            </li>
+            <li ng-if= data.result>
                 <a>
-                  <i class="fa fa-user fa-2x"></i>
-                  <h3>Admin Action</h3>
-                 </a>
-                  </li>
-                <li class="has-subnav">
-                   <a href="https://dev167757.service-now.com/pt?id=cms_record_page_group_member">
-                       <i class="fa fa-user-plus fa-2x"></i>
-                        <span class="nav-text">
-                            Add/View Member
-                        </span>
-                    </a>
-                </li>
-               <li class="has-subnav">
-                   <a href="https://dev167757.service-now.com/pt?id=cms_record_page_roles">
-                       <i class="fa fa-cog fa-2x"></i>
-                        <span class="nav-text">
-                            Add/View Role
-                        </span>
-                    </a>
-                </li>
-               <li class="has-subnav">
-                   <a href="https://dev167757.service-now.com/pt?id=cms_record_page_choice">
-                       <i class="fa fa-file-text-o fa-2x"></i>
-                        <span class="nav-text">
-                            Add/View/Remove Choice
-                        </span>
-                    </a>
-                </li>
-               <li class="has-subnav">
-                   <a href="https://dev167757.service-now.com/pt?id=cms_record_page_user">
-                       <i class="fa fa fa-minus fa-2x"></i>
-                        <span class="nav-text">
-                            Delete Member/Role
-                        </span>
-                    </a>
-                </li>
-               <li class="has-subnav">
-                   <a href="https://dev167757.service-now.com/pt?id=cms_reassign_task">
-                       <i class="fa fa-clock-o fa-2x"></i>
-                        <span class="nav-text">
-                            Reassign Inactive Task
-                        </span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+                    <i class="fa fa-user fa-2x"></i>
+                    <h3>Admin Action</h3>
+                </a>
+            </li>
+            <li class="has-subnav" ng-if= data.result>
+                <a href="https://dev167757.service-now.com/pt?id=cms_record_page_group_member">
+                <i class="fa fa-user-plus fa-2x"></i>
+                <span class="nav-text">
+                Add/View Member
+                </span>
+                </a>
+            </li>
+            <li class="has-subnav" ng-if= data.result>
+                <a href="https://dev167757.service-now.com/pt?id=cms_record_page_roles">
+                <i class="fa fa-cog fa-2x"></i>
+                <span class="nav-text">
+                Add/View Role
+                </span>
+                </a>
+            </li>
+            <li class="has-subnav" ng-if= data.result>
+                <a href="https://dev167757.service-now.com/pt?id=cms_record_page_choice">
+                <i class="fa fa-file-text-o fa-2x"></i>
+                <span class="nav-text">
+                Add/View/Remove Choice
+                </span>
+                </a>
+            </li>
+            <li class="has-subnav" ng-if= data.result>
+                <a href="https://dev167757.service-now.com/pt?id=cms_record_page_user">
+                <i class="fa fa fa-minus fa-2x"></i>
+                <span class="nav-text">
+                Delete Member/Role
+                </span>
+                </a>
+            </li>
+            <li class="has-subnav" ng-if= data.result>
+                <a href="https://dev167757.service-now.com/pt?id=cms_reassign_task">
+                <i class="fa fa-clock-o fa-2x"></i>
+                <span class="nav-text">
+                Reassign Inactive Task
+                </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </div>]]></template>
     </sp_header_footer>
 </record_update>

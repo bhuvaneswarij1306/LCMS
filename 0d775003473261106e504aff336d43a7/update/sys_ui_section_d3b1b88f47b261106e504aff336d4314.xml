@@ -3,112 +3,154 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>is_recurrence</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-04 07:11:00</sys_created_on>
-            <sys_id>ed77f482477721106e504aff336d43de</sys_id>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>c54167c647c031106e504aff336d43d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-04 07:11:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-04 07:11:00</sys_created_on>
-            <sys_id>2977f482477721106e504aff336d43df</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-04 07:11:00</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>recurrence_pattern</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-04 07:11:00</sys_created_on>
-            <sys_id>2d77f482477721106e504aff336d43df</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-04 07:11:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>start_date</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-04 07:11:00</sys_created_on>
-            <sys_id>2177f482477721106e504aff336d43e0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-04 07:11:00</sys_updated_on>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-04 07:11:00</sys_created_on>
-            <sys_id>2577f482477721106e504aff336d43e0</sys_id>
+            <position>1</position>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>014167c647c031106e504aff336d43d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-04 07:11:00</sys_updated_on>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_appian</element>
+            <position>2</position>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>054167c647c031106e504aff336d43d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>094167c647c031106e504aff336d43d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>0d4167c647c031106e504aff336d43d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recurrence_pattern</element>
+            <position>5</position>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>014167c647c031106e504aff336d43d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>6</position>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>054167c647c031106e504aff336d43d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>094167c647c031106e504aff336d43d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>recurrence_date</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-04 07:11:00</sys_created_on>
-            <sys_id>2977f482477721106e504aff336d43e0</sys_id>
+            <position>8</position>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>0d4167c647c031106e504aff336d43d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-04 07:11:00</sys_updated_on>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>days</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-04 07:11:00</sys_created_on>
-            <sys_id>2d77f482477721106e504aff336d43e0</sys_id>
+            <position>9</position>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>014167c647c031106e504aff336d43d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-04 07:11:00</sys_updated_on>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>end_date</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-04 07:11:00</sys_created_on>
-            <sys_id>2177f482477721106e504aff336d43e1</sys_id>
+            <position>10</position>
+            <sys_created_by>naumana@vuram.com</sys_created_by>
+            <sys_created_on>2023-07-17 05:48:34</sys_created_on>
+            <sys_id>054167c647c031106e504aff336d43d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Recurrence Details" display_value="Recurrence Details" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">d3b1b88f47b261106e504aff336d4314</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-04 07:11:00</sys_updated_on>
+            <sys_updated_by>naumana@vuram.com</sys_updated_by>
+            <sys_updated_on>2023-07-17 05:48:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -6,30 +6,30 @@
         <css/>
         <glyph/>
         <id/>
-        <order>2</order>
+        <order>1</order>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">e97b933c470831106e504aff336d439f</sp_column>
+        <sp_column display_value="6">8c6ac096470831106e504aff336d434c</sp_column>
         <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
         <sys_created_on>2023-07-13 08:10:49</sys_created_on>
         <sys_id>f97bd33c470831106e504aff336d436b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sp_instance_f97bd33c470831106e504aff336d436b</sys_update_name>
-        <sys_updated_by>shanmugapriyat@vuram.com</sys_updated_by>
-        <sys_updated_on>2023-07-13 08:13:24</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 13:29:03</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"href": {
-		"value": "https://dev167757.service-now.com/cms?id=admin_form&table=sys_user_grmember",
-		"displayValue": "https://dev167757.service-now.com/cms?id=admin_form&table=sys_user_grmember"
+		"value": "https://dev167757.service-now.com/pt?id=admin_form&table=sys_user_grmember",
+		"displayValue": "https://dev167757.service-now.com/pt?id=admin_form&table=sys_user_grmember"
 	},
 	"button_text": {
 		"value": "Add Group member",

@@ -2,6 +2,6 @@
     <element db_object_id="9c956045474071106e504aff336d4302" extends="task" label="Reassign Task" max_length="40" name="x_1025229_lcms_reassign_task" type="collection">
         <element label="Approvals" max_length="32" name="approvals" read_only="true" reference="sysapproval_approver" type="reference"/>
         <element label="Inactive User" max_length="32" name="inactive_user" read_only="true" reference="sys_user" type="reference"/>
-        <element label=" Select the reviewer to reassign the tasks" max_length="32" name="reviewer" reference="sys_user" reference_qual="roles=x_1025229_lcms.reviewer" reference_qual_condition="roles=x_1025229_lcms.reviewer" type="reference"/>
+        <element label=" Select the reviewer to reassign the tasks" mandatory="true" max_length="32" name="reviewer" reference="sys_user" reference_qual="roles=x_1025229_lcms.reviewer^EQ" reference_qual_condition="roles=x_1025229_lcms.reviewer^EQ" type="reference"/>
     </element>
 </database>

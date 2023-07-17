@@ -5,7 +5,7 @@
         <enable_ais>false</enable_ais>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage display_value="home_page">af9c718b478721106e504aff336d43bf</homepage>
+        <homepage display_value="test_homepage">07354bfc474431106e504aff336d438f</homepage>
         <icon/>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
@@ -24,14 +24,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-31 08:29:43</sys_created_on>
         <sys_id>b78db18b478721106e504aff336d439e</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Portal Training</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sp_portal_b78db18b478721106e504aff336d439e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 08:33:37</sys_updated_on>
+        <sys_updated_on>2023-07-17 11:54:01</sys_updated_on>
         <theme display_value="CMS Theme">e3996c1d474cb1106e504aff336d43df</theme>
         <title>Portal Training</title>
         <ts_index_group/>
