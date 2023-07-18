@@ -22,7 +22,6 @@ vertical-align: middle;&#13;
 font-size:20px;&#13;
 }&#13;
 &#13;
-&#13;
 .main-menu::-webkit-scrollbar {&#13;
   display: none;&#13;
 }&#13;
@@ -181,14 +180,14 @@ height: 100%;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 08:32:29</sys_created_on>
         <sys_id>fec9acdd474cb1106e504aff336d43cc</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>CMS Custom Header</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sp_header_footer_fec9acdd474cb1106e504aff336d43cc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-17 12:29:36</sys_updated_on>
+        <sys_updated_on>2023-07-17 14:41:29</sys_updated_on>
         <template><![CDATA[<div>
     <!-- your widget template -->
     <div class="area"></div>

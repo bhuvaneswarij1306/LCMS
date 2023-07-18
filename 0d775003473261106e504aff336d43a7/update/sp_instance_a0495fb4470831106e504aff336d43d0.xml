@@ -16,20 +16,20 @@
         <sys_created_by>shanmugapriyat@vuram.com</sys_created_by>
         <sys_created_on>2023-07-13 08:01:11</sys_created_on>
         <sys_id>a0495fb4470831106e504aff336d43d0</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sp_instance_a0495fb4470831106e504aff336d43d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-17 13:40:41</sys_updated_on>
+        <sys_updated_on>2023-07-18 13:41:59</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"href": {
-		"value": "https://dev167757.service-now.com/pt?id=admin_form&table=sys_choice",
-		"displayValue": "https://dev167757.service-now.com/pt?id=admin_form&table=sys_choice"
+		"value": "https://dev167757.service-now.com/cms?id=admin_form&table=sys_choice",
+		"displayValue": "https://dev167757.service-now.com/cms?id=admin_form&table=sys_choice"
 	},
 	"button_text": {
 		"value": "Add New Choice",
