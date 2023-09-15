@@ -6,6 +6,7 @@
         <anonymize>false</anonymize>
         <business_rule/>
         <chat_survey>false</chat_survey>
+        <classification/>
         <condition table="asmt_metric_type">sys_id=5513dc18470031106e504aff336d4384^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="5513dc18470031106e504aff336d4384"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
@@ -22,6 +23,8 @@
         <evaluation_method>survey</evaluation_method>
         <filter_condition/>
         <filter_table/>
+        <grc_classification display_value="None">ebfbf2b7076220100deb2bfb9bd300ba</grc_classification>
+        <grc_type/>
         <introduction><![CDATA[<p>Case management appreciates your feedback </p>]]></introduction>
         <job/>
         <live_feed>false</live_feed>
@@ -33,6 +36,7 @@
         <overdue_notify_user/>
         <portal_pagination>category</portal_pagination>
         <publish_state>published</publish_state>
+        <risk_area_definition display_value="Default">575c3f1873a300100d72a56a4cf6a74d</risk_area_definition>
         <roles>survey_admin,survey_reader</roles>
         <sample_metric/>
         <scale_factor>10</scale_factor>
@@ -40,6 +44,8 @@
         <schedule_type>on_demand</schedule_type>
         <scoring_type>percent</scoring_type>
         <signature/>
+        <sn_vdr_risk_asmt_reviewer_signature_required>false</sn_vdr_risk_asmt_reviewer_signature_required>
+        <sn_vdr_risk_asmt_vendor_signature_required>false</sn_vdr_risk_asmt_vendor_signature_required>
         <source_table/>
         <survey_owners>a0d21b1347a321106e504aff336d4325</survey_owners>
         <sys_class_name>asmt_metric_type</sys_class_name>
@@ -60,6 +66,7 @@
         <url/>
         <user_field/>
         <user_field_business_rule/>
+        <year/>
     </asmt_metric_type>
     <sys_translated_text action="delete_multiple" query="documentkey=5513dc18470031106e504aff336d4384"/>
 </record_update>

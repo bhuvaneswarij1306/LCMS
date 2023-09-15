@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1fd6b4ac1bb4311089c61e881616cd36</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0d775003473261106e504aff336d43a7</scope_name>
+        <serialized_content>{"FlowDesigner:FD1fd6b4ac1bb4311089c61e881616cd36":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD1fd6b4ac1bb4311089c61e881616cd36.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"index\",\"mandatory\":\"false\",\"child_name\":\"index_child0\",\"uiUniqueId\":\"c2755148-9a89-4ef6-8fcc-b13ae6abd488\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD1fd6b4ac1bb4311089c61e881616cd36\",\"child_label\":\"index_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4c7bbc15-8c2c-44de-88db-361525ddd6e0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>naumana@vuram.com</sys_created_by>
+        <sys_created_on>2023-08-18 08:20:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dfd6b4ac47b431106e504aff336d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD1fd6b4ac1bb4311089c61e881616cd36</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
+        <sys_update_name>sys_complex_object_dfd6b4ac47b431106e504aff336d4336</sys_update_name>
+        <sys_updated_by>naumana@vuram.com</sys_updated_by>
+        <sys_updated_on>2023-08-18 08:20:17</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

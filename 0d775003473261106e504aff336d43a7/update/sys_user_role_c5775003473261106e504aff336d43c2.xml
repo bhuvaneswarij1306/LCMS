@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>this is the submitter role</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1025229_lcms.submitter</name>

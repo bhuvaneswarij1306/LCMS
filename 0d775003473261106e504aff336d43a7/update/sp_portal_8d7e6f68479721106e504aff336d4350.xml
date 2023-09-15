@@ -36,6 +36,7 @@
         <title>Case Management</title>
         <ts_index_group/>
         <url_suffix>cms</url_suffix>
+        <user_registration_config/>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=8d7e6f68479721106e504aff336d4350"/>
 </record_update>

@@ -126,6 +126,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>functional_teams</element>
+            <position>9</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2023-08-17 07:30:42</sys_created_on>
+            <sys_id>1fe16f0047f031106e504aff336d43f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1025229_lcms_req_detail" sys_domain="global" view="Default view">2016424c47b721106e504aff336d43f1</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:30:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

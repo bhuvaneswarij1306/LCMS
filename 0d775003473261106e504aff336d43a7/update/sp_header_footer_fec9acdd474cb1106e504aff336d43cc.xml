@@ -180,27 +180,27 @@ height: 100%;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 08:32:29</sys_created_on>
         <sys_id>fec9acdd474cb1106e504aff336d43cc</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>CMS Custom Header</sys_name>
         <sys_package display_value="LCMS" source="x_1025229_lcms">0d775003473261106e504aff336d43a7</sys_package>
         <sys_policy/>
         <sys_scope display_value="LCMS">0d775003473261106e504aff336d43a7</sys_scope>
         <sys_update_name>sp_header_footer_fec9acdd474cb1106e504aff336d43cc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-17 14:41:29</sys_updated_on>
+        <sys_updated_on>2023-07-27 15:35:26</sys_updated_on>
         <template><![CDATA[<div>
     <!-- your widget template -->
     <div class="area"></div>
     <nav class="main-menu" style="position:fixed;height: calc(100%);overflow: auto;">
         <ul>
             <li>
-                <a href="https://dev167757.service-now.com/pt/?id=test_homepage">
+                <a href="https://dev167757.service-now.com/cms/?id=test_homepage">
                     <i class="fa fa-home fa-2x"></i>
                     <h3>Case Management</h3>
                 </a>
             </li>
             <li class="has-subnav">
-                <a href="https://dev167757.service-now.com/pt?id=lcms_form&table=x_1025229_lcms_req_detail">
+                <a href="https://dev167757.service-now.com/cms?id=lcms_form&table=x_1025229_lcms_req_detail">
                 <i class="fa fa-plus fa-2x"></i>
                 <span class="nav-text">
                 Create New Request
@@ -208,7 +208,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav">
-                <a href="https://dev167757.service-now.com/pt?id=cms_record_page">
+                <a href="https://dev167757.service-now.com/cms?id=cms_record_page">
                 <i class="fa fa-ticket fa-2x"></i>
                 <span class="nav-text">
                 Request Inventory
@@ -216,7 +216,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav" ng-if= (data.func_result)>
-                <a href="https://dev167757.service-now.com/pt?id=cms_mytask_page">
+                <a href="https://dev167757.service-now.com/cms?id=cms_mytask_page">
                 <i class="fa fa-check-circle fa-2x"></i>
                 <span class="nav-text">
                 My Task
@@ -224,7 +224,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav" ng-if= (data.rev_result)>
-                <a href="https://dev167757.service-now.com/pt?id=cms_approvals">
+                <a href="https://dev167757.service-now.com/cms?id=cms_approvals">
                 <i class="fa fa-check-square fa-2x"></i>
                 <span class="nav-text">
                 My Approval
@@ -232,7 +232,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav">
-                <a href="https://dev167757.service-now.com/pt?id=cms_report_page">
+                <a href="https://dev167757.service-now.com/cms?id=cms_report_page">
                 <i class="fa fa-pie-chart fa-2x"></i>
                 <span class="nav-text">
                 Dashboard
@@ -240,7 +240,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav">
-                <a href="https://dev167757.service-now.com/pt?id=lcms_sc_category">
+                <a href="https://dev167757.service-now.com/cms?id=lcms_sc_category">
                 <i class="fa fa-file fa-2x"></i>
                 <span class="nav-text">
                 Catalog
@@ -248,7 +248,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav">
-                <a href="https://dev167757.service-now.com/pt?id=take_survey&instance_id=07add0d0478031106e504aff336d43f4">
+                <a href="https://dev167757.service-now.com/cms?id=take_survey&instance_id=07add0d0478031106e504aff336d43f4">
                 <i class="fa fa-comments fa-2x"></i>
                 <span class="nav-text">
                 Survey
@@ -262,7 +262,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav" ng-if= data.result>
-                <a href="https://dev167757.service-now.com/pt?id=cms_record_page_group_member">
+                <a href="https://dev167757.service-now.com/cms?id=cms_record_page_group_member">
                 <i class="fa fa-user-plus fa-2x"></i>
                 <span class="nav-text">
                 Add/View Member
@@ -270,7 +270,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav" ng-if= data.result>
-                <a href="https://dev167757.service-now.com/pt?id=cms_record_page_roles">
+                <a href="https://dev167757.service-now.com/cms?id=cms_record_page_roles">
                 <i class="fa fa-cog fa-2x"></i>
                 <span class="nav-text">
                 Add/View Role
@@ -278,7 +278,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav" ng-if= data.result>
-                <a href="https://dev167757.service-now.com/pt?id=cms_record_page_choice">
+                <a href="https://dev167757.service-now.com/cms?id=cms_record_page_choice">
                 <i class="fa fa-file-text-o fa-2x"></i>
                 <span class="nav-text">
                 Add/View/Remove Choice
@@ -286,7 +286,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav" ng-if= data.result>
-                <a href="https://dev167757.service-now.com/pt?id=cms_record_page_user">
+                <a href="https://dev167757.service-now.com/cms?id=cms_record_page_user">
                 <i class="fa fa fa-minus fa-2x"></i>
                 <span class="nav-text">
                 Delete Member/Role
@@ -294,7 +294,7 @@ height: 100%;&#13;
                 </a>
             </li>
             <li class="has-subnav" ng-if= data.result>
-                <a href="https://dev167757.service-now.com/pt?id=cms_reassign_task">
+                <a href="https://dev167757.service-now.com/cms?id=cms_reassign_task">
                 <i class="fa fa-clock-o fa-2x"></i>
                 <span class="nav-text">
                 Reassign Inactive Task
